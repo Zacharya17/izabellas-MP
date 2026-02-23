@@ -1,0 +1,302 @@
+﻿l_english:
+# the name
+
+ Hitler: "Hitler"
+
+##Modded Companies
+
+ company_amsterdamse_effectenbeurs: "Amsterdamse Effectenbeurs"
+ company_porceleyne_fles: "De Koninklijke Porceleyne Fles"
+ company_van_houtum_en_palm: "Van Houtum en Palm"
+ company_heineken: "Heineken Brouwerij"
+ company_marzotto: "Lanificio Luigi Marzotto & Figli"
+ company_american_Milling: "Plain Millers' Monopoly"
+ company_australian_agricultural: "Australian Agricultural Company"
+ company_imperial_companhia_seropédica_fluminense: "Imperial Companhia Seropédica Fluminense"
+
+##Modded Laws
+ 
+ law_dutch_provinces: "Grondwet: Vierde Hoofdstuk"
+ law_dutch_provinces_desc: "The provincial States shall be constituted of representatives of the nobility, the towns, and the rural districts. The manner of election, the distribution of seats, and the organization of electoral bodies shall be regulated by royal authority, subject to prescribed provincial regulations. The King shall appoint commissioners in every province to preside over the assemblies and to supervise the faithful execution of the laws."
+
+ law_mit_a_taxes: "Mit'a Taxes"
+ law_mit_a_taxes_desc: "In Addition to normal taxes, all communities of the realm have to use labour as a taxed resource to build state projects and infrastructure. In return the State integrates those communities into it's fabric and provides food security and support in times of need."
+
+ law_ayllu_kinship: "Ayllu Kinship"
+ law_ayllu_kinship_desc: "Society is organised around the traditional Ayllu Communities. This system derives from the creation legend of the Ican Empire. Loyalty comes through communal bonds, which ensure cohesion. The state does not govern directly but rather interact with the Communities as a whole. That decreases the bureaucratic expenditure, while in turn limiting social mobility."
+
+##Modded Goods
+
+ prestige_good_delftware: "Delftware"
+ prestige_good_cockerill_tools: "Cockerill Tools"
+ prestige_good_congo_rubber: "Congolese Rubber"
+ prestige_good_heineken_beer: "Heineken Pilsener"
+ prestige_good_prestige_coal_australia: "Australian Coal"
+ prestige_good_moskovskaya_osobaya: "Moskovskaya Osobaya"
+
+##Modded Decision
+ extend_ayllu_kinship_sa: "Extend the Ayllu Bonds to the South Andeans"
+ extend_ayllu_kinship_sa_desc: "We have expanded and regained territory once held by our ancestors. We shall now begin with the integration process! Trace the Settlers lineage in our ancestoral Pantheon!"
+ extend_ayllu_kinship_na: "Extend the Ayllu Bonds to their Andean Brethern"
+ extend_ayllu_kinship_na_desc: "We once again expanded. Now we encompass the Brethern of those we recently integrated! Trace the divergence of their lineage from it's origins. It has been decreed, they shall be integrated."
+
+ extended_kinship: "Has extended the Kinship bonds!"
+ tradition_extended_kinship: "Ayllu System"
+
+##Modded JE's
+
+ #Dutch/Netherlands
+ je_group_low_country_happenings:0 "Societal Changes"
+ modifier_gateway_europe: "The Gateway To Europe Opened"
+ je_rotterdam_port:0 "The Gateway to Europe?"
+ je_rotterdam_port_reason:3 "With the recent surges in growth across the Contient, our beloved old Lady, Europe; and recent expasions of #yellow the Ports of Rotterdam #! we have essentially grown into a contiental trade hub that punches far above its weight.\nWe can use this newly found prominence to our leverage!\n\nBy opening our ports and making extensive use of new identification documents, we can surely convince many from overseas to move to the Netherlands and work here. We are few, so skilled foreignand especially cheap labour is a great for our economy. Let us make use of the two way tool that a Port is!"
+ je_dutch_fiscal_crisis:0 "The Ailing Economy"
+ je_dutch_fiscal_crisis_reason:3 "The Dutch have ignored the economic situation for too long.\nSince the decline of the spice trade's profitability, our trading empire has been brought to the brink of collapse. If we manage to give incentives to go to the stock market, and circulate our remaining wealth, we might be able to tackle our Issues..."
+ je_group_dutch_fiscal_crisis: "A Looming Threat"
+ je_dutch_fiscal_crisis_goal: "The [SCOPE.sCompany('amsterdam_company').GetName] has been profitable for 4 years."
+ dutch_debt_addition.1.t: "#yellow The Economic Crisis Unfolds #!"
+ dutch_debt_addition.1.d: "The Dutch Economy is ailing."
+ dutch_debt_addition.1.f: ""#yellow This is the second biggest tragedy since the Tulpenwoede!#!" The people of the Netherlands scream for reform! Under the current conditions the Dutch Economy has been ailing for quite some time. If nothing is done now, a state bankruptcy ought to be imminent!"
+ dutch_debt_addition.1.a: "What Should We do!?"
+ modifier_financial_crisis: "Imminent Bankruptcy!"
+ dutch_debt_addition.2.t: "Oranje Boven, Hail The Effectenbeurs!"
+ dutch_debt_addition.2.d: "Thanks to our great and beloved Stockmarket, another National Tragedy, like the "Tulpenwoede", could be prevented!"
+ dutch_debt_addition.2.f: "By refinancing the huge National Debt at a lower interest rate through the Effectenbeurs, the government managed to escape such a fate. Let us take advantage of our Stockmarket and prosper! Onwards, for the House of Orange!"
+ dutch_debt_addition.2.a: "Let us usher in a new Golden Age!"
+ modifier_golden_age_netherlands: "A New Golden Age"
+ dutch_debt_addition.3.t: "The Deathbed of the Amsterdamse Effectenbeurs"
+ dutch_debt_addition.3.d: "The Stock Exchange, which trusted upon the reimbursement of government loans, has now been tricked out of its money!"
+ dutch_debt_addition.3.f: "Through one way or another, the loan repayments had been speculated away through the government, out of the hands of the stock exchange. This slashed a hole into its treasury, causing many private investors to be forced into bankruptcy, or leave the stock market altogether in some sort of maniacal attempt to save their profits. This only worsend the situation. Now the public trust into the institution has decreased. It will take a long time for more investors to enter the Exchange once again."
+ dutch_debt_addition.3.a: "We cured the Boils, but at what cost..."
+ modifier_naughty_netherlands: "The Stock Exchange Crashed!"
+
+ #Italy
+ je_central_italy: "The United Provinces of Central Italy"
+ je_central_italy_reason: "The [GetCulture('north_italian').GetName] and [GetCulture('south_italian').GetName] states are spurred on by the nationalism of post-napoleonic Europe, and look towards a leader in their struggle to unite the peninsula. Perhaps by taking some initiative we can show the petty Kingdoms and Duchies that we are that leader, leading towards a unified peninsula under the banner of #yellow Italy"
+
+ event_effects_central_italy.1_tt: "This will lead to Central Italy uniting with us, and a succession of events leading to much of Italy also unifying"
+ central_italy.1.t: "The Declaration of Central Italy"
+ central_italy.1.d: "The fervour of nationalism can be heard throughout the Italian peninsula as a delegation of newly elected representatives meet to discuss the future of Italy"
+ central_italy.1.f: ""Signore, I say now or never! We must declare union with Sardinia, and make haste as to signal to the peoples of Italy where the winds are blowing""
+ central_italy.1.a: "A triumph for the [GetCulture('north_italian').GetName] cause"
+
+ central_italian_annexation.1.t: "The Annexation of Central Italy"
+ central_italian_annexation.1.d: "The delegates in Central Italy have voted in favour of union with Sardinia"
+ central_italian_annexation.1.f: ""I declare This the first step among many to the Risorgimento of Italy, momentous times are ahead!""
+ central_italian_annexation.1.a: "Welcome them to the Nation"
+
+ march_of_the_thousand.1.t: "The March of the Thousand"
+ march_of_the_thousand.1.d: "A group of a thousand volenteers lands in Sicily, making their way up the peninsula to meet with [ROOT.GetCountry.GetAdjective] troops in the north, however throughout their journey thousands upon thousands of defectors join their ranks"
+ march_of_the_thousand.1.f: ""Is it true? Are you those Piedmontian heroes we hear so much about? may i join you on your quest to unite Italy and restore glory to our lands!?""
+ march_of_the_thousand.1.a: "And so the Mezzogiorno joins the fold"
+
+# Romanian JE Localization
+ romanian_conference.0.t: "Romanians Press for union"
+ romanian_conference.0.d: "Romanian delegates from the Congress of Paris put forward a proposal to unite their nations!"
+ romanian_conference.0.f: ""To the Great Powers I say, for far too long have the romanian principalities been used as bargaining chips for petty feuds and conflicts, we must be able to assert ourselves as a free, independent people!""
+ romanian_conference.0.a: "We must accept this proposal"
+ romanian_conference.0.b: "We must Reject this proposal"
+
+ romanian_conference.1.t: "Romanians press for Besserabia"
+ romanian_conference.1.d: "Romanian delegates press for Besserabia in the Congress of Paris"
+ romanian_conference.1.f: ""In 1812 a great travesty beset our people, the Russian menace stole the lands of thousands of Romanian countrymen. We must be awarded our homelands to punish this Bear""
+ romanian_conference.1.a: "We must accept this proposal"
+ romanian_conference.1.b: "We must Reject this proposal"
+
+ romanian_conference.2.t: "Romanians press for Dobrogea"
+ romanian_conference.2.d: "Romanian delegates press for Dobrogea in the Congress of Paris"
+ romanian_conference.2.f: ""Dobrogea has suffered under the mismanagement of the Turkish menace, lack of investment and turkification threaten the Romanian countrymen. We must rectify this issue and I hope the Great powers sympathise with our plight!""
+ romanian_conference.2.a: "We must accept this proposal"
+ romanian_conference.2.b: "We must reject this proposal"
+
+ romanian_conference.3.t: "Romanians press for Transylvania"
+ romanian_conference.3.d: "Romanian delegates press for Transylvania in the Congress of Paris"
+ romanian_conference.3.f: ""I know there are doubters! I know people think it to be impossible, perhaps proposterous! but I say they are wrong. With your goodwill we can unite our people, even in the farthest stretches of Transylvania and take back our people from the suffering of Habsburg oppression""
+ romanian_conference.3.a: "We must accept this proposal"
+ romanian_conference.3.b: "We must reject this proposal"
+
+ je_romanian_proposal: "The Press for union"
+ je_romanian_proposal_reason: "We must secure the will of the Great powers to unite with our Romanian brothers"
+
+ je_romanian_proposal1: "The Press for Besserabia"
+ je_romanian_proposal1_reason: "We must secure the will of the Great powers to unite with our Romanian brothers"
+
+ je_romanian_proposal2: "The Press for Dobrogea"
+ je_romanian_proposal2_reason: "We must secure the will of the Great powers to unite with our Romanian brothers"
+
+ je_romanian_proposal3: "The Press for Transylvania"
+ je_romanian_proposal3_reason: "We must secure the will of the Great powers to unite with our Romanian brothers"
+
+
+ principalities_button_description: "Has not pressed forward this proposal"
+ je_unite_the_principalities_button1: "Press for Besserabia"
+ je_unite_the_principalities_button2: "Press for Dobrogea"
+ je_unite_the_principalities_button3: "Press for Transylvania"
+
+ je_unite_the_principalities_button1_desc: "Besserabia has historically been part of the Moldavian Prinipality, we should seek to rectify this loss of territory"
+ je_unite_the_principalities_button2_desc: "Dobrogea has a large romanian and bulgarian population, we should seek to integrate and romanianise this land"
+ je_unite_the_principalities_button3_desc: "Transylvania has suffered under the yoke of the Hungarians and Habsburg monarchy, we must speak to the great powers to rectify this"
+
+ romanian_conference.11.t: "Besserabian Cession"
+ romanian_conference.11.d: "The Conference of Paris has concluded Besserabia to be Romanian clay"
+ romanian_conference.11.f: ""We have succeeded, the conference votes in favour"\nA romanian delegate shouts"
+ romanian_conference.11.a: "Give up the land as we agreed"
+ romanian_conference.11.b: "Bastards! We will keep our clay"
+
+ romanian_conference.12.t: "Dobrogean Cession"
+ romanian_conference.12.d: "The Conference of Paris has concluded Dobrogea to be Romanian clay"
+ romanian_conference.12.f: ""We have succeeded, the conference votes in favour"\nA romanian delegate shouts"
+ romanian_conference.12.a: "Give up the land as we agreed"
+ romanian_conference.12.b: "Bastards! We will keep our clay"
+
+ romanian_conference.13.t: "Transylvanian Cession"
+ romanian_conference.13.d: "The Conference of Paris has concluded Transylvania to be Romanian clay"
+ romanian_conference.13.f: ""We have succeeded, the conference votes in favour"\nA romanian delegate shouts"
+ romanian_conference.13.a: "Give up the land as we agreed"
+ romanian_conference.13.b: "Bastards! We will keep our clay"
+
+ #poland
+ POL_FLAVOR_TEXT:0 "Poland was dissolved during and after the Napoleonic wars, and ever since Russia has tightened its grip. After an uprising earlier this decade Polands autonomy was severely curtailed. Will Poland draw closer to russia, or will they take an independent path from their historic enemy?"
+
+ law_sejmik_poland: "Local Sejmiks"
+ law_sejmik_poland_desc: "Local parliaments have varying power over local affairs, increasing democracy and efficacy of governing, but coming at the cost of bureaucratic efficiency"
+
+ geographic_region_poland: "Poland"
+
+ je_polish_constitution: "The Matter of Poland"
+ je_polish_constitution_lobby: "Poland stands defiant of the oppression imposed upon them by foreign empires. yet, their efforts have been quashed, and liberal reforms destroyed"
+ je_polish_constitution_reason: "[ROOT.GetCountry.GetName] was a compromise invention, created in the Congress of Vienna to have one of the most liberal regimes in Europe in order to check the power of the russian Tsar. After a rebellion in 1830 Poland was stripped of practically all of its autonomy, and Russia continues to encroach on [ROOT.GetCountry.GetAdjectiveNoFlag] sovereignty. Yet the [ROOT.GetCountry.GetAdjectiveNoFlag] people yearn for independence, as well as a return to their liberal constitution. Perhaps we can attempt to undermine the Russians and reassert not only our constitution, but our independence."
+ je_polish_constitution_status: "Russia holds a firm grip on Poland"
+
+ je_polish_constitution_button1: "Begin Reinstating the Constitution"
+ je_polish_constitution_button1_desc: "The cornerstone of the constitution given to the poles at vienna was its extremely liberal views on suffrage, if we were to bring the vote back to the people, then perhaps we can begin to undermine the Tsar"
+
+ je_polish_constitution_button2: "Bring Power Back to the Sejmiks"
+ je_polish_constitution_button2_desc: "Local Sejmiks have historically been a unique quirk of polish democracy, by reinstating them we can not only bring democracy to the people, but also reinforce out independent governance from the Tsar"
+
+ je_polish_constitution_button3: "Protect the Peasants"
+ je_polish_constitution_button3_desc: "Despite Polands long history of democracy, this has not always served the common people. In order to protect the peasantry, we must place them under protection by the state: much alike the constituion of 1791"
+
+ je_polish_constitution_button4: "Press for Krakow"
+ je_polish_constitution_button4_desc: "Though we are unlikely to be successful, we must make an effort to reclaim our southern capital: if only for the national pride\n#red #bold NOTE THAT THIS MAY LEAD TO YOUR INDEPENDENCE #! #! \n"
+
+ law_state_serfs: "State Oversight"
+ law_state_serfs_desc: "Peasants are nominally owned by their landholders, yet due to the intervention of the state they have the rights to quit work, are guaranteed working conditions and in many cases are allowed to homestead on spare plots of land"
+
+ polish_constitution.1.t: "The Past and, The Future"
+ polish_constitution.1.d: "The people of poland are granted a constitution, but what will this entail?"
+ polish_constitution.1.f: ""
+ polish_constitution.1.a: "Keep the wealthy in charge"
+ polish_constitution.1.b: "Power to the people!"
+
+ polish_constitution.2.t: "Poland Requests a constitution"
+ polish_constitution.2.d: "The polish lobby for a constituion, if we are to get too distracted then perhaps we put our own balance of power at risk"
+ polish_constitution.2.f: ""
+ polish_constitution.2.a: "Sure, we ought not to get distracted when we have our own problems"
+ polish_constitution.2.b: "Never\n#red (Nobles will gain strength)"
+
+ polish_constitution.3.t: "Poland requests Krakow"
+ polish_constitution.3.d: "Poland, attempting to undermine Russian influence demands Krakow"
+ polish_constitution.3.f: ""
+ polish_constitution.3.a: "Perhaps this will undermine the russian influence?"
+ polish_constitution.3.b: "Never!"
+
+ modifier_posen_assimilation: "Germanisation efforts"
+
+ #new modded laws
+ lawgroup_shifts: "Shift Work"
+ law_shifts1: "No formal shifts"
+ law_shifts2: "12 Hour shifts"
+ law_shifts3: "8 Hour shifts"
+ law_shifts4: "Union-Negotiated shifts"
+
+ law_shifts1_desc: "No formal shifts are negotiated, mandated or protected by law, meaning that workers are often exploited and industry is inefficiently managed due to overworking."
+ law_shifts2_desc: "12 Hour shifts are the most common taken on by industries, and the state guarantees this to protect from near slave-like conidtions in the factories. Industrialists benefit from 24/7 work, and workers benefit from less hours."
+ law_shifts3_desc: "8 Hour shifts are protected by the state, protecting workers from the worst conditions of overworking."
+ law_shifts4_desc: "Shifts are negotiated between unions and their factory management, this protects the rights of workers to have a fair days work within manageable conditions. This also increases the influence of unions as they are the primary form of negotiation in working hours."
+
+# PM's
+ pmg_automation_management: "Management Structure"
+ pm_management: "No Management Structure"
+ pm_management1: "Simple Structures"
+ pm_management2: "Corporate Governance"
+
+ # chinese recognition
+ is_china_tt: "Is Chinese"
+
+ # russian absolutism
+
+ je_russian_absolutism: "Russian Absolutism"
+ je_russian_absolutism_reason: "For a long period of time the nobles of the [ROOT.GetCountry.GetNameNoFlag] have weilded immense power over the state. Since the Octobrist revolution and the accession of [ROOT.GetCountry.GetRuler.GetFullName], the Gentry is unlikely to allow for many reforms. \n\nPrevent the Gentry from overthrowing the government, but also make progress towards reform: \n\nThe status of the #bold Progress Bar#! will #tooltippable;tooltip:[Country.GetTooltipTag],je_absolutism_advance advance#! upon these conditions being met. \n\nThe status of the #bold Progress Bar#! will #tooltippable;tooltip:[Country.GetTooltipTag],je_absolutism_retreat retreat#! upon these conditions being met."
+
+ je_absolutism_advance: "Becoming too democratic\nHaving too liberal economy laws\nfreeing the peasants" 
+
+ je_absolutism_retreat: "Owning Constantinople\nIndirectly owning: Kars, Tehran, Tabriz\nBulgaria being free\nSerbia Expanding into Eastern Serbia and/or Macedonia\nGreece owning Thessaly\nMoving the capital to Moscow"
+
+ je_russian_absolutism_complete_tt: "#red #bold The bar has filled, indicating the Gentry have the power to overthrow the governemnt"
+ je_russian_absolutism_status: "The Gentry is keeping a keen eye on things."
+
+ russian_absolutism_progress_bar: "Russian Absolutism"
+ russian_absolutism_progress_bar_desc: "Progress Towards Gentry Coup: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/200)"
+
+ je_russian_absolutism_fail_tt: "After 1848"
+
+ russian_absolutism_failure: "The Gentry's power will wain if:\n"
+ russian_absolutism_completion: "The Gentry will succeed if:\n"
+
+ nikolai_is_dead: "Tsar Nikolai has Died"
+
+ je_absolutism_democracy: "Too Democratic"
+ je_absolutism_democracy2: "Widespread Democracy"
+ je_absolutism_economy: "Free-Market Economy"
+ je_absolutism_economy2: "Liberal Economy"
+ je_absolutism_serfs: "Free? Serfs"
+ je_absolutism_serfs2: "Free Serfs!"
+ je_absolutism_poland: "Distracted by poland"
+
+ je_absolutism_thrace: "Owns Constantinople"
+ je_absolutism_kars: "Owns Kars"
+ je_absolutism_bulgaria: "Bulgria Exists"
+ je_absolutism_serbia: "Expanded Serbia"
+ je_absolutism_serbia2: "Large Serbia"
+ je_absolutism_greece: "Expanded Greece"
+ je_absolutism_moscow: "Moscow Capital"
+
+ modifier_russia_fails: "Landowner authority"
+
+ modifier_distillery_privileges: "Expanded Distillery Privileges"
+ modifier_vodka_monopoly: "Vodka Monopolised"
+ modifier_monastic_distillery: "Expanded the Privilege to the Church"
+ modifier_reduced_prices: "Reduced Vodka Prices"
+ modifier_russia_minting: "Monopoly Profits"
+
+ je_vodka_monopoly: "The Vodka Monopoly"
+ je_vodka_monopoly_reason: "Since Ivan the third, Vodka has been a state monopoly. Factually outlawing the domestic distillery of drink and making it a state enterprise to produce and sell Alcohol, predominantly Vodka. Selling Vodka at fix prices enables us to control the general populance and generate Russia great income. In 1765, Catherine the Great extended the privilege to Nobles, allowing them to distill drink on their own estates. The Vodka Monopoly is a vital tool for the Tsarist State, it is paramount to use it wisely.."
+
+ revoking_privileges_button: "Revoke Privileges"
+ revoking_privileges_button_desc: "Too long have the Nobles made a dime on the Vodka Monopoly. It is time to fully seize our tool!"
+
+ grant_privilges_button: "Restore Catherinian Privileges"
+ grant_privilges_button_desc: "To appease the Gentry, it has become time for them to regain the privileges promised to them under Catherine the Great in 1765."
+
+ monastic_distillery_button: "Extend the Privilege to the Church"
+ monastic_distillery_button_desc: "In an effort to improve state relations with the Devout, we ought to extend the right to distill drink to them and the monastaries, for they have always been brewing and distilling elsewhere. Let the clergy profit from our arrangement!"
+
+ reducing_prices_button: "Reduce the Price of Drink!"
+ reducing_prices_button_desc: "In an effort to appease the populance, we will lower drink prices."
+ 
+ normalising_prices_button: "Normalise Pricing"
+ normalising_prices_button_desc: "We shall restore the pricing of Vodka. Times of hardship are over, we don't need the peasantry to fall in line that much anymore. Let's get back to normalising and profiting."
+
+
+ je_road_to_tsargorod: "Doroga v Tsargorod"
+ je_road_to_tsargorod_reason: "The Ottoman Menace is to the South!\n\nLet the drums of war sound! Too long have the Muslims oppressed the virtuous Christians on the Balkan Peninsula. Our beloved Empress, long past, has decreed for all her sucessors to reconquer Constantinople for Christendom. It is in our interest to seize control of the City and it's periphery. We must decide if the current geopolitical situation allows us to acquire only Tsargorod, or if the road leading to the second Rome is ripe for the taking too."
+
+ claims_tsargorod: "Claim Tsargorod"
+ claims_tsargorod_desc: "We must remember the muslim Threat down yonder. Catherine the great proposed the Greek Project in the 1780s. It is now time we shall realise the plan. Let Moscow and Tsargorod rejoice, lets bring peace and freedom to the Orthodox people of the Balkan!"
+
+ modifier_catherinian_legacy: "In the Footsteps of Giants"
+
+ claims_black_sea_region: "Claim the Entirety of the Black Sea Coast"
+ claims_black_sea_region_desc: "Catherine the great proposed a Greek Plan, to secure the safety and prosperity of Slavs and Orthodox Christians alike in the Balkans. We most expand on this Plan. In this day and age creating and independent State down south is futile. We instead must control the entirety of the Black Sea, to secure our own interests and crush the muslim meance!"
+ 

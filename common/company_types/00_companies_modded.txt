@@ -1,0 +1,467 @@
+##Altered Companies
+
+
+##Modded Companies
+
+##European 
+
+# Amsterdamse Effectenbeurs
+company_amsterdamse_effectenbeurs = {
+	icon = "gfx/interface/icons/company_icons/basic_gold_mining.dds"
+	background = "gfx/interface/icons/company_icons/modded_company_backgrounds/Effectenbeurs_Background_dds.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_HOLLAND }
+
+	building_types = {
+		building_trade_center
+		building_port
+		building_shipyard
+		building_military_shipyard
+	}
+
+	extension_building_types = {
+		building_gold_mine
+	}
+
+	potential = {
+		country_has_primary_culture = cu:dutch
+	}
+
+	possible = {
+		country_has_primary_culture = cu:dutch
+		any_scope_state = {
+			state_region = s:STATE_HOLLAND
+			is_incorporated = yes
+		}
+	}
+
+	prosperity_modifier = {
+		country_loan_interest_rate_mult = -0.10
+		state_trade_capacity_mult = 0.03
+		building_trade_center_throughput_add = 0.15
+		state_capitalists_investment_pool_efficiency_mult = 0.05
+		country_max_companies_add = 1
+	}
+
+	ai_will_do = {
+	}
+
+	ai_construction_targets = {
+
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# De Koninklijke Porceleyne Fles
+company_porceleyne_fles = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/porceleyne_fles_coa_dds.dds"
+	background = "gfx/interface/icons/company_icons/modded_company_backgrounds/porceleyne_fles_background_dds.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_glassworks
+		building_lead_mine
+	}
+
+	extension_building_types = {
+		building_art_academy
+	}
+
+	possible_prestige_goods = {
+		prestige_good_delftware
+	}
+
+	potential = {
+		country_has_primary_culture = cu:dutch
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_HOLLAND
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		state_trade_capacity_mult = 0.05
+		building_arts_academy_throughput_add = 0.05
+		country_prestige_mult = 0.1
+	}
+
+	ai_will_do = {
+	}
+
+	ai_construction_targets = {
+		building_glassworks = {
+			level = 5
+			state_trigger = {
+				region = sr:region_rhine
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Van Houtum en Palm
+company_van_houtum_en_palm = {
+	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_paper_mill
+		building_logging_camp
+	}
+
+	extension_building_types = {
+		building_chemical_plants
+		building_sulfur_mine
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
+	potential = {
+		country_has_primary_culture = cu:dutch
+	}
+
+	possible = {
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_HOLLAND
+				state_region = s:STATE_FRIESLAND
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_paper_mill
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		state_mortality_mult = -0.08
+		building_paper_mill_throughput_add = 0.1
+		country_bureaucracy_mult = 0.05
+	}
+
+	ai_will_do = {
+	}
+
+	ai_construction_targets = {
+		building_building_paper_mill = {
+			level = 5
+			state_trigger = {
+				region = sr:region_rhine
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Heineken (aka Heineken Brouwerij), founded in 1864
+company_heineken = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/heineken_logo_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_food_industry
+		building_wheat_farm
+	}
+
+	extension_building_types = {
+		building_sugar_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_heineken_beer
+	}
+
+	potential = {
+		country_has_primary_culture = cu:dutch
+		any_scope_state = {
+			state_region = s:STATE_HOLLAND
+			is_incorporated = yes
+		}
+
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_HOLLAND
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.02
+		building_trade_center_throughput_add = 0.05
+		building_food_industry_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 3
+			}
+		}
+	}
+}
+
+# Marzotto, founded 1836
+company_marzotto = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/marzotto_logo_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_VENETIA }
+
+	building_types = {
+		building_textile_mill
+		building_silk_plantation
+		building_cotton_plantation
+	}
+
+	extension_building_types = {
+		building_dye_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_clothes
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_VENETIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mill
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_plantations_throughput_add = 0.15
+		building_textile_mill_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mill
+				level >= 3
+			}
+		}
+	}
+}
+
+
+
+
+
+## North American Companies
+company_american_Milling = { #"Plain Millers' Monopoly"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_lee_wilson.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_TEXAS }
+
+	building_types = {
+		building_rice_farm
+		building_wheat_farm
+		building_maize_farm
+	}
+
+	extension_building_types = {
+		building_rye_farm
+		building_millet_farm
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_grain #makes fine grain
+	}
+
+	prestige_goods_trigger = { #make sure fine grain JE done
+		custom_tooltip = {
+			text = je_prestige_goods_grain_complete_tt
+			has_variable = prestige_good_generic_grain_var
+		}
+	}
+
+	potential = { #has american cultures
+		OR = {
+			country_has_primary_culture = cu:yankee
+			country_has_primary_culture = cu:dixie
+		}
+	}
+
+	possible = {
+		any_scope_state = { # established agri in great plains 
+			region = sr:region_great_plains
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_wheat_farm
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = { #focus on exporting fine grain
+		building_group_bg_agriculture_throughput_add = 0.15
+		building_trade_center_throughput_add = 0.10
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_wheat_farm
+				level >= 3
+			}
+		}
+	}
+}
+
+#pacific companies
+
+company_australian_agricultural = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/australian_agricultural.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_NEW_SOUTH_WALES }
+
+	building_types = {
+		building_cotton_plantation
+		building_coal_mine
+		building_livestock_ranch
+	}
+
+	extension_building_types = {
+		building_railway
+	}
+
+	possible_prestige_goods = {
+		prestige_good_prestige_coal_australia
+	}
+
+	potential = {
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_NEW_SOUTH_WALES
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_coal_mine_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 5
+			}
+		}
+	}
+}
+
+company_imperial_companhia_seropédica_fluminense = {
+	icon = "gfx/interface/icons/company_icons/basic_agriculture_2.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_RIO_DE_JANEIRO }
+
+	building_types = {
+		building_cotton_plantation
+		building_silk_plantation
+	}
+
+	extension_building_types = {
+		building_textile_mill
+	}
+
+	possible_prestige_goods = {
+	}
+
+	potential = {
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_RIO_DE_JANEIRO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_silk_plantation
+				level >= 3
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_silk_plantation_throughput_add = 0.15
+		building_group_bg_plantations_throughput_add = 0.05
+		building_group_bg_agriculture_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_silk_plantation
+				level >= 5
+			}
+		}
+	}
+}

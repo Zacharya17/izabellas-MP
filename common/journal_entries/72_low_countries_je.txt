@@ -1,0 +1,123 @@
+## New Journal Entries for the Netherlands, Belgium, Luxembourg and the United Netherlands
+
+#Gateway to Europe
+je_rotterdam_port = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_low_country_happenings
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:dutch
+		owns_entire_state_region = STATE_HOLLAND
+	}
+
+	possible = {
+		has_technology_researched = identification_documents
+		year >= 1870
+	}
+
+	complete = {
+		any_scope_state = {
+			is_incorporated = yes
+			state_region = s:STATE_HOLLAND
+			any_scope_building = {
+				is_building_type = building_port
+				level >= 25
+			}
+		}
+		has_law = law_type:law_no_migration_controls
+		OR = {
+			has_law = law_type:law_free_trade
+			has_law = law_type:law_protectionism
+		}
+		bureaucracy > 200
+	}
+
+	on_complete = {
+		add_modifier = {name = modifier_gateway_europe}
+	}
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+
+#Dutch Fiscal Crisis
+je_dutch_fiscal_crisis = {
+    icon = "gfx/interface/icons/ideology_icons/malthusian.dds"
+
+    group = je_group_dutch_fiscal_crisis
+
+	progressbar = yes
+
+	possible = {
+
+	}
+
+    immediate = {
+		trigger_event = {id = dutch_debt_addition.1}
+		company:company_amsterdamse_effectenbeurs = {
+			save_scope_as = amsterdam_company
+		}
+    }
+
+    complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		OR = {
+			has_law = law_type:law_protectionism
+			has_law = law_type:law_free_trade
+		}
+		
+    }
+
+    on_complete = {
+		trigger_event = {id = dutch_debt_addition.2}
+		remove_modifier = modifier_financial_crisis
+    }
+
+
+    fail = {
+		scaled_debt <= 0
+    }
+
+
+    invalid = {
+		year > 1850
+		has_law = law_type:law_mercantilism
+    }
+
+	on_fail = {
+		trigger_event = {id = dutch_debt_addition.3}
+		remove_modifier = modifier_financial_crisis
+	}
+
+	current_value = {
+		value = var:dutch_debt_progress
+	}
+
+	on_monthly_pulse = {
+        effect = {
+            if = {
+                limit = {
+                company:company_amsterdamse_effectenbeurs = {
+                company_is_prosperous = yes
+                }
+                }
+                change_variable = {
+                    name = dutch_debt_progress
+                    add = 1
+                }
+            }
+        }
+    }
+
+	goal_add_value = {
+		add = 48
+	}
+
+    should_be_pinned_by_default = yes
+
+    weight = 100
+}
