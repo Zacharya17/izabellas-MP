@@ -6268,7 +6268,7 @@
 					company={
 						type=company_krupp
 						country="c:PRU"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -6289,10 +6289,11 @@
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
-					company={
-						type=company_krupp
+					building={
+						type="building_financial_district"
 						country="c:PRU"
 						levels=1
+						region="STATE_WESTPHALIA"
 					}
 				}
 				reserves=1
