@@ -1,3 +1,5 @@
+namespace = soviet_russia
+
 soviet_russia.1 = {
 	type = country_event
 	placement = root
@@ -18,9 +20,18 @@ soviet_russia.1 = {
 
 	immediate = {
 	}
+
 	option = {
 		name = soviet_russia.1.a
 		default_option = yes
-		
+		add_radicals = {
+			value = 0.15
+		}
+		create_political_movement = { type = movement_communist }
+		create_political_movement = { type = movement_labor }
+		create_political_movement = { type = movement_nihilist }
+		create_political_movement = { type = movement_radical }
+		create_political_movement = { type = movement_positivist }
+		create_political_movement = { type = movement_royalist_constitutional }
 	}
 }

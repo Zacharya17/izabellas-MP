@@ -99,9 +99,21 @@ je_soviet_russia = {
 	group = je_group_historical_content
 
 	immediate = {
+		trigger_event = {
+			id = soviet_russia.1
+			days = 14
+		}
 	}
 	
 	possible = {
+		has_technology_researched = socialism
+		any_country = {
+            country_rank >= rank_value:great_power
+            has_war_with = c:RUS
+        }
+		radical_fraction = {
+			value = 0.2
+		}
 	}
 
 	is_shown_in_lobby = {
