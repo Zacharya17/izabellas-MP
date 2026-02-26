@@ -444,7 +444,7 @@ company_imperial_companhia_seropédica_fluminense = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_silk_plantation
-				level >= 3
+				level >= 5
 			}
 		}
 	}
@@ -460,6 +460,56 @@ company_imperial_companhia_seropédica_fluminense = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_silk_plantation
+				level >= 5
+			}
+		}
+	}
+}
+
+#Sächsische Maschinenfabrik vormals Richard Hartmann (founded 1837)
+company_saechische_maschinenfabrik = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/sächische_maschinenfabrik_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/modded_company_backgrounds/sächische_maschinenfabrik_background_dds.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_tooling_workshop
+		building_motor_industry
+	}
+
+	extension_building_types = {
+		building_textile_mill
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_tools
+	}
+
+	potential = {
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_SAXONY
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshop
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+		building_trade_center_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshop
 				level >= 5
 			}
 		}

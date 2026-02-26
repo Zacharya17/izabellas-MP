@@ -13,6 +13,7 @@
  company_american_Milling: "Plain Millers' Monopoly"
  company_australian_agricultural: "Australian Agricultural Company"
  company_imperial_companhia_seropédica_fluminense: "Imperial Companhia Seropédica Fluminense"
+ company_saechische_maschinenfabrik: "Sächische Maschinenfabrik"
 
 ##Modded Laws
  
@@ -33,6 +34,7 @@
  prestige_good_heineken_beer: "Heineken Pilsener"
  prestige_good_prestige_coal_australia: "Australian Coal"
  prestige_good_moskovskaya_osobaya: "Moskovskaya Osobaya"
+ prestige_good_kruppstahl: "Kruppstahl"
 
 ##Modded Decision
  extend_ayllu_kinship_sa: "Extend the Ayllu Bonds to the South Andeans"
