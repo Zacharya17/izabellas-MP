@@ -469,7 +469,7 @@ company_imperial_companhia_seropédica_fluminense = {
 #Sächsische Maschinenfabrik vormals Richard Hartmann (founded 1837)
 company_saechische_maschinenfabrik = {
 	icon = "gfx/interface/icons/company_icons/modded_company_icons/sächische_maschinenfabrik_dds.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/modded_company_backgrounds/sächische_maschinenfabrik_background_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 
 	flavored_company = yes
 
