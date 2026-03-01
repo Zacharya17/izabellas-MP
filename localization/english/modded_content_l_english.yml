@@ -28,6 +28,8 @@
  law_ayllu_kinship_desc: "Society is organised around the traditional Ayllu Communities. This system derives from the creation legend of the Ican Empire. Loyalty comes through communal bonds, which ensure cohesion. The state does not govern directly but rather interact with the Communities as a whole. That decreases the bureaucratic expenditure, while in turn limiting social mobility."
 
 ##Modded Goods
+ olive_oil: "Olive Oil"
+ 
 
  prestige_good_delftware: "Delftware"
  prestige_good_cockerill_tools: "Cockerill Tools"
@@ -223,11 +225,18 @@
  pm_management: "No Management Structure"
  pm_management1: "Simple Structures"
  pm_management2: "Corporate Governance"
+ default_building_olive_groves: "Basic Production"
+ automatic_irrigation_building_olive_groves: "Automatic Irrigation"
+ pmg_base_building_olive_groves: "Base"
+ pmg_train_automation_building_olive_groves: "Train Automation"
 
- # chinese recognition
+#Buildings
+ building_olive_groves: "Olive Groves"
+
+# chinese recognition
  is_china_tt: "Is Chinese"
 
- # russian absolutism
+# russian absolutism
 
  je_russian_absolutism: "Russian Absolutism"
  je_russian_absolutism_reason: "For a long period of time the nobles of the [ROOT.GetCountry.GetNameNoFlag] have weilded immense power over the state. Since the Octobrist revolution and the accession of [ROOT.GetCountry.GetRuler.GetFullName], the Gentry is unlikely to allow for many reforms. \n\nPrevent the Gentry from overthrowing the government, but also make progress towards reform: \n\nThe status of the #bold Progress Bar#! will #tooltippable;tooltip:[Country.GetTooltipTag],je_absolutism_advance advance#! upon these conditions being met. \n\nThe status of the #bold Progress Bar#! will #tooltippable;tooltip:[Country.GetTooltipTag],je_absolutism_retreat retreat#! upon these conditions being met."

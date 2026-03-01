@@ -541,7 +541,7 @@ STATE_PROVENCE = {
     mine = "xB040E0"
     wood = "x3040E0"
     arable_land = 60
-    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" }
+    arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 7
         building_fishing_wharf = 12
@@ -580,7 +580,7 @@ STATE_LANGUEDOC = {
     mine = "xF0C060"
     wood = "xCF9FBF"
     arable_land = 120
-    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
+    arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 6
         building_fishing_wharf = 8
@@ -899,6 +899,7 @@ STATE_GELRE = {
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_coal_mine = 40
+        building_iron_mine = 5
         building_logging_camp = 9
     }
 }
@@ -915,10 +916,10 @@ STATE_WALLONIA = {
     arable_land = 55
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_coal_mine = 40
-        building_iron_mine = 45
-        building_lead_mine = 15
-        building_sulfur_mine = 15
+        building_coal_mine = 60
+        building_iron_mine = 55
+        building_lead_mine = 25
+        building_sulfur_mine = 25
         building_logging_camp = 11
     }
 }
@@ -935,8 +936,8 @@ STATE_WEST_WALLONIA = {
     arable_land = 55
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_coal_mine = 40
-        building_iron_mine = 20
+        building_coal_mine = 50
+        building_iron_mine = 30
         building_lead_mine = 10
         building_sulfur_mine = 14
         building_logging_camp = 11
@@ -1291,7 +1292,7 @@ STATE_WURTTEMBERG = {
     arable_land = 70
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
-        building_logging_camp = 9
+        building_logging_camp = 19
     }
 }
 
@@ -1309,7 +1310,7 @@ STATE_BADEN = {
     capped_resources = {
         building_coal_mine = 20
         building_iron_mine = 15
-        building_logging_camp = 11
+        building_logging_camp = 21
     }
 }
 
@@ -1440,7 +1441,7 @@ STATE_MECKLENBURG = {
     farm = "xD9A469"
     mine = "xE041A0"
     wood = "x12E54F"
-    arable_land = 50
+    arable_land = 75
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 8
