@@ -589,3 +589,16 @@ fine_art = {
 
 	traded_quantity = 1.5 # 300
 }
+
+##Modded goods
+
+olive_oil = {
+	texture = "gfx/interface/icons/goods_icons/modded_goods/olive_oil_dds.dds"
+	cost = 35
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 10
+
+	traded_quantity = 1.5 # 300
+}
