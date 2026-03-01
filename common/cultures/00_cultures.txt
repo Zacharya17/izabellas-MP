@@ -2426,7 +2426,7 @@ north_italian= {
 	traditions = { }
 
 	obsessions = {
-		wine
+		wine olive_oil
 	}
 
 	male_common_first_names = {
@@ -2508,7 +2508,7 @@ south_italian= {
 	traditions = { }
 
 	obsessions = {
-		wine
+		wine olive_oil
 	}
 
 	male_common_first_names = {
@@ -3477,7 +3477,7 @@ occitan= {
 
 	# the best wine is from Occitania, of course.
 	obsessions = {
-		wine
+		wine olive_oil
 	}
 
 	male_common_first_names = {
@@ -5691,7 +5691,7 @@ greek= {
 	traditions = { }
 
 	obsessions = {
-		wine
+		wine olive_oil
 	}
 
 	male_common_first_names = {
