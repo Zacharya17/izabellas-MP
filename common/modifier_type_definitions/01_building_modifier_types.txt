@@ -3019,3 +3019,12 @@ goods_input_olive_oil_add={
 		ai_value=0
 	}
 }
+
+building_olive_groves_throughput_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
