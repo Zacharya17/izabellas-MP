@@ -203,6 +203,8 @@ south_german= {
 		von_Xylander
 		von_Zahringen von_Zandt von_Zwanziger
 
+		Grießinger
+
 		Hitler
 	}
 	common_last_names = {
