@@ -473,6 +473,8 @@ company_saechische_maschinenfabrik = {
 
 	flavored_company = yes
 
+	preferred_headquarters = { STATE_SAXONY }
+
 	building_types = {
 		building_tooling_workshop
 		building_motor_industry
@@ -513,5 +515,75 @@ company_saechische_maschinenfabrik = {
 				level >= 5
 			}
 		}
+	}
+}
+
+# Türkiye Milli Bankası, later the national Turkish Bank
+company_türkiye_milli_bankasi = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/ottoman_bank_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_EASTERN_THRACE }
+
+	building_types = {
+		building_trade_center
+		building_coal_mine
+		building_iron_mine
+	}
+
+	extension_building_types = {
+		building_port
+		building_lead_mine
+		building_sulfur_mine
+	}
+
+	potential = {
+		country_has_primary_culture = cu:turkish
+		owns_entire_state_region = STATE_EASTERN_THRACE
+	}
+
+	possible = {
+		NOR = {
+			has_modifier = sick_man_of_europe
+			is_country_type = unrecognized
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_mining_throughput_add = 0.07
+		state_capitalists_investment_pool_efficiency_mult = 0.2
+	}
+
+	ai_will_do = {
+		NOR = {
+			has_modifier = sick_man_of_europe
+			is_country_type = unrecognized
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+	}
+
+	ai_construction_targets = {
+		building_trade_center = {
+			level = 5
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
 	}
 }
