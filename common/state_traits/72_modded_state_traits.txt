@@ -157,21 +157,21 @@ state_trait_cusco_valley = {
 }
 
 state_trait_greek_olives = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
 		building_olive_groves_throughput_add = 0.25
 	}
 }
 
 state_trait_calabria_olives = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	icon = "gfx/interface/icons/state_trait_icons/resources_exotic.dds"
 	modifier = {
 		building_olive_groves_throughput_add = 0.1
 	}
 }
 
 state_trait_neapolitan_olives = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
 		building_olive_groves_throughput_add = 0.1
 	}
