@@ -2,7 +2,7 @@
 
 extend_ayllu_kinship_sa = {
 	is_shown = {
-		c:IQU = ROOT
+		c:IQU ?= this
 		NOT = { has_global_variable = extended_ayllu_kinship }
 	}
 
@@ -40,7 +40,7 @@ extend_ayllu_kinship_sa = {
 
 extend_ayllu_kinship_na = {
 	is_shown = {
-		c:IQU = ROOT
+		c:IQU ?= this
 		NOT = { has_global_variable = kinship_na_extended }
 	}
 
