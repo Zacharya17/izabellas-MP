@@ -16,6 +16,7 @@
  company_imperial_companhia_seropédica_fluminense: "Imperial Companhia Seropédica Fluminense"
  company_saechische_maschinenfabrik: "Sächische Maschinenfabrik"
  company_türkiye_milli_bankasi: "Türkiye Milli Bankası"
+ company_olearia_clemente: "Olearia Clemente & Co."
 
 ##Modded Laws
  
@@ -39,6 +40,7 @@
  prestige_good_prestige_coal_australia: "Australian Coal"
  prestige_good_moskovskaya_osobaya: "Moskovskaya Osobaya"
  prestige_good_kruppstahl: "Kruppstahl"
+ prestige_good_extra_virgin_olive_oil: "Extra Virgin Olive Oil"
 
 ##Modded Decision
  extend_ayllu_kinship_sa: "Extend the Ayllu Bonds to the South Andeans"
