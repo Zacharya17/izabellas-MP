@@ -14,7 +14,10 @@ je_potato_famine = {
 
     possible = {
         c:GBR = this
-		year >= 1845
+		custom_tooltip = {
+			text = hungry_forties_triggered_britain_tt
+			has_global_variable = hungry_forties_var
+		}
     }
 
     immediate = {
