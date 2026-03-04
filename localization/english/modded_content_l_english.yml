@@ -315,3 +315,27 @@
  claims_black_sea_region: "Claim the Entirety of the Black Sea Coast"
  claims_black_sea_region_desc: "Catherine the great proposed a Greek Plan, to secure the safety and prosperity of Slavs and Orthodox Christians alike in the Balkans. We most expand on this Plan. In this day and age creating and independent State down south is futile. We instead must control the entirety of the Black Sea, to secure our own interests and crush the muslim meance!"
  
+
+# Potato famine
+
+ hungry_forties_triggered_britain_tt: "The European Potato Famine has spread to the shores of ireland"
+
+ modifier_british_supremacists: "British Imperialist Sentiment"
+
+ ideology_british_imperialist: "British Imperialist"
+ ideology_british_imperialist_desc: "This group believes that the british empire is a civilizing force, and that the will and culture of the British nation should be spread accross the world, and other 'lesser' cultures should be erased or sidelined."
+
+ je_potato_famine: "The Potato Blight"
+ je_potato_famine_reason: "Recently a disease affecting potatoes has been found in Ireland and parts of the rest of the United Kingdom. Considering the reliance on potatoes for food in ireland, it could have drastically negative effects for the population in ireland"
+ je_potato_famine_status: "Crops in Ireland are failing en masse"
+
+ potato_famine_start.1.t: "A sign of things to come.."
+ potato_famine_start.1.d: "A blight of potatoes has arrived in Ireland, originally small scale it seems to be spreading rapidly"
+ potato_famine_start.1.f: "#bold "Rent is due sir"\n"Rent? but I have barely enough food for my family, how am I meant to pay rent?"\n"Ill allow you to take a loan, but it must be payed back""\n\n#!Millions of farmers and families in Ireland struggle to survive as Anglican landholders exploit them for their profit and continue exports of food out of Britain, despite the massive shortage in ireland itself.\n\nSome take debt, some take to the streets, all are in dire straits..."
+ potato_famine_start.1.a: "What does the future hold for ireland?"
+ modifier_potato_famine: "Irish Potato Blight"
+
+ potato_famine_start.2.t: "Another Wave"
+ potato_famine_start.2.d: "The Irish People set forth for america to seek better living conditions"
+ potato_famine_start.2.f: "Families wait at ports, in rags for clothes and empty stomachs, for they have put all of their money towards sending their young son to america, to find hope and to survive, as those in Ireland may not"
+ potato_famine_start.2.a: "Disastrous!"
