@@ -1,0 +1,13 @@
+modifier_british_supremacists = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_pop_support_movement_cultural_majority_mult = 1
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.25
+}
+
+modifier_potato_famine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_irish_standard_of_living_add = -2.5
+	building_group_bg_agriculture_throughput_add = -0.8
+	state_market_access_price_impact = -0.2
+	state_peasants_consumption_multiplier_add = 1
+}

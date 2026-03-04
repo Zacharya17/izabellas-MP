@@ -1,0 +1,106 @@
+je_potato_famine = {
+
+ icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+    group = je_group_historical_content
+
+	is_shown_in_lobby = {
+		c:GBR ?= this
+	}
+
+    is_shown_when_inactive = {
+		c:GBR ?= this
+	}
+
+    possible = {
+        c:GBR = this
+		year >= 1845
+    }
+
+    immediate = {
+		trigger_event = { id = potato_famine_start.1 }
+    }
+
+    complete = {
+        has_law = law_type:law_free_trade
+		has_law = law_type:law_poor_laws
+		OR = {
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
+		}
+        has_any_subventions_on = g:grain
+		market_capital.market = {
+			mg:grain = {
+				market_goods_cheaper > 0
+			}
+		}
+    }
+
+	
+	
+	
+
+    on_complete = {
+		add_journal_entry = {
+			type = je_home_rule
+		}
+		activate_law = law_type:law_migration_controls
+				 s:STATE_LEINSTER = {
+			add_homeland = cu:irish_2
+		}
+		s:STATE_CONNAUGHT = {
+			add_homeland = cu:irish_2
+		}
+		s:STATE_MUNSTER = {
+			add_homeland = cu:irish_2 
+		}
+		s:STATE_ULSTER = {
+			add_homeland = cu:irish_2 
+		}
+
+
+		s:STATE_LEINSTER = {
+			remove_homeland = cu:irish 
+		}
+		s:STATE_CONNAUGHT = {
+			remove_homeland = cu:irish 
+		}
+		s:STATE_MUNSTER = {
+			remove_homeland = cu:irish 
+		}
+		s:STATE_ULSTER = {
+			remove_homeland = cu:irish 
+		}
+		trigger_event = { id =  irish_rising.4 days = 100 }
+    }
+
+	on_yearly_pulse = {
+		random_events = {
+			200 = 0
+			50 = potato_famine_start.2
+		}
+	}
+
+    fail = {
+		NOT = {
+			owns_entire_state_region = STATE_CONNAUGHT
+			owns_entire_state_region = STATE_LEINSTER
+			owns_entire_state_region = STATE_MUNSTER
+		}
+	}
+    
+    on_fail = {
+	}
+           
+    on_timeout = {
+	}
+    
+    invalid = {
+    }
+
+    should_be_pinned_by_default = yes
+
+    timeout = 2555
+
+    weight = 100
+}

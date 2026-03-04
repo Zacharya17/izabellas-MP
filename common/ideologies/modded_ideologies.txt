@@ -1,0 +1,18 @@
+ideology_british_imperialist = {
+	icon = "gfx/interface/icons/ideology_icons/patriotic.dds"
+
+	lawgroup_citizenship = {
+		law_ethnostate = approve
+		law_national_supremacy = strongly_approve
+		law_racial_segregation = disapprove
+		law_cultural_exclusion = strongly_disapprove
+		law_multicultural = strongly_disapprove
+	}
+
+	lawgroup_colonization = {
+		law_no_colonial_affairs = strongly_disapprove
+		law_frontier_colonization = neutral
+		law_colonial_exploitation = strongly_approve
+		law_colonial_resettlement = approve
+	}
+}
