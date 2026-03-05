@@ -93,3 +93,87 @@ neapolitan_problems.2 = {
 	}
 
 }
+
+neapolitan_problems.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = neapolitan_problems.3.t
+	desc = neapolitan_problems.3.d # probably want a triggered desc here
+	flavor = neapolitan_problems.3.f
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 1
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = neapolitan_problems.3.a
+		random_scope_state = {
+			limit = {
+			state_region = s:STATE_CAMPANIA
+			state_region = s:STATE_APULIA
+			state_region = s:STATE_CALABRIA
+			state_region = s:STATE_SICILY
+			state_region = s:STATE_ABRUZZO
+			}
+			add_modifier = {
+				name = modifier_mafia
+				years = 2
+			}
+			add_devastation = 0.15
+		} 
+	}
+
+	option = {
+		name = neapolitan_problems.3.b
+		trigger = {
+			has_law = law_type:law_dedicated_police
+		}
+		random_scope_state = {
+			limit = {
+			state_region = s:STATE_CAMPANIA
+			state_region = s:STATE_APULIA
+			state_region = s:STATE_CALABRIA
+			state_region = s:STATE_SICILY
+			state_region = s:STATE_ABRUZZO
+			}
+			add_modifier = {
+				name = modifier_mafia
+				days = 365
+			}
+			add_devastation = 0.15
+		} 
+	}
+
+	option = {
+		name = neapolitan_problems.3.c
+		trigger = {
+			has_law = law_type:law_national_guard
+		}
+		random_scope_state = {
+			limit = {
+			state_region = s:STATE_CAMPANIA
+			state_region = s:STATE_APULIA
+			state_region = s:STATE_CALABRIA
+			state_region = s:STATE_SICILY
+			state_region = s:STATE_ABRUZZO
+			}
+			add_modifier = {
+				name = modifier_mafia
+				days = 25
+			}
+			add_devastation = 0.25
+		} 
+	}
+
+}
