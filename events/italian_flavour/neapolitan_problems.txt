@@ -1,0 +1,95 @@
+namespace = neapolitan_problems
+
+neapolitan_problems.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = neapolitan_problems.1.t
+	desc = neapolitan_problems.1.d # probably want a triggered desc here
+	flavor = neapolitan_problems.1.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	immediate = {
+	}
+
+	option = {
+		name = neapolitan_problems.1.a
+		every_scope_state = {
+			limit = {
+				is_homeland = cu:south_italian
+			}
+			add_modifier = {
+				name = modifier_southern_boom
+				years = 10
+				is_decaying = yes 
+			}
+			add_modifier = {
+				name = modifier_southern_agriculture
+				years = 30
+			}
+		}
+	}
+}
+
+neapolitan_problems.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = neapolitan_problems.2.t
+	desc = neapolitan_problems.2.d # probably want a triggered desc here
+	flavor = neapolitan_problems.2.f
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 1
+
+	immediate = {
+		random_country = {
+			limit = {
+				country_is_in_americas = yes
+			}
+			ordered_scope_state = {
+			limit = {
+				state_is_eligible_as_mass_migration_target = yes
+			}
+			order_by = migration_pull
+			save_scope_as = south_italian_migration_state
+		}
+		}
+	}
+
+	option = {
+		name = neapolitan_problems.2.a
+		every_scope_state = {
+			limit = {
+				OR = {
+				state_region = s:STATE_CAMPANIA
+				state_region = s:STATE_SICILY
+				state_region = s:STATE_CALABRIA
+				}
+			}
+			scope:south_italian_migration_state = {
+			create_mass_migration = {
+				origin = root
+				culture = cu:south_italian
+			}
+		}
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+modifier_southern_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_birth_rate_mult = 0.1
+}
+
+modifier_southern_agriculture = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	building_group_bg_agriculture_throughput_add = -0.5
+	building_peasants_standard_of_living_add = -1
+	building_farmers_standard_of_living_add = -1
+	state_construction_mult = -0.15
+}

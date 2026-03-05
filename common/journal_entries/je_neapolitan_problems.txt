@@ -1,0 +1,68 @@
+je_neapolitan_problems= {
+
+ icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+    group = je_group_historical_content
+
+	is_shown_in_lobby = {
+		c:ITA ?= this
+	}
+
+    is_shown_when_inactive = {
+		c:ITA ?= this
+	}
+
+    possible = {
+        c:ITA = this
+    }
+
+    immediate = {
+		trigger_event = { id = neapolitan_problems_start.1 }
+    }
+
+    complete = {
+        OR = {
+			has_law = law_type:law_homesteading
+			has_law = law_type:law_collectivized_agriculture
+		}
+    }
+
+	
+	
+	
+
+    on_complete = {
+    }
+
+	on_yearly_pulse = {
+		random_events = {
+			200 = 0
+			50 = neapolitan_problems_start.2
+		}
+	}
+
+    fail = {
+		NOT = {
+			owns_entire_state_region = STATE_ABRUZZO
+			owns_entire_state_region = STATE_CAMPANIA
+			owns_entire_state_region = STATE_CALABRIA
+			owns_entire_state_region = STATE_APULIA
+			owns_entire_state_region = STATE_SICILY
+		}
+	}
+    
+    on_fail = {
+	}
+           
+    on_timeout = {
+	}
+    
+    invalid = {
+    }
+
+    should_be_pinned_by_default = yes
+
+    timeout = 2555
+
+    weight = 100
+}

@@ -23,7 +23,7 @@ modifier_monastic_distillery = {
 }
 
 modifier_reduced_prices = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	building_food_industry_throughput_add = -0.15
 	state_radicals_from_political_movements_mult = -0.4
 	country_radicals_from_legitimacy_mult = -0.15
@@ -31,13 +31,13 @@ modifier_reduced_prices = {
 }
 
 modifier_catherinian_legacy = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	country_prestige_add = 50
 	unit_morale_loss_mult = -0.05
 	unit_morale_recovery_mult = 0.05
 }
 
 modifier_russia_minting = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_minting_mult = 0.15
 }
