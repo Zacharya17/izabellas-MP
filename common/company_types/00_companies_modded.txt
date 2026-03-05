@@ -589,7 +589,7 @@ company_türkiye_milli_bankasi = {
 }
 
 company_olearia_clemente = {
-	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations_1.dds"
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/clemente_company.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 
 	flavored_company = yes
@@ -598,6 +598,10 @@ company_olearia_clemente = {
 
 	building_types = {
 		building_olive_groves
+	}
+
+	possible_prestige_goods = {
+		prestige_good_extra_virgin_olive_oil
 	}
 
 	extension_building_types = {

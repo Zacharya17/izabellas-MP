@@ -20,7 +20,7 @@ company_krupp = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_generic_steel
+		prestige_good_kruppstahl
 	}
 
 	potential = {

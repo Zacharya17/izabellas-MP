@@ -4,6 +4,9 @@
  Hitler:0 "Hitler"
  Grießinger:0 "Grießinger"
 
+##Cultures
+irish_2: "Pale Irish"
+
 ##Modded Companies
 
  company_amsterdamse_effectenbeurs: "Amsterdamse Effectenbeurs"
@@ -16,6 +19,7 @@
  company_imperial_companhia_seropédica_fluminense: "Imperial Companhia Seropédica Fluminense"
  company_saechische_maschinenfabrik: "Sächische Maschinenfabrik"
  company_türkiye_milli_bankasi: "Türkiye Milli Bankası"
+ company_olearia_clemente: "Olearia Clemente & Co."
 
 ##Modded Laws
  
@@ -39,6 +43,7 @@
  prestige_good_prestige_coal_australia: "Australian Coal"
  prestige_good_moskovskaya_osobaya: "Moskovskaya Osobaya"
  prestige_good_kruppstahl: "Kruppstahl"
+ prestige_good_extra_virgin_olive_oil: "Extra Virgin Olive Oil"
 
 ##Modded Decision
  extend_ayllu_kinship_sa: "Extend the Ayllu Bonds to the South Andeans"
@@ -337,3 +342,6 @@
  potato_famine_start.2.d: "The Irish People set forth for america to seek better living conditions"
  potato_famine_start.2.f: "Families wait at ports, in rags for clothes and empty stomachs, for they have put all of their money towards sending their young son to america, to find hope and to survive, as those in Ireland may not"
  potato_famine_start.2.a: "Disastrous!"
+
+#messogiorno flavour
+ law_latifundias_south: "Sicilian Latifundias"

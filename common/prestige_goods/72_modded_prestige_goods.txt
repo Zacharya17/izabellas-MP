@@ -39,5 +39,11 @@ prestige_good_moskovskaya_osobaya = {
 prestige_good_kruppstahl = {
 	base_good = steel
 	prestige_bonus = 0.2
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/krupp_steel.dds"
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/krupp_steel.dds"
+}
+
+prestige_good_extra_virgin_olive_oil = {
+	base_good = olive_oil
+	prestige_bonus = 0.2
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/extra_virgin_olive_oil.dds"
 }

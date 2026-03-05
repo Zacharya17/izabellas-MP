@@ -130,7 +130,7 @@ state_trait_trent_river = {
 	modifier = {
 		state_infrastructure_add = 20
 		state_market_access_price_impact = 0.05	
-		building_group_bg_agriculture_throughput_add = 0.5	
+		building_group_bg_agriculture_throughput_add = 0.05	
 	}
 }
 
@@ -174,6 +174,16 @@ state_trait_neapolitan_olives = {
 	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
 		building_olive_groves_throughput_add = 0.1
+	}
+}
+
+state_trait_mount_edna = {
+	icon = "gfx/interface/icons/state_trait_icons/disaster_zone.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		state_market_access_price_impact = -0.05
+		state_infrastructure_add = -20
+		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
 
