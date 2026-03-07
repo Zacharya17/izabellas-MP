@@ -35,8 +35,7 @@ neapolitan_problems.1 = {
 			}
 			add_modifier = {
 				name = modifier_southern_boom
-				years = 10
-				is_decaying = yes 
+				years = 12
 			}
 			add_modifier = {
 				name = modifier_southern_agriculture

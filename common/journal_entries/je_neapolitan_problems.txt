@@ -35,6 +35,12 @@ je_neapolitan_problems= {
 	}	
 
     on_complete = {
+		every_scope_state = {
+			limit = {
+				has_modifier = modifier_southern_agriculture
+			}
+			remove_modifier = modifier_southern_agriculture
+		}
     }
 
 	on_yearly_pulse = {

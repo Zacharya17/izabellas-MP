@@ -346,9 +346,11 @@ irish_2: "Pale Irish"
  potato_famine_start.2.f: "Families wait at ports, in rags for clothes and empty stomachs, for they have put all of their money towards sending their young son to america, to find hope and to survive, as those in Ireland may not"
  potato_famine_start.2.a: "Disastrous!"
 
-#messogiorno flavour
+#mezzogiorno flavour
  law_latifundias_south: "Sicilian Latifundias"
  modifier_southern_boom: "Southern Population Boom"
  modifier_southern_agriculture: "Southern Agricultural Failure"
 
  je_neapolitan_problems: "Reforming the Mezzogiorno"
+ modifier_mafia: "The Mafia"
+ modifier_italian_unificationist_sentiments: "Pro-unification Sentiment"
