@@ -20,6 +20,7 @@ irish_2: "Pale Irish"
  company_saechische_maschinenfabrik: "Sächische Maschinenfabrik"
  company_türkiye_milli_bankasi: "Türkiye Milli Bankası"
  company_olearia_clemente: "Olearia Clemente & Co."
+ company_ikea: "Inter IKEA Group"
 
 ##Modded Laws
  
@@ -44,6 +45,7 @@ irish_2: "Pale Irish"
  prestige_good_moskovskaya_osobaya: "Moskovskaya Osobaya"
  prestige_good_kruppstahl: "Kruppstahl"
  prestige_good_extra_virgin_olive_oil: "Extra Virgin Olive Oil"
+ prestige_good_ikea: "Ikea Furniture"
 
 ##Modded Decision
  extend_ayllu_kinship_sa: "Extend the Ayllu Bonds to the South Andeans"

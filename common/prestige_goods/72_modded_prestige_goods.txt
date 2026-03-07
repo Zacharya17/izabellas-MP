@@ -47,3 +47,9 @@ prestige_good_extra_virgin_olive_oil = {
 	prestige_bonus = 0.2
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/extra_virgin_olive_oil.dds"
 }
+
+prestige_good_ikea = {
+	base_good = furniture
+	prestige_bonus = 0.2
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_furniture_prestige.dds"
+}
