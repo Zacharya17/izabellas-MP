@@ -46,32 +46,6 @@ je_potato_famine = {
 
     on_complete = {
 		activate_law = law_type:law_migration_controls
-				 s:STATE_LEINSTER = {
-			add_homeland = cu:irish_2
-		}
-		s:STATE_CONNAUGHT = {
-			add_homeland = cu:irish_2
-		}
-		s:STATE_MUNSTER = {
-			add_homeland = cu:irish_2 
-		}
-		s:STATE_ULSTER = {
-			add_homeland = cu:irish_2 
-		}
-
-
-		s:STATE_LEINSTER = {
-			remove_homeland = cu:irish 
-		}
-		s:STATE_CONNAUGHT = {
-			remove_homeland = cu:irish 
-		}
-		s:STATE_MUNSTER = {
-			remove_homeland = cu:irish 
-		}
-		s:STATE_ULSTER = {
-			remove_homeland = cu:irish 
-		}
     }
 
 	on_yearly_pulse = {
