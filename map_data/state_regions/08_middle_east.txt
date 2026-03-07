@@ -636,6 +636,9 @@ STATE_AYDIN = {
     arable_land = 35
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
+        building_lead_mine = 24
+        building_iron_mine = 39
+        building_gold_mine = 5
         building_coal_mine = 48
         building_logging_camp = 5
         building_fishing_wharf = 15
@@ -656,6 +659,9 @@ STATE_KONYA = {
     arable_land = 40
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_vineyard" }
     capped_resources = {
+        building_iron_mine = 20
+        building_coal_mine = 56
+        building_gold_mine = 3
         building_logging_camp = 4
         building_fishing_wharf = 6
     }
@@ -675,6 +681,7 @@ STATE_KASTAMONU = {
     arable_land = 35
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_vineyard" }
     capped_resources = {
+        building_iron_mine = 13
         building_coal_mine = 72
         building_logging_camp = 11
         building_fishing_wharf = 10
@@ -695,6 +702,7 @@ STATE_DIYARBAKIR = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_coal_mine = 32
+        building_lead_mine = 12
     }
 }
 
@@ -711,6 +719,8 @@ STATE_ADANA = {
     arable_land = 15
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
+        building_gold_mine = 4
+        building_lead_mine = 34
         building_coal_mine = 44
         building_logging_camp = 4
         building_fishing_wharf = 12
@@ -731,6 +741,7 @@ STATE_TRABZON = {
     arable_land = 40
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
+        building_gold_mine = 4
         building_iron_mine = 21
         building_logging_camp = 8
         building_fishing_wharf = 9
@@ -751,6 +762,7 @@ STATE_ERZURUM = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_iron_mine = 30
+        building_coal_mine = 21
         building_lead_mine = 36
         building_logging_camp = 9
     }
@@ -768,8 +780,10 @@ STATE_ANKARA = {
     arable_land = 65
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
-        building_logging_camp = 9
-        building_iron_mine = 20
+        building_gold_mine = 4
+        building_logging_camp = 15
+        building_lead_mine = 13
+        building_iron_mine = 30
         building_coal_mine = 26
     }
 }
