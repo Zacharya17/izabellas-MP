@@ -2539,6 +2539,23 @@ SIC = { # Two Sicilies
 			}
 		}
 	}
+	dynamic_country_name = {
+		name = dyn_c_south_italy
+		adjective = dyn_c_south_italy_adj
+
+		is_main_tag_only = yes
+		priority = 50
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOR = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_theocracy
+				}
+			}
+		}
+	}
 }
 
 SMB = { # Sambas

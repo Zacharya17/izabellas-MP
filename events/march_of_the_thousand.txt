@@ -37,4 +37,36 @@ march_of_the_thousand.1 = {
 				}
 			}
 	}
+	
+	option = {
+		name = march_of_the_thousand.1.b
+		s:STATE_UMBRIA = {
+				random_scope_state = {
+					limit = {
+						exists = c:SIC
+						owner = {
+							OR = {
+								c:PAP = THIS
+							}
+						}
+					}
+				set_state_owner = c:SIC
+			}
+		}
+		c:SIC = {
+			activate_law = law_type:law_presidential_republic
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_homesteading
+			activate_law = law_type:law_proportional_taxation
+			activate_law = law_type:law_public_schools
+			activate_law = law_type:law_total_separation
+			activate_law = law_type:law_technocracy
+			leader = {
+				save_scope_as = siclilies_leader_scope
+			}
+		}
+		scope:sicilies_leader_scope = {
+				kill_character = yes
+			}
+	}
 }

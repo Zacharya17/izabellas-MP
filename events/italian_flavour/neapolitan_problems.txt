@@ -25,7 +25,13 @@ neapolitan_problems.1 = {
 		name = neapolitan_problems.1.a
 		every_scope_state = {
 			limit = {
-				is_homeland = cu:south_italian
+			OR = {
+			state_region = s:STATE_CAMPANIA
+			state_region = s:STATE_APULIA
+			state_region = s:STATE_CALABRIA
+			state_region = s:STATE_SICILY
+			state_region = s:STATE_ABRUZZO
+			}
 			}
 			add_modifier = {
 				name = modifier_southern_boom
@@ -61,7 +67,21 @@ neapolitan_problems.2 = {
 	immediate = {
 		random_country = {
 			limit = {
-				country_is_in_americas = yes
+				OR = {
+					capital.region = sr:region_dixie
+					capital.region = sr:region_new_england
+					capital.region = sr:region_canada
+					capital.region = sr:region_pacific_coast
+					capital.region = sr:region_great_plains
+					capital.region = sr:region_the_midwest
+					capital.region = sr:region_mexico
+					capital.region = sr:region_central_america
+					capital.region = sr:region_gran_colombia
+					capital.region = sr:region_andes
+					capital.region = sr:region_brazil
+					capital.region = sr:region_la_plata
+
+				}
 			}
 			ordered_scope_state = {
 			limit = {
@@ -120,17 +140,19 @@ neapolitan_problems.3 = {
 		name = neapolitan_problems.3.a
 		random_scope_state = {
 			limit = {
+			OR = {
 			state_region = s:STATE_CAMPANIA
 			state_region = s:STATE_APULIA
 			state_region = s:STATE_CALABRIA
 			state_region = s:STATE_SICILY
 			state_region = s:STATE_ABRUZZO
 			}
+			}
 			add_modifier = {
 				name = modifier_mafia
 				years = 2
 			}
-			add_devastation = 0.15
+			add_devastation = 15
 		} 
 	}
 
@@ -141,17 +163,19 @@ neapolitan_problems.3 = {
 		}
 		random_scope_state = {
 			limit = {
+			OR = {
 			state_region = s:STATE_CAMPANIA
 			state_region = s:STATE_APULIA
 			state_region = s:STATE_CALABRIA
 			state_region = s:STATE_SICILY
 			state_region = s:STATE_ABRUZZO
 			}
+			}
 			add_modifier = {
 				name = modifier_mafia
 				days = 365
 			}
-			add_devastation = 0.15
+			add_devastation = 15
 		} 
 	}
 
@@ -162,17 +186,19 @@ neapolitan_problems.3 = {
 		}
 		random_scope_state = {
 			limit = {
+			OR = {
 			state_region = s:STATE_CAMPANIA
 			state_region = s:STATE_APULIA
 			state_region = s:STATE_CALABRIA
 			state_region = s:STATE_SICILY
 			state_region = s:STATE_ABRUZZO
 			}
+			}
 			add_modifier = {
 				name = modifier_mafia
-				days = 25
+				days = 31
 			}
-			add_devastation = 0.25
+			add_devastation = 30
 		} 
 	}
 

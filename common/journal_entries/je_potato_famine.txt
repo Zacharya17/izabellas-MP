@@ -72,13 +72,12 @@ je_potato_famine = {
 		s:STATE_ULSTER = {
 			remove_homeland = cu:irish 
 		}
-		trigger_event = { id =  irish_rising.4 days = 100 }
     }
 
 	on_yearly_pulse = {
 		random_events = {
-			200 = 0
-			50 = potato_famine_start.2
+			10 = 0
+			10 = potato_famine_start.2
 		}
 	}
 

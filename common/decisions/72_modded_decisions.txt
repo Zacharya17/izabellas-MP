@@ -2,7 +2,7 @@
 
 extend_ayllu_kinship_sa = {
 	is_shown = {
-		c:IQU ?= this
+		this = c:IQU
 		NOT = { has_global_variable = extended_ayllu_kinship }
 	}
 

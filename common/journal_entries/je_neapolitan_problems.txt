@@ -13,11 +13,11 @@ je_neapolitan_problems= {
 	}
 
     possible = {
-        c:ITA = this
+        c:ITA ?= this
     }
 
     immediate = {
-		trigger_event = { id = neapolitan_problems_start.1 }
+		trigger_event = { id = neapolitan_problems.1 }
     }
 
     complete = {
@@ -27,9 +27,12 @@ je_neapolitan_problems= {
 		}
     }
 
-	
-	
-	
+	on_monthly_pulse = {
+		random_events = {
+			15 = 0
+			5 = neapolitan_problems.3
+		}
+	}	
 
     on_complete = {
     }
@@ -37,7 +40,7 @@ je_neapolitan_problems= {
 	on_yearly_pulse = {
 		random_events = {
 			200 = 0
-			50 = neapolitan_problems_start.2
+			50 = neapolitan_problems.2
 		}
 	}
 
@@ -61,8 +64,6 @@ je_neapolitan_problems= {
     }
 
     should_be_pinned_by_default = yes
-
-    timeout = 2555
 
     weight = 100
 }

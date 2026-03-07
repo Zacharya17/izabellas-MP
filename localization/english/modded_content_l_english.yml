@@ -100,6 +100,7 @@ irish_2: "Pale Irish"
  march_of_the_thousand.1.d: "A group of a thousand volenteers lands in Sicily, making their way up the peninsula to meet with [ROOT.GetCountry.GetAdjective] troops in the north, however throughout their journey thousands upon thousands of defectors join their ranks"
  march_of_the_thousand.1.f: ""Is it true? Are you those Piedmontian heroes we hear so much about? may i join you on your quest to unite Italy and restore glory to our lands!?""
  march_of_the_thousand.1.a: "And so the Mezzogiorno joins the fold"
+ march_of_the_thousand.1.b: "We can get by without them!"
 
 # Romanian JE Localization
  romanian_conference.0.t: "Romanians Press for union"
@@ -345,3 +346,7 @@ irish_2: "Pale Irish"
 
 #messogiorno flavour
  law_latifundias_south: "Sicilian Latifundias"
+ modifier_southern_boom: "Southern Population Boom"
+ modifier_southern_agriculture: "Southern Agricultural Failure"
+
+ je_neapolitan_problems: "Reforming the Mezzogiorno"
