@@ -25,6 +25,26 @@ je_neapolitan_problems= {
 			has_law = law_type:law_homesteading
 			has_law = law_type:law_collectivized_agriculture
 		}
+		any_scope_state = {
+			state_region = s:STATE_CAMPANIA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_APULIA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_SICILY
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_ABRUZZO
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_CALABRIA
+			is_incorporated = yes
+		}
     }
 
 	on_monthly_pulse = {
