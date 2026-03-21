@@ -218,6 +218,10 @@ company_jakub_klein = {
 		building_chemical_plant
 	}
 
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
 	potential = {
 		has_interest_marker_in_region = region_danubia
 	}
