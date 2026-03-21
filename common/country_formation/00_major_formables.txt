@@ -238,7 +238,7 @@ YUG = {
             c:KUK ?= this
             c:HRE ?= this
         }
-		has_technology_researched = pan-nationalism
+		has_technology_researched = nationalism
 		trigger_if = {
 			limit = {
 				c:BUL ?= this
