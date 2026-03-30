@@ -46,6 +46,14 @@ je_potato_famine = {
 
     on_complete = {
 		activate_law = law_type:law_migration_controls
+
+		every_scope_state = {
+			limit = {
+			has_modifier = modifier_potato_famine
+			}
+			remove_modifier = modifier_potato_famine
+			}
+		}
     }
 
 	on_yearly_pulse = {
