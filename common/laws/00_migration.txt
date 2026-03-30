@@ -29,6 +29,12 @@ law_migration_controls = {
 
 	progressiveness = 0
 
+	can_enact = {
+		NOT = {
+			has_modifier = modifier_opened_borders
+		}
+	}
+
 	on_enact = {
 		if = {
 			limit = {
@@ -83,6 +89,12 @@ law_closed_borders = {
 	}
 
 	progressiveness = -50
+
+	can_enact = {
+		NOT = {
+			has_modifier = modifier_opened_borders
+		}
+	}
 
 	on_enact = {
 		if = {
