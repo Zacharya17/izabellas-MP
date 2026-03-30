@@ -354,3 +354,15 @@ irish_2: "Pale Irish"
  je_neapolitan_problems: "Reforming the Mezzogiorno"
  modifier_mafia: "The Mafia"
  modifier_italian_unificationist_sentiments: "Pro-unification Sentiment"
+
+ # open borders wargoals
+ war_goal_open_borders_type_name: "Open Borders"
+ war_goal_open_borders_type_desc: "A [concept_war_goal] to enforce Open Borders with the target [concept_country]. The target must also enact [GetLawType('law_no_migration_controls').GetName]."
+ war_goal_open_borders: "Enforce [WAR_GOAL_DRAFT.GetTarget.GetAdjective] #red Open Borders"
+
+ forced_borders.1.t: "Borders opened"
+ forced_borders.1.d: "We have been forced to open our borders, despite our governments best efforts"
+ forced_borders.1.f: "Enemy forces have overwhelmed us, we must surrender: Even if it costs us our sovereignty"
+ forced_borders.1.a: "Unfortunate..."
+
+ modifier_opened_borders: "Forced Border Opening"
