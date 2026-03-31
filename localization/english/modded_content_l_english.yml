@@ -83,6 +83,8 @@ irish_2: "Pale Irish"
  dutch_debt_addition.3.a: "We cured the Boils, but at what cost..."
  modifier_naughty_netherlands: "The Stock Exchange Crashed!"
 
+ formation.19.b: "A #yellow Greater Luxemberg#! prevails!"
+
  #Italy
  je_central_italy: "The United Provinces of Central Italy"
  je_central_italy_reason: "The [GetCulture('north_italian').GetName] and [GetCulture('south_italian').GetName] states are spurred on by the nationalism of post-napoleonic Europe, and look towards a leader in their struggle to unite the peninsula. Perhaps by taking some initiative we can show the petty Kingdoms and Duchies that we are that leader, leading towards a unified peninsula under the banner of #yellow Italy"
@@ -366,3 +368,5 @@ irish_2: "Pale Irish"
  forced_borders.1.a: "Unfortunate..."
 
  modifier_opened_borders: "Forced Border Opening"
+
+
