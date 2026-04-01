@@ -215,8 +215,8 @@
 	}
 
 	fail = {
-		OR = {
-			radical_fraction = 0.3
+		radical_fraction = {
+			value >= 0.3
 		}
 	}
 
