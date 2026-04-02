@@ -1,4 +1,4 @@
-je_neapolitan_problems= {
+je_neapolitan_problems = {
 
  icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
