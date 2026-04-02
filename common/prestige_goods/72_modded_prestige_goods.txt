@@ -53,3 +53,9 @@ prestige_good_ikea = {
 	prestige_bonus = 0.2
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_furniture_prestige.dds"
 }
+
+prestige_good_javan_coffee = {
+	base_good = coffee
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/javan_coffee_dds.dds"
+}
