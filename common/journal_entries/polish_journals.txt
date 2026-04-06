@@ -18,7 +18,6 @@ je_polish_constitution = {
 	scripted_button = je_polish_constitution_button1
 	scripted_button = je_polish_constitution_button2
 	scripted_button = je_polish_constitution_button3
-	scripted_button = je_polish_constitution_button4
 
 	complete = {
 		is_subject = no
