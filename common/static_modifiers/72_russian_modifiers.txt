@@ -41,3 +41,13 @@ modifier_russia_minting = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_minting_mult = 0.15
 }
+
+modifier_infamy_decay.1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_infamy_decay_mult = -0.1
+}
+
+modifier_infamy_decay.2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_infamy_decay_mult = -0.25
+}

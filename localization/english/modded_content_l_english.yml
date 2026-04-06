@@ -328,6 +328,8 @@
  claims_tsargorod_desc: "We must remember the muslim Threat down yonder. Catherine the great proposed the Greek Project in the 1780s. It is now time we shall realise the plan. Let Moscow and Tsargorod rejoice, lets bring peace and freedom to the Orthodox people of the Balkan!"
 
  modifier_catherinian_legacy: "In the Footsteps of Giants"
+ modifier_infamy_decay.1: "Claimed Tsargorod"
+ modifier_infamy_decay.2: "Claimed Black Sea Regions"
 
  claims_black_sea_region: "Claim the Entirety of the Black Sea Coast"
  claims_black_sea_region_desc: "Catherine the great proposed a Greek Plan, to secure the safety and prosperity of Slavs and Orthodox Christians alike in the Balkans. We most expand on this Plan. In this day and age creating and independent State down south is futile. We instead must control the entirety of the Black Sea, to secure our own interests and crush the muslim meance!"
