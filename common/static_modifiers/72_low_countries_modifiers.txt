@@ -5,7 +5,7 @@ modifier_gateway_europe = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	country_prestige_mult = 0.1
 	state_migration_pull_mult = 0.1
-	country_mass_migration_attraction_mult = 0.5
+	country_mass_migration_attraction_mult = 0.05
 	state_trade_capacity_mult = 0.1
 }
 

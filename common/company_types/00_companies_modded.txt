@@ -43,6 +43,8 @@ company_amsterdamse_effectenbeurs = {
 		building_trade_center_throughput_add = 0.15
 		state_capitalists_investment_pool_efficiency_mult = 0.05
 		country_max_companies_add = 1
+		state_trade_quantity_mult = 0.1
+		state_trade_advantage_mult = 0.15
 	}
 
 	ai_will_do = {
@@ -293,8 +295,308 @@ company_marzotto = {
 	}
 }
 
+# Vereenigde Oostindische Compagnie
 
+ #Type 1:
+	company_vereenigde_oostindische_compagnie.1 = {
+		icon = "gfx/interface/icons/company_icons/modded_company_icons/VOC_COA_dds.dds"
+		background = "gfx/interface/icons/company_icons/modded_company_backgrounds/VOC_Holding_dds.dds"
 
+		flavored_company = yes
+
+			building_types = {
+				building_banana_plantation
+				building_coffee_plantation
+				building_tea_plantation
+	
+			}
+
+			extension_building_types = {
+				building_rubber_plantation
+				building_tobacco_plantation
+			}
+
+			possible_prestige_goods = {
+				prestige_good_javan_coffee
+			}
+
+			potential = {
+				country_has_primary_culture = cu:dutch
+				has_global_variable = voc.1
+			}
+
+			possible = {
+				any_scope_state = {
+					region = sr:region_indonesia
+					any_scope_building = {
+						OR = {
+							building_banana_plantation
+							building_coffee_plantation
+							building_tea_plantation
+						}
+						level >= 5
+					}
+				}
+			}
+
+			prosperity_modifier = {
+				state_trade_capacity_mult = 0.1
+				building_trade_center_throughput_add = 0.05
+				building_group_bg_plantations_throughput_add = 0.07
+			}
+
+			ai_will_do = {
+			}
+
+			ai_construction_targets = {
+			}
+
+			ai_weight = {
+				value = 3 # Higher base value for flavored companies
+			}
+}
+
+ #Type 2:
+	company_vereenigde_oostindische_compagnie.2 = {
+		icon = "gfx/interface/icons/company_icons/modded_company_icons/VOC_COA_dds.dds"
+		background = "gfx/interface/icons/company_icons/modded_company_backgrounds/VOC_Holding_dds.dds"
+
+		flavored_company = yes
+
+			building_types = {
+				#building_spice_plantation
+				building_cotton_plantation
+				building_dye_plantation
+				building_sugar_plantation
+	
+			}
+
+			extension_building_types = {
+				building_rubber_plantation
+				building_tobacco_plantation
+			}
+
+			possible_prestige_goods = {
+				#prestige_good_nutmeg_spice
+			}
+
+			potential = {
+				country_has_primary_culture = cu:dutch
+				has_global_variable = voc.2
+			}
+
+			possible = {
+				any_scope_state = {
+					region = sr:region_indonesia
+					any_scope_building = {
+						OR = {
+							building_cotton_plantation
+							building_dye_plantation
+							building_sugar_plantation
+						}
+						level >= 5
+					}
+				}
+			}
+
+			prosperity_modifier = {
+				state_trade_advantage_mult = 0.1
+				building_trade_center_throughput_add = 0.05
+				building_group_bg_plantations_throughput_add = 0.07
+			}
+
+			ai_will_do = {
+			}
+
+			ai_construction_targets = {
+			}
+
+			ai_weight = {
+				value = 3 # Higher base value for flavored companies
+			}
+}
+
+#Ikea
+company_ikea = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/ikea_logo_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_SVEALAND }
+
+	building_types = {
+		building_furniture_manufactory
+		building_tooling_workshop
+	}
+
+	extension_building_types = {
+		building_logging_camp
+	}
+
+	possible_prestige_goods = {
+		prestige_good_ikea
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_baltic
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_SVEALAND
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_GOTALAND
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_furniture_manufactory
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_furniture_manufactory_throughput_add = 0.2
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			state_region = s:STATE_GOTALAND
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_furniture_manufacturies = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_GOTALAND
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_olearia_clemente = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/clemente_company.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_CAMPANIA }
+
+	building_types = {
+		building_olive_groves
+	}
+
+	possible_prestige_goods = {
+		prestige_good_extra_virgin_olive_oil
+	}
+
+	extension_building_types = {
+		building_port
+		building_vineyard
+	}
+
+	potential = {
+		owns_entire_state_region = STATE_CAMPANIA
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_olive_groves
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_olive_groves_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_olive_groves
+				level >= 5
+			}
+		}
+	}
+
+	ai_construction_targets = {
+		building_olive_groves = {
+			level = 5
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+#Sächsische Maschinenfabrik vormals Richard Hartmann (founded 1837)
+company_saechische_maschinenfabrik = {
+	icon = "gfx/interface/icons/company_icons/modded_company_icons/sächische_maschinenfabrik_dds.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_SAXONY }
+
+	building_types = {
+		building_tooling_workshop
+		building_motor_industry
+	}
+
+	extension_building_types = {
+		building_textile_mill
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_tools
+	}
+
+	potential = {
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_SAXONY
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshop
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+		building_trade_center_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshop
+				level >= 5
+			}
+		}
+	}
+}
 
 
 ## North American Companies
@@ -415,6 +717,9 @@ company_australian_agricultural = {
 	}
 }
 
+
+##South America
+
 company_imperial_companhia_seropédica_fluminense = {
 	icon = "gfx/interface/icons/company_icons/basic_agriculture_2.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
@@ -466,57 +771,8 @@ company_imperial_companhia_seropédica_fluminense = {
 	}
 }
 
-#Sächsische Maschinenfabrik vormals Richard Hartmann (founded 1837)
-company_saechische_maschinenfabrik = {
-	icon = "gfx/interface/icons/company_icons/modded_company_icons/sächische_maschinenfabrik_dds.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 
-	flavored_company = yes
-
-	preferred_headquarters = { STATE_SAXONY }
-
-	building_types = {
-		building_tooling_workshop
-		building_motor_industry
-	}
-
-	extension_building_types = {
-		building_textile_mill
-	}
-
-	possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
-
-	potential = {
-	}
-
-	possible = {
-		any_scope_state = {
-			state_region = s:STATE_SAXONY
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_tooling_workshop
-				level >= 5
-			}
-		}
-	}
-
-	prosperity_modifier = {
-		building_group_bg_manufacturing_throughput_add = 0.05
-		building_trade_center_throughput_add = 0.05
-	}
-
-	ai_will_do = {
-		any_scope_state = {
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_tooling_workshop
-				level >= 5
-			}
-		}
-	}
-}
+##Asia
 
 # Türkiye Milli Bankası, later the national Turkish Bank
 company_türkiye_milli_bankasi = {
@@ -580,136 +836,6 @@ company_türkiye_milli_bankasi = {
 	ai_construction_targets = {
 		building_trade_center = {
 			level = 5
-		}
-	}
-
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
-}
-
-company_olearia_clemente = {
-	icon = "gfx/interface/icons/company_icons/modded_company_icons/clemente_company.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
-
-	flavored_company = yes
-
-	preferred_headquarters = { STATE_CAMPANIA }
-
-	building_types = {
-		building_olive_groves
-	}
-
-	possible_prestige_goods = {
-		prestige_good_extra_virgin_olive_oil
-	}
-
-	extension_building_types = {
-		building_port
-		building_vineyard
-	}
-
-	potential = {
-		owns_entire_state_region = STATE_CAMPANIA
-	}
-
-	possible = {
-		any_scope_state = {
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_olive_groves
-				level >= 5
-			}
-		}
-	}
-
-	prosperity_modifier = {
-		building_olive_groves_throughput_add = 0.1
-	}
-
-	ai_will_do = {
-		any_scope_state = {
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_olive_groves
-				level >= 5
-			}
-		}
-	}
-
-	ai_construction_targets = {
-		building_olive_groves = {
-			level = 5
-		}
-	}
-
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
-}
-
-#Ikea
-company_ikea = {
-	icon = "gfx/interface/icons/company_icons/modded_company_icons/ikea_logo_dds.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
-
-	flavored_company = yes
-
-	preferred_headquarters = { STATE_SVEALAND }
-
-	building_types = {
-		building_furniture_manufactory
-		building_tooling_workshop
-	}
-
-	extension_building_types = {
-		building_logging_camp
-	}
-
-	possible_prestige_goods = {
-		prestige_good_ikea
-	}
-
-	potential = {
-		has_interest_marker_in_region = region_baltic
-	}
-
-	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_SVEALAND
-			}
-		}
-	}
-
-	possible = {
-		any_scope_state = {
-			state_region = s:STATE_GOTALAND
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_furniture_manufactory
-				level >= 5
-			}
-		}
-	}
-
-	prosperity_modifier = {
-		building_furniture_manufactory_throughput_add = 0.2
-	}
-
-	ai_will_do = {
-		any_scope_state = {
-			state_region = s:STATE_GOTALAND
-			is_incorporated = yes
-		}
-	}
-
-	ai_construction_targets = {
-		building_furniture_manufacturies = {
-			level = 5
-			state_trigger = {
-				state_region = s:STATE_GOTALAND
-			}
 		}
 	}
 

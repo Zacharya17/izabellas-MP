@@ -1,14 +1,12 @@
 ﻿l_english:
-# the name
 
- Hitler:0 "Hitler"
- Grießinger:0 "Grießinger"
-
-##Cultures
-irish_2: "Pale Irish"
+#Cultures
+ irish_2: "Pale Irish"
 
 ##Modded Companies
 
+ company_vereenigde_oostindische_compagnie.1: "Vereenigde Oostindische Compagnie"
+ company_vereenigde_oostindische_compagnie.2: "Vereenigde Oostindische Compagnie"
  company_amsterdamse_effectenbeurs: "Amsterdamse Effectenbeurs"
  company_porceleyne_fles: "De Koninklijke Porceleyne Fles"
  company_van_houtum_en_palm: "Van Houtum en Palm"
@@ -36,7 +34,7 @@ irish_2: "Pale Irish"
 ##Modded Goods
  olive_oil: "Olive Oil"
  
-
+ prestige_good_javan_coffee: "Java Coffee"
  prestige_good_delftware: "Delftware"
  prestige_good_cockerill_tools: "Cockerill Tools"
  prestige_good_congo_rubber: "Congolese Rubber"
@@ -369,4 +367,18 @@ irish_2: "Pale Irish"
 
  modifier_opened_borders: "Forced Border Opening"
 
+
+
+
+
+
+
+
+
+
+
+# the name
+
+ Hitler:0 "Hitler"
+ Grießinger:0 "Grießinger"
 
