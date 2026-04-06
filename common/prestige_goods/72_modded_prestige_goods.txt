@@ -59,3 +59,9 @@ prestige_good_javan_coffee = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/javan_coffee_dds.dds"
 }
+
+prestige_good_banda_nutmeg = {
+	base_good = spice_box
+	prestige_bonus = 0.3
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/banda_nutmeg_dds.dds"
+}

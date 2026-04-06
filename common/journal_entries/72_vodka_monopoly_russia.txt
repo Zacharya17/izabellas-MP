@@ -28,12 +28,6 @@ je_vodka_monopoly = {
 	scripted_button = reducing_prices_button
 	scripted_button = normalising_prices_button
 
-	immediate = {
-		company:company_vodka_monopoly = {
-			save_scope_as = vodka_company
-		}
-	}
-
 	on_monthly_pulse = {
 	}
 

@@ -364,7 +364,7 @@ company_marzotto = {
 		flavored_company = yes
 
 			building_types = {
-				#building_spice_plantation
+				building_spice_plantation
 				building_cotton_plantation
 				building_dye_plantation
 				building_sugar_plantation
@@ -377,7 +377,7 @@ company_marzotto = {
 			}
 
 			possible_prestige_goods = {
-				#prestige_good_nutmeg_spice
+				prestige_good_banda_nutmeg
 			}
 
 			potential = {
@@ -390,6 +390,7 @@ company_marzotto = {
 					region = sr:region_indonesia
 					any_scope_building = {
 						OR = {
+							building_spice_plantation
 							building_cotton_plantation
 							building_dye_plantation
 							building_sugar_plantation

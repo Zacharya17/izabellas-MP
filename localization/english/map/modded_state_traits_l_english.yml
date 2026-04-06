@@ -25,3 +25,12 @@
  building_olive_groves_throughput_add: "Olive groves building [concept_throughput]"
  state_trait_mount_edna: "Mount Edna"
  state_trait_gulf_of_corinth: "Gulf of Corinth "
+
+ state_trait_java_cash_crop_complex: "Java Cash Crop Complex"
+ state_trait_aceh_pepper_coast: "Aceh Pepper Coast"
+ state_trait_spice_islands: "Spice Islands"
+ state_trait_bourbon_vanilla_region: "Bourbon Vanilla Region"
+ state_trait_zanzibar_cloves_hub: "Zanzibar Cloves Hub"
+ state_trait_ceylon_cinnamon_region: "Ceylon Cinnamon Region"
+ state_trait_malabar_coast: "Malabar Coast"
+ building_spice_plantation_throughput_add: "Spice Plantations building [concept_throughput]"

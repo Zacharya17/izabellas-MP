@@ -33,7 +33,9 @@
 
 ##Modded Goods
  olive_oil: "Olive Oil"
+ spice_box: "Spice Boxes"
  
+ prestige_good_banda_nutmeg: "Banda Nutmeg"
  prestige_good_javan_coffee: "Java Coffee"
  prestige_good_delftware: "Delftware"
  prestige_good_cockerill_tools: "Cockerill Tools"
@@ -239,8 +241,17 @@
  pmg_base_building_olive_groves: "Base"
  pmg_train_automation_building_olive_groves: "Train Automation"
 
+ pmg_base_building_spice_plantation: "Base"
+ pmg_spice_exploitation: "Working Conditions"
+ pmg_train_automation_building_spice_plantation: "Train Automation"
+ default_building_spice_plantation: "Basic Production"
+ automatic_irrigation_building_spice_plantation: "Automatic Irrigation"
+ slave_exploitation_spice: "Violent Treatment"
+ worker_exploitation_spice: "Exploitative Practices"
+
 #Buildings
  building_olive_groves: "Olive Groves"
+ building_spice_plantation: "Spice Plantations"
 
 # chinese recognition
  is_china_tt: "Is Chinese"

@@ -605,3 +605,17 @@ olive_oil = {
 
 	consumption_tax_cost = 100
 }
+
+spice_box = {
+	texture = "gfx/interface/icons/goods_icons/modded_goods/spice_good_dds.dds"
+	cost = 30
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 10
+
+	traded_quantity = 10 # 300
+	convoy_cost_multiplier = 0.75
+
+	consumption_tax_cost = 100
+}

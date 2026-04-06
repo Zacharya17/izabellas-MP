@@ -1447,7 +1447,7 @@ claims_tsargorod = {
 		s:STATE_HUDAVENDIGAR = {
 			add_claim = c:RUS
 		}
-		change_infamy = 10
+		
 		set_global_variable = claimed_tsargorod
 	}
 }
@@ -1490,7 +1490,7 @@ claims_black_sea_region = {
 		s:STATE_KARS = {
 			add_claim = root
 		}
-		change_infamy = 80
+		country_infamy_decay_mult = -0.25
 		set_global_variable = claimed_black_sea_region
 	}
 }
