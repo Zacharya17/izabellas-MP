@@ -31,6 +31,12 @@
  law_ayllu_kinship: "Ayllu Kinship"
  law_ayllu_kinship_desc: "Society is organised around the traditional Ayllu Communities. This system derives from the creation legend of the Ican Empire. Loyalty comes through communal bonds, which ensure cohesion. The state does not govern directly but rather interact with the Communities as a whole. That decreases the bureaucratic expenditure, while in turn limiting social mobility."
 
+ country_institution_natalism_max_investment_add: "Max $institution_natalism$ [concept_institution] Investment"
+ country_institution_natalism_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_natalism$ [concept_institution]"
+
+#modded institutions
+ institution_natalism: "Pro-Natalism"
+
 ##Modded Goods
  olive_oil: "Olive Oil"
  spice_box: "Spice Boxes"
