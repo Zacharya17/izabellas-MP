@@ -253,6 +253,8 @@
  building_olive_groves: "Olive Groves"
  building_spice_plantation: "Spice Plantations"
 
+ building_central_bank: "Central Bank"
+
 # chinese recognition
  is_china_tt: "Is Chinese"
 
