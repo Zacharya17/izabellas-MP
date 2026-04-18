@@ -6,11 +6,9 @@ law_no_natalism = {
 	progressiveness = 0
 
 	can_impose = {
-		
 	}
 
 	unlocking_technologies = {
-		nationalism
 	}
 
 	modifier = {
@@ -35,6 +33,12 @@ law_small_natalism = {
 
 	progressiveness = -5
 
+	disallowing_laws = {
+		law_multicultural
+		law_subjecthood
+		law_cultural_exclusion
+	}
+
 	can_impose = {
 		
 	}
@@ -50,6 +54,7 @@ law_small_natalism = {
 	}
 
 	modifier = {
+		country_institution_natalism_max_investment_add = 2
 	}
 
 	ai_enact_weight_modifier = { #Petitions
@@ -69,6 +74,13 @@ law_moderate_natalism = {
 
 	institution = institution_natalism
 
+	disallowing_laws = {
+		law_multicultural
+		law_subjecthood
+		law_cultural_exclusion
+		law_racial_segregation
+	}
+
 	progressiveness = -25
 
 	can_impose = {
@@ -87,6 +99,7 @@ law_moderate_natalism = {
 	}
 
 	modifier = {
+		country_institution_natalism_max_investment_add = 3
 	}
 
 	ai_enact_weight_modifier = { #Petitions
@@ -108,6 +121,14 @@ law_extreme_natalism = {
 
 	progressiveness = -50
 
+	disallowing_laws = {
+		law_multicultural
+		law_subjecthood
+		law_cultural_exclusion
+		law_racial_segregation
+		law_national_supremacy
+	}
+
 	can_impose = {
 		
 	}
@@ -125,6 +146,7 @@ law_extreme_natalism = {
 	}
 
 	modifier = {
+		country_institution_natalism_max_investment_add = 4
 	}
 
 	ai_enact_weight_modifier = { #Petitions

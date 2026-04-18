@@ -17,6 +17,17 @@ law_subjecthood = {
 			}
 			custom_tooltip = subjecthood_fervor_no_effects_ld_tt
 		}
+
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_small_natalism
+					has_law = law_type:law_moderate_natalism
+					has_law = law_type:law_extreme_natalism
+				}
+			}
+			activate_law = law_type:law_no_natalism
+		}
 	}
 
 	can_impose = {
@@ -259,6 +270,13 @@ law_national_supremacy = {
 			}
 			custom_tooltip = fervor_effects_ld_tt
 		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_extreme_natalism
+			}
+			activate_law = law_type:law_moderate_natalism
+		}
 	}
 
 	can_impose = {
@@ -386,6 +404,16 @@ law_racial_segregation = {
 			}
 			remove_modifier = modifier_polish_organic_statute
 		}
+
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_moderate_natalism
+					has_law = law_type:law_extreme_natalism
+				}
+			}
+			activate_law = law_type:law_small_natalism
+		}
 	}
 
 	can_impose = {
@@ -509,6 +537,17 @@ law_cultural_exclusion = {
 				has_modifier = modifier_polish_organic_statute
 			}
 			remove_modifier = modifier_polish_organic_statute
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_small_natalism
+					has_law = law_type:law_moderate_natalism
+					has_law = law_type:law_extreme_natalism
+				}
+			}
+			activate_law = law_type:law_no_natalism
 		}
 	}
 
@@ -636,6 +675,17 @@ law_multicultural = {
 				has_modifier = modifier_polish_organic_statute
 			}
 			remove_modifier = modifier_polish_organic_statute
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_small_natalism
+					has_law = law_type:law_moderate_natalism
+					has_law = law_type:law_extreme_natalism
+				}
+			}
+			activate_law = law_type:law_no_natalism
 		}
 	}
 
