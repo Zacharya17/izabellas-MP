@@ -256,9 +256,15 @@
  slave_exploitation_spice: "Violent Treatment"
  worker_exploitation_spice: "Exploitative Practices"
 
+ pm_basic_canal: "Basic Canal"
+ pm_advanced_canal: "Advanced canal"
+ pm_no_passengers: "Cargo boats only"
+ pm_passenger_boats: "Passenger boats"
+
 #Buildings
  building_olive_groves: "Olive Groves"
  building_spice_plantation: "Spice Plantations"
+ building_canals: "Canals"
 
  building_central_bank: "Central Bank"
 

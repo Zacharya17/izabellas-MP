@@ -322,7 +322,7 @@ company_marzotto = {
 
 			potential = {
 				country_has_primary_culture = cu:dutch
-				has_global_variable = voc.1
+				has_global_variable = voc_established.1
 			}
 
 			possible = {
@@ -382,7 +382,7 @@ company_marzotto = {
 
 			potential = {
 				country_has_primary_culture = cu:dutch
-				has_global_variable = voc.2
+				has_global_variable = voc_established.2
 			}
 
 			possible = {
