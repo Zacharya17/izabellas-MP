@@ -142,6 +142,13 @@ ideology_individualist = {
 		law_shifts3 = neutral
 		law_shifts4 = strongly_disapprove
 	}
+
+	lawgroup_natalism = {
+		law_no_natalism = neutral
+		law_small_natalism = disapprove
+		law_moderate_natalism = disapprove
+		law_extreme_natalism = disapprove
+	}
 }
 
 ideology_hierarchic = {
@@ -470,6 +477,13 @@ ideology_patriotic = {
 		law_censorship = approve
 		law_right_of_assembly = neutral
 		law_protected_speech = disapprove
+	}
+
+	lawgroup_natalism = {
+		law_no_natalism = neutral
+		law_small_natalism = approve
+		law_moderate_natalism = strongly_approve
+		law_extreme_natalism = approve
 	}
 }
 
@@ -836,6 +850,13 @@ ideology_patriarchal = {
 		law_censorship = approve
 		law_right_of_assembly = neutral
 		law_protected_speech = disapprove
+	}
+
+	lawgroup_natalism = {
+		law_no_natalism = neutral
+		law_small_natalism = approve
+		law_moderate_natalism = strongly_approve
+		law_extreme_natalism = approve
 	}
 }
 
