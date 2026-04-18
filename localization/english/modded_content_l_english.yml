@@ -31,6 +31,8 @@
  law_ayllu_kinship: "Ayllu Kinship"
  law_ayllu_kinship_desc: "Society is organised around the traditional Ayllu Communities. This system derives from the creation legend of the Ican Empire. Loyalty comes through communal bonds, which ensure cohesion. The state does not govern directly but rather interact with the Communities as a whole. That decreases the bureaucratic expenditure, while in turn limiting social mobility."
 
+ 
+
 
 #modded institutions
  institution_natalism: "Pro-Natalism"
@@ -237,6 +239,13 @@
  law_shifts2_desc: "12 Hour shifts are the most common taken on by industries, and the state guarantees this to protect from near slave-like conidtions in the factories. Industrialists benefit from 24/7 work, and workers benefit from less hours."
  law_shifts3_desc: "8 Hour shifts are protected by the state, protecting workers from the worst conditions of overworking."
  law_shifts4_desc: "Shifts are negotiated between unions and their factory management, this protects the rights of workers to have a fair days work within manageable conditions. This also increases the influence of unions as they are the primary form of negotiation in working hours."
+
+ lawgroup_natalism: "Natalist-Policies"
+
+ law_no_natalism: "No Natalist Policies"
+ law_small_natalism: "Pro-Natalism"
+ law_moderate_natalism: "Moderate Pro-Natalism"
+ law_extreme_natalism: "Extreme Pro-Natalism"
 
 # PM's
  pmg_automation_management: "Management Structure"

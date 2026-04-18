@@ -564,6 +564,13 @@ ideology_liberal = {
 		law_women_in_the_workplace = neutral
 		law_womens_suffrage = neutral
 	}
+
+	lawgroup_natalism = {
+		law_no_natalism = strongly_approve
+		law_small_natalism = neutral
+		law_moderate_natalism = disapprove
+		law_extreme_natalism = strongly_disapprove
+	}
 }
 
 ideology_anti_clerical = {
