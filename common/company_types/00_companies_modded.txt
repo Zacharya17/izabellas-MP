@@ -97,7 +97,9 @@ company_porceleyne_fles = {
 	prosperity_modifier = {
 		state_trade_capacity_mult = 0.05
 		building_arts_academy_throughput_add = 0.05
-		country_prestige_mult = 0.1
+		country_prestige_mult = 0.15
+		state_trade_quantity_mult = 0.1
+		state_trade_advantage_mult = 0.15
 	}
 
 	ai_will_do = {
@@ -159,7 +161,7 @@ company_van_houtum_en_palm = {
 
 	prosperity_modifier = {
 		state_mortality_mult = -0.08
-		building_paper_mill_throughput_add = 0.1
+		building_paper_mill_throughput_add = 0.15
 		country_bureaucracy_mult = 0.05
 	}
 
@@ -222,9 +224,9 @@ company_heineken = {
 	}
 
 	prosperity_modifier = {
-		state_birth_rate_mult = 0.02
+		state_birth_rate_mult = 0.04
 		building_trade_center_throughput_add = 0.05
-		building_food_industry_throughput_add = 0.05
+		building_food_industry_throughput_add = 0.1
 	}
 
 	ai_will_do = {
