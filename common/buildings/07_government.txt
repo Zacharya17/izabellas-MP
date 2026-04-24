@@ -121,39 +121,3 @@ building_skyscraper = {
 }
 
 #MODDED NEW
-
-building_central_bank = {
-
-	building_group = bg_government
-
-	city_type = city
-
-	levels_per_mesh = 1
-
-	expandable = yes
-
-	downsizeable = no
-
-	production_method_groups = {
-		pmg_base_building_skyscraper
-		pmg_airship_mooring_post
-	}
-
-	icon = "gfx/interface/icons/building_icons/modded_buildings/building_central_bank.dds"
-
-	required_construction = construction_cost_monument
-
-	can_build_government = {
-		custom_tooltip = {
-			text = central_bank_can_construct_tt
-			has_modifier = bank_site
-		}
-	}
-	can_build_private = {
-		always = no
-	}
-
-	ai_value = 50000
-
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
-}

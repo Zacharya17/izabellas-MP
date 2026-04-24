@@ -8859,6 +8859,11 @@ batak= {
 	heritage = heritage_insulindian
 	language = language_batak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Kiras
 		Nerus
@@ -8911,6 +8916,11 @@ dayak= {
 	heritage = heritage_insulindian
 	language = language_dayak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Daud
 		Haimie
@@ -9656,6 +9666,11 @@ javan= {
 	heritage = heritage_insulindian
 	language = language_malay
 	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abul Abdurrahman Ahmad Amir Anom Arifin
 		Bambang
@@ -9713,6 +9728,11 @@ moluccan= {
 	heritage = heritage_insulindian
 	language = language_moluccan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Denny
 		Dominggus
@@ -22398,6 +22418,11 @@ bornean={
 	heritage = heritage_insulindian
 	language = language_malay
 	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Al-Mukammal
@@ -22457,6 +22482,7 @@ sumatran={
 
 	obsessions = {
 		coffee
+		spice_box
 	}
 
 	traditions = { tradition_dutch_colonial }
@@ -22519,6 +22545,7 @@ balinese={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { tradition_dutch_colonial }

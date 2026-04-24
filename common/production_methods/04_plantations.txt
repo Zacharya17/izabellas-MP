@@ -1292,7 +1292,7 @@ slave_exploitation_spice = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_spice_box_add = 10
+			goods_output_spice_box_add = 15
 		}
 
 		unscaled = {

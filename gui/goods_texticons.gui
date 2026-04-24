@@ -1232,6 +1232,16 @@ texticon = {
 	}
 }
 
+texticon = {
+	icon = spice_box
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/modded_goods/spice_good_dds.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
 
 
 

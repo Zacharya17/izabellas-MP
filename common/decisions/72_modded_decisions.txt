@@ -70,30 +70,3 @@ extend_ayllu_kinship_na = {
 		value = 10
 	}
 }
-
-reestablishing_voc_decision = {
-	is_shown = {
-		c:NET ?= this
-		NOT = {
-			has_modifier = modifier_financial_crisis
-			has_modifier = modifier_naughty_netherlands
-		}
-	}
-
-	possible = {
-		c:DEI = {
-			is_subject_of = c:NET
-		}
-		has_company = company_type:company_amsterdamse_effectenbeurs
-	}
-
-	when_taken = {
-		add_journal_entry = {
-			type = je_vaar_je_mee_met_de_voc
-		}
-	}
-
-	ai_chance = {
-		value = 10
-	}
-}
