@@ -220,6 +220,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_german
+		add_homeland = cu:polish
 	}
 	s:STATE_INGRIA = {
 		create_state = {
@@ -7315,6 +7316,7 @@ STATES = {
 		}
 
 		add_homeland = cu:lithuanian
+		add_homeland = cu:polish
 	}
 	s:STATE_CHUKOTKA = {
 		create_state = {
@@ -8067,7 +8069,6 @@ STATES = {
 		}
 
 		add_homeland = cu:north_german
-		add_homeland = cu:polish
 		add_homeland = cu:lithuanian
 	}
 	s:STATE_ERMLAND_MASUREN = {
@@ -8116,6 +8117,7 @@ STATES = {
 
 		add_homeland = cu:north_german
 		add_homeland = cu:sorb
+		add_homeland = cu:polish
 	}
 
 	s:STATE_UPPER_SILESIA = {
@@ -8319,6 +8321,7 @@ STATES = {
 		}
 
 		add_homeland = cu:byelorussian
+		add_homeland = cu:polish
 	}
 	s:STATE_GREATER_POLAND = {
 		create_state = {
@@ -8359,6 +8362,7 @@ STATES = {
 		}
 
 		add_homeland = cu:ukrainian
+		add_homeland = cu:polish
 	}
 	s:STATE_KIEV = {
 		add_homeland = cu:ukrainian
