@@ -4498,6 +4498,7 @@ bosniak= {
 
 	obsessions = {
 		tobacco
+		spice_box
 	}
 
 	traditions = { tradition_rumelian }
@@ -6392,6 +6393,7 @@ turkish= {
 	traditions = { tradition_rumelian }
 	obsessions = {
 		coffee
+		spice_box
 	}
 	male_common_first_names = {
 		Abdulhamid
@@ -7013,6 +7015,7 @@ bedouin= {
 	religion = sunni
 	obsessions = {
 		coffee
+		spice_box
 	}
 	heritage = heritage_arab
 	language = language_arabic
@@ -7146,6 +7149,11 @@ persian= {
 	heritage = heritage_iranian
 	language = language_persian
 	traditions = { tradition_persianate }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali
 		Bahram
@@ -8109,6 +8117,11 @@ bihari= {
 	heritage = heritage_gangetic
 	language = language_magadhan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ashoka
 		Ashtravakra
@@ -8153,6 +8166,11 @@ manipuri= {
 	heritage = heritage_eastern_highlands
 	language = language_meitei
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bekendra
 		Chandrakirti
@@ -8203,6 +8221,7 @@ nepali= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	male_common_first_names = {
@@ -8261,6 +8280,11 @@ oriya= {
 	heritage = heritage_gangetic
 	language = language_magadhan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Birakishoredeva
 		Dibvyasimhadeva
@@ -8304,6 +8328,7 @@ sinhala= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8349,6 +8374,11 @@ avadhi= {
 	heritage = heritage_gangetic
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ishvari
 		Jugal
@@ -8396,6 +8426,7 @@ panjabi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8444,6 +8475,11 @@ kashmiri= {
 	heritage = heritage_kashmiri
 	language = language_dardic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Atta
@@ -8491,6 +8527,11 @@ sindi= {
 	heritage = heritage_indusine
 	language = language_northwestern_indic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Gholam
 		Hosayn
@@ -8548,6 +8589,7 @@ rajput= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8604,6 +8646,11 @@ kannada= {
 	heritage = heritage_deccani
 	language = language_tamil_tulu
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abbakka
 		Aliya
@@ -8659,6 +8706,7 @@ malayalam= {
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -8709,6 +8757,11 @@ telegu= {
 	language = language_south_central
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Alluri
 		Durgabai
@@ -8757,6 +8810,7 @@ vietnamese= {
 
 	obsessions = {
 		coffee
+		spice_box
 	}
 
 	traditions = { tradition_sinosphere }
@@ -9779,6 +9833,7 @@ thai= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -15970,6 +16025,7 @@ afro_caribbean= {
 
 	obsessions = {
 		liquor
+		spice_box
 	}
 
 	traditions = { }
@@ -16345,6 +16401,11 @@ akan= {
 	heritage = heritage_guinean
 	language = language_akan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Agyeman
 		Akyampon
@@ -16573,6 +16634,11 @@ ewe= {
 	heritage = heritage_guinean
 	language = language_gbe
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Adika
 		Ametefe
@@ -16625,6 +16691,11 @@ fon= {
 	heritage = heritage_guinean
 	language = language_gbe
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Adandozan
 		Agadja
@@ -16665,6 +16736,11 @@ fulbe= {
 	heritage = heritage_sahelian
 	language = language_fulani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullahi
 		Abubakar
@@ -17024,6 +17100,11 @@ mande= {
 	heritage = heritage_sahelian
 	language = language_mande
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Alhassani
 		Amara
@@ -17257,6 +17338,11 @@ songhai= {
 	heritage = heritage_sahelian
 	language = language_songhai
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Atwa
 		Bassaru
@@ -17440,6 +17526,11 @@ yoruba= {
 	heritage = heritage_guinean
 	language = language_yoruba
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abisi
 		Adebo
@@ -21073,6 +21164,11 @@ hindustani = {
 	heritage = heritage_gangetic
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Aakash
 		Bhanwari
@@ -21161,6 +21257,11 @@ bundeli = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Adithya
 		Chhatrasal
@@ -21295,6 +21396,11 @@ bageli = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Atal
 		Harishankar
@@ -21338,6 +21444,11 @@ chhattisgarhi = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bhupesh
 		Habib
@@ -21430,6 +21541,11 @@ deccani = {
 	heritage = heritage_deccani
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Amjad Ahmed Abdullah Aziz Awaz
 		Farhatullah
@@ -21544,6 +21660,7 @@ tamil={
 
 	obsessions = {
 		sugar
+		spice_box
 	}
 
 	traditions = { }
@@ -21602,6 +21719,7 @@ bengali={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -21681,6 +21799,7 @@ marathi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -21779,6 +21898,7 @@ pathan = {
 
 	obsessions = {
 		tobacco
+		spice_box
 	}
 
 	traditions = { tradition_persianate }
