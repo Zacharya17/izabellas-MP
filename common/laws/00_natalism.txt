@@ -96,6 +96,7 @@ law_moderate_natalism = {
 		country_standard_of_living_open_prejudice_add = -0.5
 		country_standard_of_living_cultural_erasure_add = -1
 		country_standard_of_living_violent_hostility_add = -1.5
+		state_birth_rate_mult = 0.01
 	}
 
 	modifier = {
@@ -143,6 +144,7 @@ law_extreme_natalism = {
 		country_standard_of_living_open_prejudice_add = -1
 		country_standard_of_living_cultural_erasure_add = -1.5
 		country_standard_of_living_violent_hostility_add = -2
+		state_birth_rate_mult = 0.02
 	}
 
 	modifier = {
