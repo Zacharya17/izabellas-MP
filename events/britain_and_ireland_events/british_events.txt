@@ -1,0 +1,58 @@
+namespace = potato_famine_start
+
+potato_famine_start.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = potato_famine_start.1.t
+	desc = potato_famine_start.1.d # probably want a triggered desc here
+	flavor = potato_famine_start.1.f
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 1
+
+	immediate = {
+		c:USA = {
+			ordered_scope_state = {
+			limit = {
+				state_is_eligible_as_mass_migration_target = yes
+			}
+			order_by = migration_pull
+			save_scope_as = irish_migration_state
+		}
+		}
+	}
+
+	option = {
+		name = potato_famine_start.1.a
+		every_scope_state = {
+			limit = {
+				OR = {
+				state_region = s:STATE_LEINSTER
+				state_region = s:STATE_MUNSTER
+				state_region = s:STATE_ULSTER
+				state_region = s:STATE_CONNAUGHT
+				}
+			}
+			add_modifier = {
+				name = modifier_potato_famine
+				years = 10
+			}
+			scope:irish_migration_state = {
+			create_mass_migration = {
+				origin = c:GBR
+				culture = cu:irish
+			}
+		}
+		}
+	}
+
+}
+

@@ -1,0 +1,135 @@
+#je_german_unity = {
+#
+# icon = "gfx/interface/icons/event_icons/event_skull.dds"
+#
+#    group = je_group_historical_content
+#
+#	custom_completion_header = german_unity_completion
+#	custom_failure_header = german_unity_failure
+#
+#	is_shown_in_lobby = {
+#		c:PRU ?= this
+#	}
+#
+#    is_shown_when_inactive = {
+#		OR = {
+#			c:PRU ?= this
+#			c:NGF ?= this
+#		}
+#	}
+#
+#    possible = {
+#        OR = {
+#			c:PRU ?= this
+#			c:NGF ?= this
+#		}
+#    }
+#
+#    immediate = {
+#    }
+#
+#    complete = {
+#    }
+#
+#	on_monthly_pulse = {
+#	
+#	}	
+#
+#    on_complete = {
+#		custom_tooltip = {
+#			text = german_unity_complete_tt
+#			every_country = {
+#			limit = {
+#				country_rank < rank_value:great_power
+#				OR = {
+#					country_has_primary_culture = cu:north_german 
+#					country_has_primary_culture = cu:south_german 
+#				}
+#				NOR = {
+#					THIS = ROOT
+#				}
+#				OR = {
+#					is_subject = no
+#					is_subject_of = root
+#				}
+#			}
+#
+#			if = {
+#				limit = {
+#					is_ai = yes
+#				}
+#				root = { annex_with_incorporation = prev }
+#			}
+#			else = {
+#				trigger_event = { id = german_unification.2 days = 0 popup = yes }
+#			}
+#		}
+#		change_tag = GER
+#		}
+#    }
+#
+#	on_yearly_pulse = {
+#		
+#	}
+#
+#    fail = {
+#		any_state_region = {
+#			OR = {
+#				is_homeland = cu:south_german
+#				is_homeland = cu:north_german
+#			}
+#			any_scope_state = {
+#				owner = c:FRA
+#			}
+#			NOT = {
+#				is_homeland = cu:french
+#			}
+#		}
+#	}
+#    
+#    on_fail = {
+#		custom_tooltip = {
+#			text = german_unity_fail_tt
+#			every_country = {
+#			limit = {
+#				country_rank < rank_value:great_power
+#				OR = {
+#					country_has_primary_culture = cu:north_german 
+#					country_has_primary_culture = cu:south_german 
+#				}
+#				NOR = {
+#					THIS = ROOT
+#				}
+#				OR = {
+#					is_subject = no
+#					is_subject_of = root
+#				}
+#			}
+#
+#			if = {
+#				limit = {
+#					is_ai = yes
+#				}
+#				root = { annex_with_incorporation = prev }
+#			}
+#			else = {
+#				trigger_event = { id = german_unification.2 days = 0 popup = yes }
+#			}
+#		}
+#		change_tag = GER
+#		}
+#	}
+#           
+#    on_timeout = {
+#	}
+#    
+#    invalid = {
+#    }
+#
+#	on_invalid = {
+#	}
+#
+#    should_be_pinned_by_default = yes
+#
+#    weight = 100
+#}
