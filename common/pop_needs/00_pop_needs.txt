@@ -327,6 +327,13 @@ popneed_luxury_food = {
 		max_supply_share = 0.75
 		min_supply_share = 0.1
 	}
+	entry = {
+		goods = spice_box
+
+		weight = 0.75
+		max_supply_share = 0.75
+		min_supply_share = 0.1
+	}
 }
 
 popneed_luxury_items = {
@@ -488,6 +495,13 @@ popneed_stimulants = {
 		goods = tobacco
 
 		weight = 0.8
+		max_supply_share = 0.75
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = spice_box
+
+		weight = 1
 		max_supply_share = 0.75
 		min_supply_share = 0.0
 	}
