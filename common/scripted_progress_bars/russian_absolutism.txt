@@ -59,7 +59,7 @@
 			limit = {
 				NOT = {
 					has_law_or_variant = law_type:law_serfdom
-					has_law_or_variant = law_type:law_homesteading
+					has_law_or_variant = law_type:law_peasant_proprietorship
 				}
 			}
 			add = {
