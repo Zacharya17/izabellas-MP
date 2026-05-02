@@ -8296,7 +8296,17 @@ STATES = {
 	s:STATE_EAST_PRUSSIA = {
 		create_state = {
 			country = c:PRU
-			owned_provinces = { x1E73B9 x2399A2 x40A0A0 x4121A0 x47C900 x5428E6 x6E8875 x72FDF3 x7A6061 x7D6DC3 x975566 x981EBE x9FD037 xABC4AE xAEA6D6 xBF9F20 xC020A0 xC04521 xEEF586 }
+			owned_provinces = { x1E73B9 x2399A2 x40A0A0 x4121A0 x72FDF3 x975566 x981EBE xC020A0 } # xC04521
+		}
+
+		add_homeland = cu:north_german
+		add_homeland = cu:polish
+		add_homeland = cu:lithuanian
+	}
+	s:STATE_ERMLAND_MASUREN = {
+		create_state = {
+			country = c:PRU
+			owned_provinces = { xC04521 xAEA6D6 x7D6DC3 x47C900 xEEF586 xABC4AE x5428E6 x6E8875 x7A6061 x9FD037 xBF9F20 xC04521 }
 		}
 
 		add_homeland = cu:north_german
@@ -8334,7 +8344,7 @@ STATES = {
 	s:STATE_LOWER_SILESIA = {
 		create_state = {
 			country = c:PRU
-			owned_provinces = { x1B72C9 x272E48 x614121 x6E617F x732DC0 x94D624 xC00121 xC108EA xCE74AB }
+			owned_provinces = { x1B72C9 x272E48 x6E617F x732DC0 x94D624 xC00121 xC108EA xCE74AB x90B12B xAF9F20 x88194B }
 		}
 
 		add_homeland = cu:north_german
@@ -8344,7 +8354,7 @@ STATES = {
 	s:STATE_UPPER_SILESIA = {
 		create_state = {
 			country = c:PRU
-			owned_provinces = { x5E9091 x7B2F62 x821F52 x90B12B xAF9F20 x88194B }
+			owned_provinces = { x5E9091 x7B2F62 x821F52 } # x90B12B xAF9F20 x88194B were moved
 		}
 
 		add_homeland = cu:north_german
