@@ -1,0 +1,188 @@
+# modded for russia
+
+ russian_absolutism_progress_bar = {
+	name = "russian_absolutism_progress_bar"
+	desc = "russian_absolutism_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+
+		#positive modifiers
+
+		if = {
+			limit = {
+				NOR = {
+				has_law_or_variant = law_type:law_autocracy
+				has_law_or_variant = law_type:law_oligarchy
+				}
+			}
+			add = {
+				desc = "je_absolutism_democracy"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_law_or_variant = law_type:law_census_voting
+					has_law_or_variant = law_type:law_universal_suffrage
+				}
+			}
+			add = {
+				desc = "je_absolutism_democracy2"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_laissez_faire
+			}
+			add = {
+				desc = "je_absolutism_economy"
+				value = 10
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_laissez_faire
+					has_law_or_variant = law_type:law_traditionalism
+				}
+			}
+			add = {
+				desc = "je_absolutism_economy2"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_serfdom
+					has_law_or_variant = law_type:law_homesteading
+				}
+			}
+			add = {
+				desc = "je_absolutism_serfs"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_peasant_proprietorship
+			}
+			add = {
+				desc = "je_absolutism_serfs2"
+				value = 10
+			}
+		}
+		if = {
+			limit = {
+				has_global_variable = russia_in_poland
+			}
+			add = {
+				desc = "je_absolutism_poland"
+				value = 10
+			}
+		}
+		
+		#negative modifiers
+
+		if = {
+			limit = {
+				country_or_subject_owns_entire_state_region = STATE_EASTERN_THRACE
+			}
+			subtract = {
+				desc = "je_absolutism_thrace"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				country_or_subject_owns_entire_state_region = STATE_KARS
+			}
+			subtract = {
+				desc = "je_absolutism_kars"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				country_or_subject_owns_entire_state_region = STATE_IRAKAJEMI
+			}
+			subtract = {
+				desc = "je_absolutism_persia"
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				country_or_subject_owns_entire_state_region = STATE_TABRIZ
+			}
+			subtract = {
+				desc = "je_absolutism_persia2"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				exists = c:BUL
+			}
+			subtract = {
+				desc = "je_absolutism_bulgaria"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				c:SER = {
+					owns_entire_state_region = STATE_EASTERN_SERBIA
+					NOT = {
+						owns_entire_state_region = STATE_SKOPIA
+					}
+				}
+			}
+			subtract = {
+				desc = "je_absolutism_serbia"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				c:SER = {
+					owns_entire_state_region = STATE_SKOPIA
+					NOT = {
+						owns_entire_state_region = STATE_EASTERN_SERBIA
+					}
+				}
+			}
+			subtract = {
+				desc = "je_absolutism_serbia2"
+				value = 4
+			}
+		}
+		if = {
+			limit = {
+				c:GRE = {
+					owns_entire_state_region = STATE_THESSALIA
+				}
+			}
+			subtract = {
+				desc = "je_absolutism_greece"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				capital.state_region = s:STATE_MOSCOW
+			}
+			subtract = {
+				desc = "je_absolutism_moscow"
+				value = 5
+			}
+		}
+	}
+	start_value = 0
+	min_value = 0
+	max_value = 200
+}
