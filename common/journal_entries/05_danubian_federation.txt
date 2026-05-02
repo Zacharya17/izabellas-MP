@@ -5,6 +5,7 @@
 
 	is_shown_when_inactive = {
 		has_dlc_feature = ip3_content
+		has_technology_researched = nationalism
 		c:AUS ?= this
 	}
 
@@ -13,6 +14,7 @@
 			has_government_type = gov_dual_monarchy
 			has_government_type = gov_triple_monarchy
 		}
+		NOT = { is_unification_candidate = GER }
 		has_technology_researched = nationalism
 		has_technology_researched = psychiatry
 		NOR = {
@@ -84,10 +86,11 @@
 					}
 					capital = {
 						OR = {
-							region = sr:region_danubia
-							region = sr:region_poland
-							region = sr:region_balkans
-							region = sr:region_south_germany
+							is_in_geographic_region = geographic_region_danubia_old
+							is_in_geographic_region = geographic_region_poland_old
+							is_in_geographic_region = geographic_region_balkans_old
+							is_in_geographic_region = geographic_region_south_germany_old
+
 							state_region = s:STATE_ISTRIA
 							state_region = s:STATE_SOUTH_TYROL
 						}
@@ -103,10 +106,10 @@
 					}
 					capital = {
 						OR = {
-							region = sr:region_danubia
-							region = sr:region_poland
-							region = sr:region_balkans
-							region = sr:region_south_germany
+							is_in_geographic_region = geographic_region_danubia_old
+							is_in_geographic_region = geographic_region_poland_old
+							is_in_geographic_region = geographic_region_balkans_old
+							is_in_geographic_region = geographic_region_south_germany_old
 							state_region = s:STATE_ISTRIA
 							state_region = s:STATE_SOUTH_TYROL
 						}
@@ -149,10 +152,10 @@
 				}
 				capital = {
 					OR = {
-						region = sr:region_danubia
-						region = sr:region_poland
-						region = sr:region_balkans
-						region = sr:region_south_germany
+						is_in_geographic_region = geographic_region_danubia_old
+						is_in_geographic_region = geographic_region_poland_old
+						is_in_geographic_region = geographic_region_balkans_old
+						is_in_geographic_region = geographic_region_south_germany_old
 						state_region = s:STATE_ISTRIA
 						state_region = s:STATE_SOUTH_TYROL
 					}
@@ -171,10 +174,10 @@
 					ROOT = {
 						any_scope_state = {
 							OR = {
-								region = sr:region_danubia
-								region = sr:region_poland
-								region = sr:region_balkans
-								region = sr:region_south_germany
+								is_in_geographic_region = geographic_region_danubia_old
+								is_in_geographic_region = geographic_region_poland_old
+								is_in_geographic_region = geographic_region_balkans_old
+								is_in_geographic_region = geographic_region_south_germany_old
 								state_region = s:STATE_ISTRIA
 								state_region = s:STATE_SOUTH_TYROL
 							}
@@ -197,12 +200,6 @@
 			}
 		}
 		else = {
-			limit = {
-				OR = {
-					has_law_or_variant = law_type:law_parliamentary_republic
-					has_law_or_variant = law_type:law_presidential_republic
-				}
-			}
 			custom_tooltip = {
 				text = change_tag_to_KUK_republic_tt
 				change_tag = KUK
@@ -288,7 +285,8 @@
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+		
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_danubian_federation_observer = {
@@ -364,10 +362,10 @@ je_danubian_federation_observer = {
 								}
 								capital = {
 									OR = {
-										region = sr:region_danubia
-										region = sr:region_poland
-										region = sr:region_balkans
-										region = sr:region_south_germany
+										is_in_geographic_region = geographic_region_danubia_old
+										is_in_geographic_region = geographic_region_poland_old
+										is_in_geographic_region = geographic_region_balkans_old
+										is_in_geographic_region = geographic_region_south_germany_old
 										state_region = s:STATE_ISTRIA
 										state_region = s:STATE_SOUTH_TYROL
 									}
@@ -383,10 +381,10 @@ je_danubian_federation_observer = {
 								}
 								capital = {
 									OR = {
-										region = sr:region_danubia
-										region = sr:region_poland
-										region = sr:region_balkans
-										region = sr:region_south_germany
+										is_in_geographic_region = geographic_region_danubia_old
+										is_in_geographic_region = geographic_region_poland_old
+										is_in_geographic_region = geographic_region_balkans_old
+										is_in_geographic_region = geographic_region_south_germany_old
 										state_region = s:STATE_ISTRIA
 										state_region = s:STATE_SOUTH_TYROL
 									}
@@ -551,10 +549,10 @@ je_danubian_federation_observer = {
 									}
 									capital = {
 										OR = {
-											region = sr:region_danubia
-											region = sr:region_poland
-											region = sr:region_balkans
-											region = sr:region_south_germany
+											is_in_geographic_region = geographic_region_danubia_old
+											is_in_geographic_region = geographic_region_poland_old
+											is_in_geographic_region = geographic_region_balkans_old
+											is_in_geographic_region = geographic_region_south_germany_old
 											state_region = s:STATE_ISTRIA
 											state_region = s:STATE_SOUTH_TYROL
 										}
@@ -570,10 +568,10 @@ je_danubian_federation_observer = {
 									}
 									capital = {
 										OR = {
-											region = sr:region_danubia
-											region = sr:region_poland
-											region = sr:region_balkans
-											region = sr:region_south_germany
+											is_in_geographic_region = geographic_region_danubia_old
+											is_in_geographic_region = geographic_region_poland_old
+											is_in_geographic_region = geographic_region_balkans_old
+											is_in_geographic_region = geographic_region_south_germany_old
 											state_region = s:STATE_ISTRIA
 											state_region = s:STATE_SOUTH_TYROL
 										}
@@ -672,10 +670,10 @@ je_danubian_federation_observer = {
 			}
 			capital = {
 				NOR = {
-					region = sr:region_danubia
-					region = sr:region_balkans
-					region = sr:region_south_germany
-					region = sr:region_poland
+					is_in_geographic_region = geographic_region_danubia_old
+					is_in_geographic_region = geographic_region_poland_old
+					is_in_geographic_region = geographic_region_balkans_old
+					is_in_geographic_region = geographic_region_south_germany_old
 					state_region = s:STATE_ISTRIA
 					state_region = s:STATE_SOUTH_TYROL
 				}
@@ -685,5 +683,6 @@ je_danubian_federation_observer = {
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+		
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
