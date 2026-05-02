@@ -411,6 +411,11 @@
  olive_culture: "Olive Culture"
  olive_culture_desc: "Centuries of harvesting olives has lead to improved methods and higher quality"
 
+#states
+ STATE_ERMLAND_MASUREN: "Ermland-Masuren"
+ STATE_WESTE_WALLONIA: "Western Wallonia"
+ STATE_LUXEMBERG: "Luxembourg"
+
 
 
 
