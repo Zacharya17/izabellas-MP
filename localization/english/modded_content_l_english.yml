@@ -282,6 +282,8 @@
 
  building_central_bank: "Central Bank"
 
+ building_distillery: "Distilleries"
+
 # chinese recognition
  is_china_tt: "Is Chinese"
 
