@@ -413,7 +413,7 @@
 
 #states
  STATE_ERMLAND_MASUREN: "Ermland-Masuren"
- STATE_WESTE_WALLONIA: "Western Wallonia"
+ STATE_WEST_WALLONIA: "Western Wallonia"
  STATE_LUXEMBERG: "Luxembourg"
 
 
