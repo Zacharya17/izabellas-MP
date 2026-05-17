@@ -1,0 +1,20 @@
+enforce_congress_of_berlin = {
+	if = {
+		limit = {
+			global_var:russia_favour_berlin_progress > global_var:ottomans_favour_berlin_progress
+			global_var:russia_favour_berlin_progress > global_var:compromise_berlin_progress
+		}
+		c:BUL 
+	}
+	else_if = {
+		limit = {
+			has_global_variable = favour_netherlands_global_var
+		}
+	}
+	else_if = {
+		limit = {
+			has_global_variable = partition_compromise_global_var
+		}
+		
+	}
+}

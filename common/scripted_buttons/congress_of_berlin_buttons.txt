@@ -1,0 +1,121 @@
+je_favour_russia_berlin_button = {
+	name = "je_favour_russia_berlin_button"
+	desc = "je_favour_russia_berlin_button_desc"
+
+	visible = {
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_russia_berlin_country
+		change_global_variable = {
+			name = russia_favour_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_favour_ottomans_berlin_button = {
+	name = "je_favour_ottomans_berlin_button"
+	desc = "je_favour_ottomans_berlin_button_desc"
+
+	visible = {
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_ottomans_berlin_country
+		change_global_variable = {
+			name = ottomans_favour_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_compromise_berlin_button = {
+	name = "je_compromise_berlin_button"
+	desc = "je_compromise_berlin_button_desc"
+
+	visible = {
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_compromise_berlin_country
+		change_global_variable = {
+			name = compromise_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_cyrpus_berlin_button = {
+	name = "je_cyrpus_berlin_button"
+	desc = "je_cyrpus_berlin_button_desc"
+
+	visible = {
+		root =? c:GBR
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+	}
+}
+
+je_bosnia_berlin_button = {
+	name = "je_bosnia_berlin_button"
+	desc = "je_bosnia_berlin_button_desc"
+
+	visible = {
+		root =? c:GBR
+	}
+
+	possible = {
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+	}
+}
