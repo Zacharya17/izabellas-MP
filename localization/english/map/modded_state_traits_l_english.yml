@@ -37,4 +37,9 @@
 
  state_trait_gava_mines: "Gavà Mines"
  state_trait_ebro_river: "Ebro River"
- state_torre_de_moncorvo: "Torre de Moncorvo"
+ state_trait_torre_de_moncorvo: "Torre de Moncorvo"
+ state_trait_cienaga_de_zapata: "Ciénaga de Zapata"
+ state_trait_rio_cauto_river: "Río Cauto River"
+ state_trait_montes_universales: "Montes Universales"
+ state_trait_guadiana_river: "Guadiana River"
+ state_trait_meseta_central: "Meseta Central"
