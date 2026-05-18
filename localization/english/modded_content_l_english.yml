@@ -419,7 +419,9 @@
  STATE_LUXEMBERG: "Luxembourg"
 
 
-
+# congress of Berlin
+ je_congress_of_berlin: "Berlin Congress"
+ je_congress_of_berlin_reason: "The Great powers meet in Berlin to decide the fate of the nascent Bulgarian nation\n\n#variable [GetGlobalVariable( 'russia_favour_berlin_progress' ).GetValue] Prestige#! supports #bold 'Greater Bulgaria'#!\n#variable [GetGlobalVariable( 'compromise_favour_berlin_progress' ).GetValue] Prestige#! supports a #bold Bulgarian compromise#!\n#variable [GetGlobalVariable( 'ottomans_favour_berlin_progress' ).GetValue] Prestige#! supports a #bold Lesser Bulgaria#!"
 
 
 
