@@ -482,6 +482,69 @@ company_saechische_maschinenfabrik = {
 	}
 }
 
+#Stevns Foderstofforening, 1901, later Danish Agro
+company_stevns_foderstofforening = {
+		icon = "gfx/interface/icons/company_icons/company_basic_agriculture_1.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+
+	preferred_headquarters = { STATE_ZEALAND }
+
+	flavored_company = yes
+
+	building_types = {
+		building_livestock_ranch
+		building_rye_farm
+		building_fishing_wharf
+	}
+
+	extension_building_types = {
+		building_millet_farm
+		building_wheat_farm
+		building_maize_farm
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_grain
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_northern_europe
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_ZEALAND
+			any_scope_building = {
+				OR = {
+					is_building_type = building_livestock_ranch
+					is_building_type = building_fishing_wharf
+					is_building_type = building_rye_farm
+				}
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.02
+		building_food_industry_throughput_add = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		state_farmers_investment_pool_efficiency_mult = 0.5
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_wheat_farm
+					is_building_type = building_rye_farm
+				}
+				level >= 3
+			}
+		}
+	}
+}
 
 ## North American Companies
 company_american_Milling = { #"Plain Millers' Monopoly"
