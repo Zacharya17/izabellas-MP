@@ -4,7 +4,6 @@ enforce_congress_of_berlin = {
 			global_var:russia_favour_berlin_progress > global_var:ottomans_favour_berlin_progress
 			global_var:russia_favour_berlin_progress > global_var:compromise_berlin_progress
 		}
-		c:BUL 
 	}
 	else_if = {
 		limit = {
