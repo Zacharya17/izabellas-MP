@@ -2,7 +2,7 @@
 
 prestige_good_delftware = {
 	base_good = porcelain
-	prestige_bonus = 0.8
+	prestige_bonus = 0.3
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/modded_prestige_goods/delftware_dds.dds"
 }
 
