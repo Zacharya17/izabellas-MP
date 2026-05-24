@@ -1162,8 +1162,6 @@
  RSM_ADJ: "Venetian"
  HRE: "Central Europe"
  HRE_ADJ: "Central European"
- UNL: "United Netherlands"
- UNL_ADJ: "Dutch"
  RHN: "Confederation of the Rhine"
  RHN_ADJ: "Rhenish"
  PLT: "Rio de la Plata"
@@ -1631,8 +1629,8 @@
  dyn_c_moldavia_and_wallachia_adj: "Romanian"
  dyn_c_wallachia_and_moldavia: "Wallachia and Moldavia"
  dyn_c_wallachia_and_moldavia_adj: "Romanian"
- dyn_c_burgundy: "Burgundy"
- dyn_c_burgundy_adj: "Burgundian"
+ #dyn_c_burgundy: "Burgundy"
+ #dyn_c_burgundy_adj: "Burgundian"
  dyn_c_great_turtle: "Great Turtle"
  dyn_c_great_turtle_adj: "Great Turtle"
  dyn_c_argentine_confederation: "Argentine Confederation"
@@ -1817,10 +1815,10 @@
  dyn_c_british_anarchist: "The Anarchy"
 
 # Netherlands
- dyn_c_dutch_kingdom: "Kingdom of the Netherlands"
+ dyn_c_dutch_kingdom: "Koninkrijk der Nederlanden"
  dyn_c_dutch_empire: "Dutch Empire"
- dyn_c_dutch_republic: "The United Provinces"
- dyn_c_dutch_socialist: "The Dutch Socialist Republic"
+ dyn_c_dutch_republic: "Republiek der Zeven Verenigde Nederlanden"
+ dyn_c_dutch_socialist: "Nederlandse Socialistische Republiek"
  dyn_c_dutch_anarchist: "Free Territories of the Lowlands"
 
 # Belgium
@@ -1905,7 +1903,7 @@
  IDC_ADJ:0 "Indochinese"
 
 #Bulgaro-Romanian Union
- RBU:0 "The Union of Bulgaria and Romania"
+ RBU:0 "Bulgaria-Romania"
  RBU_ADJ:0 "Bulgaro-Romanian"
 
 #Regna de Burgondie
@@ -1915,3 +1913,16 @@
  # Posen
  PZN:0 "Grand Duchy of Posen"
  PZN_ADJ:0 "Posenian"
+
+ #sicily
+ dyn_c_south_italy: "South Italian Republic"
+ dyn_c_south_italy_adj: "South Italian"
+
+ #United Netherlands
+ UNL: "United Netherlands"
+ UNL_ADJ: "Dutch"
+ dyn_c_unl_republic: "Batavian Commonwealth"
+ dyn_c_unl_republic_adj: "Batavian"
+ dyn_c_unl_lux_republic: "The Zeventien Provinciën"
+ dyn_c_unl_empire: "Imperial Commenwealth"
+ dyn_c_unl_kingdom: "Verenigd Koninkrijk der Nederlanden"
