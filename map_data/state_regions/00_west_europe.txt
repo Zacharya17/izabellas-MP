@@ -1401,7 +1401,6 @@ STATE_SAXONY = {
     provinces = { "x169073" "x31E0C0" "x43CE26" "x5141A0" "x51C021" "x66FE0A" "x795368" "x917939" "xAFDFBF" "xC00A37" "xD0C021" }
     prime_land = { "x31E0C0" "xC00A37" "xD0C021" "x66FE0A" "x169073" "xAFDFBF" "x917939" "x43CE26" }
     traits = { "state_trait_elbe_river" "state_trait_saxon_switzerland" }
-    traits = { "state_trait_elbe_river" "state_trait_saxon_switzerland" }
     city = "x169073"
     farm = "xD0C021"
     mine = "x917939"
