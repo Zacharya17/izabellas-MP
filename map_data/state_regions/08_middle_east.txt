@@ -635,6 +635,10 @@ STATE_AYDIN = {
         building_coal_mine = 48
         building_logging_camp = 5
         building_fishing_wharf = 15
+        building_lead_mine = 24
+        building_iron_mine = 39
+        building_gold_mine = 5
+
     }
     naval_exit_id = 3035
 }
@@ -654,6 +658,9 @@ STATE_KONYA = {
     capped_resources = {
         building_logging_camp = 4
         building_fishing_wharf = 6
+        building_iron_mine = 20
+        building_coal_mine = 56
+        building_gold_mine = 3
     }
     naval_exit_id = 3034
 }
@@ -674,6 +681,7 @@ STATE_KASTAMONU = {
         building_coal_mine = 72
         building_logging_camp = 11
         building_fishing_wharf = 10
+        building_iron_mine = 13
     }
     naval_exit_id = 3036
 }
@@ -691,6 +699,7 @@ STATE_DIYARBAKIR = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_coal_mine = 32
+        building_lead_mine = 12
     }
 }
 
@@ -710,6 +719,8 @@ STATE_ADANA = {
         building_coal_mine = 44
         building_logging_camp = 4
         building_fishing_wharf = 12
+        building_gold_mine = 4
+        building_lead_mine = 34
     }
     naval_exit_id = 3034
 }
@@ -730,6 +741,7 @@ STATE_TRABZON = {
         building_iron_mine = 21
         building_logging_camp = 8
         building_fishing_wharf = 9
+        building_gold_mine = 4
     }
     naval_exit_id = 3094
 }
@@ -749,6 +761,7 @@ STATE_ERZURUM = {
         building_iron_mine = 30
         building_lead_mine = 36
         building_logging_camp = 9
+        building_coal_mine = 21
     }
 }
 
@@ -764,7 +777,11 @@ STATE_ANKARA = {
     arable_land = 65
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_opium_plantation" }
     capped_resources = {
-        building_logging_camp = 9
+        building_gold_mine = 4
+        building_logging_camp = 15
+        building_lead_mine = 13
+        building_iron_mine = 30
+
     }
 }
 
