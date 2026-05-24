@@ -33,7 +33,7 @@ company_vodka_monopoly = {
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_food_industry
+				is_building_type = building_distillery
 				level >= 5
 			}
 		}
@@ -59,7 +59,7 @@ company_vodka_monopoly = {
 	}
 
 	ai_construction_targets = {
-		building_food_industry = {
+		building_distillery = {
 			level = 5
 			state_trigger = {
 				OR = {

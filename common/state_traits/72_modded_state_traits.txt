@@ -144,7 +144,7 @@ state_trait_lorraine_mines = {
 state_trait_monopoly_location = {
 	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
-		building_food_industry_throughput_add = 0.1
+		building_distillery_throughput_add = 0.1
 	}
 }
 
