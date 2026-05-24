@@ -276,6 +276,15 @@
  pm_rail_transport_mine_3: "Rail Transportation (Condensing Engine)"
  pm_rail_transport_mine_4: "Rail Transportation (Diesel Engine)"
 
+ pmg_automation_building_distillery: "Automation"
+ pm_manual_distilling: "Manual Distilling"
+ pm_industrial_distilling: "Industrial Distilling"
+
+ pmg_industrial_wine: "Wine-making"
+ pm_no_industrial_wine: "No Wine Production"
+ pm_industrial_wine_minor: "Small Scale Fermentation"
+ pm_industrial_wine_major: "Industrial Scale Fermentation"
+
 #Buildings
  building_olive_groves: "Olive Groves"
  building_spice_plantation: "Spice Plantations"

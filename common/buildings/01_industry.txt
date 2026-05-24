@@ -38,6 +38,8 @@ building_distillery = {
 
 	production_method_groups = {
 		pmg_distillery
+		pmg_automation_building_distillery
+		pmg_industrial_wine
 	}
 
 	required_construction = construction_cost_high

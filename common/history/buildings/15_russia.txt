@@ -571,7 +571,7 @@
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_pot_stills" }
+                activate_production_methods={ "pm_pot_stills" "pm_manual_distilling" "pm_no_industrial_wine" }
             }
 			create_building={
 				building="building_university"
@@ -739,7 +739,7 @@
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_pot_stills" }
+                activate_production_methods={ "pm_pot_stills" "pm_manual_distilling" "pm_no_industrial_wine" }
             }
 			create_building={
 				building="building_government_administration"
