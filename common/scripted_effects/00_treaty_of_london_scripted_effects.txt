@@ -34,6 +34,16 @@
 				value = c:NET.scaled_debt
 			}
 		}
+		custom_tooltip = {
+            text = gay_diplo.1
+            set_global_variable = gay_diplo
+            c:BEL ?= {
+                take_on_scaled_debt = {
+                    who = c:NET
+                    value = c:NET.scaled_debt
+                }
+            }
+        }
 	}
 	else_if = {
 		limit = {

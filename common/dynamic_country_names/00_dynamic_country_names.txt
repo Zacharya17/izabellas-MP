@@ -2198,7 +2198,7 @@ UNL = { # United Netherlands
 		adjective = UNL_ADJ
 
 		is_main_tag_only = yes
-		priority = 0
+		priority = 1
 
 		trigger = {
 			exists = scope:actor
@@ -2228,7 +2228,6 @@ UNL = { # United Netherlands
 				owns_entire_state_region = STATE_WALLONIA
 				owns_entire_state_region = STATE_WEST_WALLONIA
 				owns_entire_state_region = STATE_FLANDERS
-				country_is_great_power = yes
 			}
 		}
 	}
@@ -2244,7 +2243,6 @@ UNL = { # United Netherlands
 			scope:actor ?= {
 				OR = {
 					has_law_or_variant = law_type:law_monarchy
-					country_is_great_power = no
 				}
 			}
 		}
