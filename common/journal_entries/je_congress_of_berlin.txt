@@ -3,7 +3,7 @@ je_congress_of_berlin = {
 
 	group = je_group_historical_content
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	immediate = {
 		s:STATE_NORTHERN_THRACE = {
@@ -17,7 +17,7 @@ je_congress_of_berlin = {
 	scripted_button = je_favour_ottomans_berlin_button
 	scripted_button = je_compromise_berlin_button
 
-	scripted_button = je_cyrpus_berlin_button
+	scripted_button = je_cyprus_berlin_button
 	scripted_button = je_bosnia_berlin_button
 
 	possible = {

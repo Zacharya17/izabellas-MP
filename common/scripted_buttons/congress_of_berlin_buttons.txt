@@ -3,6 +3,9 @@ je_favour_russia_berlin_button = {
 	desc = "je_favour_russia_berlin_button_desc"
 
 	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
 	}
 
 	possible = {
@@ -10,6 +13,8 @@ je_favour_russia_berlin_button = {
 			has_variable = favour_russia_berlin_country
 			has_variable = favour_ottomans_berlin_country
 			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
 		}
 	}
 
@@ -31,6 +36,9 @@ je_favour_ottomans_berlin_button = {
 	desc = "je_favour_ottomans_berlin_button_desc"
 
 	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
 	}
 
 	possible = {
@@ -38,6 +46,8 @@ je_favour_ottomans_berlin_button = {
 			has_variable = favour_russia_berlin_country
 			has_variable = favour_ottomans_berlin_country
 			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
 		}
 	}
 
@@ -59,6 +69,9 @@ je_compromise_berlin_button = {
 	desc = "je_compromise_berlin_button_desc"
 
 	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
 	}
 
 	possible = {
@@ -66,6 +79,8 @@ je_compromise_berlin_button = {
 			has_variable = favour_russia_berlin_country
 			has_variable = favour_ottomans_berlin_country
 			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
 		}
 	}
 
@@ -82,15 +97,18 @@ je_compromise_berlin_button = {
 	}
 }
 
-je_cyrpus_berlin_button = {
-	name = "je_cyrpus_berlin_button"
-	desc = "je_cyrpus_berlin_button_desc"
+je_cyprus_berlin_button = {
+	name = "je_cyprus_berlin_button"
+	desc = "je_cyprus_berlin_buttondesc"
 
 	visible = {
-		root =? c:GBR
+		c:TUR ?= THIS
 	}
 
 	possible = {
+		c:TUR = {
+			owns_entire_state_region = STATE_CYPRUS
+		}
 	}
 
 	ai_chance = {
@@ -98,6 +116,7 @@ je_cyrpus_berlin_button = {
 	}
 
 	effect = {
+		set_global_variable = favour_berlin_cyprus_negotiation
 	}
 }
 
@@ -106,7 +125,7 @@ je_bosnia_berlin_button = {
 	desc = "je_bosnia_berlin_button_desc"
 
 	visible = {
-		root =? c:GBR
+		c:TUR ?= THIS
 	}
 
 	possible = {
@@ -117,5 +136,6 @@ je_bosnia_berlin_button = {
 	}
 
 	effect = {
+		set_global_variable = favour_berlin_bosnia_negotiation
 	}
 }
