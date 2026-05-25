@@ -262,7 +262,7 @@
  GAL_ADJ:0 "Galician-Lodomerian"
  GAM:0 "Gambia"
  GAM_ADJ:0 "Gambian"
- GBR:0 "United Kingdom"
+ GBR:0 "Great Britain"
  GBR_ADJ:0 "British"
  GCO:0 "Gran Colombia"
  GCO_ADJ:0 "Gran Colombian"
@@ -1942,3 +1942,170 @@
  dyn_c_earth_kingdom: "Earth Kingdom"
  dyn_c_earth_republic: "Earth Republic"
  dyn_c_taiping_republic: "Heavenly Republic"
+
+
+
+##modded
+# Spain
+ dyn_c_spanish_empire: "Spanish Empire"
+ dyn_c_spanish_empire_adj: "Spanish"
+ dyn_c_spanish_kingdom: "Kingdom of Spain"
+ dyn_c_spanish_kingdom_adj: "Spanish"
+ dyn_c_spanish_commune: "Spanish Communist Republic"
+ dyn_c_spanish_commune_adj: "Spanish"
+ dyn_c_spanish_anarchy: "Spanish Anarchist Commune" 
+ dyn_c_spanish_anarchy_adj: "Spanish"
+
+# Portugal
+ dyn_c_portuguese_republic: "Portuguese Republic"
+ dyn_c_portuguese_republic_adj: "Portuguese"
+ dyn_c_portuguese_empire: "Portuguese Empire"
+ dyn_c_portuguese_kingdom: "Kingdom of Portugal"
+ dyn_c_portuguese_kingdom_adj: "Portuguese"
+ dyn_c_portuguese_commune: "Portuguese Socialist Republic"
+ dyn_c_portuguese_commune_adj: "Portuguese"
+
+# Prussia
+ dyn_c_prussian_kingdom: "Kingdom of Prussia"
+ dyn_c_prussian_kingdom_adj: "Prussian"
+ dyn_c_prussian_republic: "Republic of Prussia"
+ dyn_c_prussian_republic_adj: "Prussian"
+ dyn_c_prussian_commune: "Commune of Prussia"
+ dyn_c_prussian_commune_adj: "Prussian"
+
+# Germany
+ dyn_c_german_republic: "Federal Republic of Germany"
+ dyn_c_german_socialist: "German Democratic Republic"
+ dyn_c_german_anarchy: "Free Territories of Germany"
+
+# Austria   - Code simplified
+ dyn_c_austrian_empire: "Empire of Austria"
+ dyn_c_austrian_kingdom: "Kingdom of Austria"
+ dyn_c_austrian_republic: "Republic of Austria"
+ dyn_c_austrian_commune: "Socialist Republic of Austria"
+ dyn_c_austrian_anarchist: "Anarchist Republic of Austria"
+
+# Hungary
+ dyn_c_hungarian_kingdom: "Kingdom of Hungary"
+ dyn_c_hungarian_republic: "Republic of Hungary"
+ dyn_c_hungarian_socialist: "Socialist Republic of Hungary"
+ dyn_c_hungarian_anarchy: "Free Territories of Hungary"
+
+# Russia - already properly defined
+
+# Great Britain
+ dyn_c_british_socialist: "British Socialist Republic"
+ dyn_c_british_anarchist: "The Anarchy"
+
+# Netherlands
+ dyn_c_dutch_kingdom: "Koninkrijk der Nederlanden"
+ dyn_c_dutch_empire: "Dutch Empire"
+ dyn_c_dutch_republic: "Republiek der Zeven Verenigde Nederlanden"
+ dyn_c_dutch_socialist: "Nederlandse Socialistische Republiek"
+ dyn_c_dutch_anarchist: "Free Territories of the Lowlands"
+
+# Belgium
+ dyn_c_belgian_kingdom: "Kingdom of Belgium"
+ dyn_c_belgian_empire: "Empire of Belgium"
+ dyn_c_belgian_socialist: "Socialist Republic of Belgium"
+ dyn_c_belgian_anarchist: "Free Territories of Belgium"
+
+ # Sweden
+ dyn_c_swedish_kingdom: "Kingdom of Sweden"
+ dyn_c_swedish_empire: "Swedish Empire"
+ dyn_c_swedish_republic: "Republic of Sweden"
+ dyn_c_swedish_socialist: "Socialist Republic of Sweden"
+ dyn_c_swedish_anarchist: "Free Territories of Sweden"
+
+# Norway
+ dyn_c_norwegian_kingdom: "Kingdom of Norway"
+ dyn_c_norwegian_republic: "Republic of Norway"
+ dyn_c_norwegian_socialist: "Socialist Republic of Norway"
+
+# Greece
+ dyn_c_greek_kingdom: "Kingdom of Greece"
+ dyn_c_greek_republic: "Hellenic Republic"
+ dyn_c_greek_socialist: "Socialist Republic of Greece"
+ dyn_c_greek_anarchy: "Free Territories of greece"
+
+# Byzantium
+ dyn_c_byzantine_empire: "Eastern Roman Empire"
+ dyn_c_byzantine_republic: "Byzantine Republic"
+ dyn_c_byzantine_socialist: "Socialist Republic of Byzantium"
+ dyn_c_byzantine_anarchy: "Free Territories of Byzantium"
+
+ # central italy
+ dyn_c_central_italy: "United Provinces of Central Italy"
+ dyn_c_central_italy_adj: "Central Italian"
+ 
+ # italy
+ dyn_c_kingdom_italy: "Kingdom of Italy"
+ dyn_c_empire_italy: "Italian Empire"
+ dyn_c_anarchist_italy: "Unione Anarchica Italiana"
+ dyn_c_mussolini_italy: "Italian Social Republic"
+ dyn_c_communist_italy: "Italian Federation of Communes"
+
+ # north italy
+ dyn_c_north_italy: "North Italian Federation"
+
+ # Brazil
+ dyn_c_brazilian_empire: "Empire of Brazil"
+ dyn_c_brazilian_republic: "Republic of Brazil"
+ dyn_c_brazilian_commune: "Socialist Republic of Brazil"
+ dyn_c_brazilian_anarchy: "Free Territories of Brazil"
+
+ # Egypt
+ dyn_c_egyptian_khedivate: "Khedivate of Egypt"
+ dyn_c_egyptian_kingdom: "Kingdom of Egypt"
+ dyn_c_egyptian_empire: "Egyptian Empire"
+ dyn_c_egyptian_republic: "Republic of Egypt"
+ dyn_c_egyptian_commune: "Socialist Republic of Egypt"
+ dyn_c_egyptian_anarchy: "Free Territories of Egypt"
+ 
+ # China
+ dyn_c_great_qing:0 "Great Qing"
+ dyn_c_great_qing_adj:0 "Qing"
+ CHI:0 "China"
+ CHI_ADJ:0 "Chinese"
+
+ # Hesse-darmstadt
+ HDT:0 "Darmstadt"
+ HDT_ADJ:0 "Darmstadtler"
+
+ # viceroy government
+ gov_viceroy_poland: "Russian Territory"
+ gov_viceroy_poland_desc: "#yellow Poland#! is currently in a state of union with #yellow Russia#!, with the [Concept('concept_ruler','$RULER_TITLE_VICEROY$')] acting in the stead of the [Concept('concept_ruler','$RULER_TITLE_TSAR$')] of #yellow Russia#!, who nominally rules over #yellow Poland#! as King"
+
+# moldova and wallachia
+
+ dyn_c_moldova_occupation: "Moldovan Occupation"
+ dyn_c_wallachia_occupation: "Wallachian Occupation"
+
+#Indochina
+ IDC:0 "Indochina"
+ IDC_ADJ:0 "Indochinese"
+
+#Bulgaro-Romanian Union
+ RBU:0 "Bulgaria-Romania"
+ RBU_ADJ:0 "Bulgaro-Romanian"
+
+#Regna de Burgondie
+ BGD:0 "Regna de Burgondie"
+ BGD_ADJ:0 "Burgundian"
+
+ # Posen
+ PZN:0 "Grand Duchy of Posen"
+ PZN_ADJ:0 "Posenian"
+
+ #sicily
+ dyn_c_south_italy: "South Italian Republic"
+ dyn_c_south_italy_adj: "South Italian"
+
+ #United Netherlands
+ UNL: "United Netherlands"
+ UNL_ADJ: "Dutch"
+ dyn_c_unl_republic: "Batavian Commonwealth"
+ dyn_c_unl_republic_adj: "Batavian"
+ dyn_c_unl_lux_republic: "The Zeventien Provinciën"
+ dyn_c_unl_empire: "Imperial Commenwealth"
+ dyn_c_unl_kingdom: "Verenigd Koninkrijk der Nederlanden"

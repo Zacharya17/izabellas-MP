@@ -363,3 +363,20 @@ pmg_automation_management = {
 		pm_management2
 	}
 }
+
+pmg_automation_building_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_distilling
+		pm_industrial_distilling
+	}
+}
+
+pmg_industrial_wine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_industrial_wine
+		pm_industrial_wine_minor
+		pm_industrial_wine_major
+	}
+}

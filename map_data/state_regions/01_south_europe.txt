@@ -1153,6 +1153,7 @@ STATE_WESTERN_THRACE = {
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 27
+        building_coal_mine = 28
         building_logging_camp = 5
         building_fishing_wharf = 10
     }
@@ -1190,6 +1191,7 @@ STATE_PELOPONNESE = {
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 21
+        building_coal_mine = 36
         building_logging_camp = 5
         building_fishing_wharf = 10
     }

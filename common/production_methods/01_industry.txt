@@ -2741,3 +2741,70 @@ pm_management2 = {
 		}
 	}
 }
+
+pm_manual_distilling = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_industrial_distilling = {
+	texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10		# x40 = 400
+			goods_input_glass_add = 10
+			goods_output_liquor_add = 5
+		}
+
+		level_scaled = {
+			# profit = -400 (break-even when annual laborer wage > 8.32)
+			building_employment_laborers_add = -4000
+		}
+	}
+}
+pm_no_industrial_wine = {
+	texture = "gfx/interface/icons/production_method_icons/modded_pms/no_wine_production.dds"
+}
+
+pm_industrial_wine_minor = {
+	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 20
+			goods_input_sugar_add = 20
+			goods_output_wine_add = 20
+			goods_output_liquor_add = -5
+		}
+	}
+}
+
+pm_industrial_wine_major = {
+	texture = "gfx/interface/icons/production_method_icons/crystal_glass.dds"
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 25
+			goods_input_sugar_add = 25
+			goods_output_wine_add = 50
+			goods_output_liquor_add = -15
+		}
+	}
+}

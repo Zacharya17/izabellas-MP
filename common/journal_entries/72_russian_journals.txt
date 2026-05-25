@@ -1,0 +1,121 @@
+## Journal for Russian Ambitions to acquire Constantinople
+
+je_road_to_tsargorod = {
+    icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+    group = je_group_historical_content
+
+    is_shown_when_inactive = {
+        exists = c:RUS
+        c:RUS = ROOT
+    }
+
+    possible = {
+        NOT = { has_law = law_type:law_peasant_levies }
+        custom_tooltip = {
+            text = nikolai_is_dead
+            ruler = {
+            exists = yes
+            NOT = { has_template = RUS_nicholas_i }
+            }
+        }
+        has_technology_researched = nationalism
+    }
+
+    scripted_button = claims_tsargorod
+    scripted_button = claims_black_sea_region
+
+    immediate = {
+    }
+
+    on_monthly_pulse = {
+    }
+
+    complete = {
+        OR = {
+            has_global_variable = claimed_tsargorod
+            has_global_variable = claimed_black_sea_region
+        }
+    }
+
+    on_complete = {
+        add_modifier = { 
+        name = modifier_catherinian_legacy
+        years = 5 
+        }
+    }
+
+    on_fail = {
+    }
+
+    fail = {
+    }
+
+    weight = 10000
+    should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+
+
+##JE for the Vodka Monopoly in Russia 
+
+je_vodka_monopoly = {
+    icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+    group = je_group_historical_content
+
+    modifiers_while_active = {
+        modifier_russia_minting
+    }
+
+    is_shown_in_lobby = {
+        c:RUS = THIS
+    }
+
+    is_shown_when_inactive = {
+        exists = c:RUS
+        c:RUS = ROOT
+    }
+
+    possible = {
+        c:RUS = THIS
+    }
+
+    scripted_button = revoking_privileges_button
+    scripted_button = grant_privilges_button
+    scripted_button = monastic_distillery_button
+    scripted_button = reducing_prices_button
+    scripted_button = normalising_prices_button
+
+    on_monthly_pulse = {
+    }
+
+    complete = {
+    }
+
+    on_complete = {
+    }
+
+    on_fail = {
+        remove_modifier = modifier_vodka_monopoly
+        if = {
+            limit = { has_modifier = modifier_distillery_privileges }
+            remove_modifier = modifier_distillery_privileges
+        }
+        if = {
+            limit = { has_modifier = modifier_monastic_distillery }
+            remove_modifier = modifier_monastic_distillery
+        }
+        if = {
+            limit = { has_modifier = modifier_reduced_prices }
+            remove_modifier = modifier_reduced_prices
+        }
+    }
+
+    fail = {
+        NOT = { has_company = company_type:company_vodka_monopoly }
+    }
+
+    weight = 10000
+    should_be_pinned_by_default_uninvolved_or_context = yes
+}
