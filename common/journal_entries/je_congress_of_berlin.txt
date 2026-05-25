@@ -6,6 +6,11 @@ je_congress_of_berlin = {
 	should_be_pinned_by_default = yes
 
 	immediate = {
+		s:STATE_NORTHERN_THRACE = {
+			random_scope_state = {
+				save_scope_as = plovdiv_scope
+			}
+		}
 	}
 
 	scripted_button = je_favour_russia_berlin_button
