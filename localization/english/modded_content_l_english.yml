@@ -286,6 +286,16 @@
  pm_industrial_wine_minor: "Small Scale Fermentation"
  pm_industrial_wine_major: "Industrial Scale Fermentation"
 
+ pmg_medical_treatment: "Medical Treatment"
+ pm_no_professional_medical_treatment: "No Professional Treatment"
+ pm_traditional_medicine: "Tradtitional Medicine"
+ pm_pharmaceuticals: "Pharmaceutical Treatment"
+
+ pmg_malaria_prevention: "Malaria Treatment"
+ pm_no_malaria_treatment: "No Malaria Treatment"
+ pm_malaria_prophylaxis: "Malaria Prohylaxis"
+ pm_malaria_prevention: "Malaria Prevention"
+
 #Buildings
  building_olive_groves: "Olive Groves"
  building_spice_plantation: "Spice Plantations"
@@ -294,6 +304,8 @@
  building_central_bank: "Central Bank"
 
  building_distillery: "Distilleries"
+
+ building_hospital: "Hospitals"
 
 # chinese recognition
  is_china_tt: "Is Chinese"

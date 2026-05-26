@@ -82,3 +82,28 @@ pmg_airship_mooring_post = {
 		pm_airship_mooring_post
 	}
 }
+
+
+##Modded
+#Hospital
+pmg_medical_treatment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_professional_medical_treatment
+		pm_traditional_medicine
+		pm_pharmaceuticals
+	}
+}
+
+pmg_malaria_prevention = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_malaria_treatment
+		pm_malaria_prophylaxis
+		pm_malaria_prevention
+	}
+}

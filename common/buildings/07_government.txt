@@ -132,3 +132,35 @@ building_skyscraper = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+building_hospital = {
+
+	has_max_level = yes
+
+	building_group = bg_healthcare
+
+	city_type = city
+
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		tech_medical_degrees
+	}
+
+	production_method_groups = {
+		pmg_medical_treatment
+		pmg_malaria_prevention
+	}
+
+	icon = "gfx/interface/icons/building_icons/modded_buildings/hospital.dds"
+
+	required_construction = construction_cost_very_low
+
+	can_build_private = {
+		always = no
+	}
+
+	ai_value = 1000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
