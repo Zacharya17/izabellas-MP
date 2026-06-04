@@ -87,10 +87,13 @@ pm_cannery = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_meat_add = 20		# x30 =  600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_iron_add = 5		# x40 =  200
+			goods_input_olive_oil_add = 5	# x50 =  250
+			goods_input_spice_box_add = 5	# x50 =  250
+
 
 			# output goods
-			goods_output_groceries_add = 30	# x30 =  900
+			goods_output_groceries_add = 35	# x30 = 1050
 		}
 
 		level_scaled = {
@@ -112,10 +115,12 @@ pm_cannery_fish = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_fish_add = 30		# x20 =  600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_iron_add = 5		# x40 =  200
+			goods_input_olive_oil_add = 5	# x50 =  250
+			goods_input_spice_box_add = 5	# x50 =  250
 
 			# output goods
-			goods_output_groceries_add = 30	# x30 =  900
+			goods_output_groceries_add = 35	# x30 = 1050
 		}
 
 		level_scaled = {
