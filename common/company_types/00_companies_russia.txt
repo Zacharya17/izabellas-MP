@@ -10,7 +10,6 @@ company_vodka_monopoly = {
 	preferred_headquarters = { STATE_INGRIA STATE_MOSCOW }
 
 	building_types = {
-		building_food_industry
 		building_distillery
 		building_vineyard
 	}
