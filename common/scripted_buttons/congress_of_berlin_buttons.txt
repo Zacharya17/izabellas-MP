@@ -129,6 +129,9 @@ je_bosnia_berlin_button = {
 	}
 
 	possible = {
+		c:TUR = {
+			owns_entire_state_region = STATE_BOSNIA
+		}
 	}
 
 	ai_chance = {
