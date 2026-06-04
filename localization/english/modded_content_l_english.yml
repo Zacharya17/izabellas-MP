@@ -445,6 +445,12 @@
  je_bosnia_berlin_button: "Offer Bosnia for support"
  je_bosnia_berlin_button_desc: "Offer Bosnia to Austria for support"
 
+ bulgaria_exists.1.t: "The Congress of Berlin"
+ bulgaria_exists.1.d: "The Great powers meet in Berlin to decide the fate of the nascent Bulgarian nation, Do we choose to join discussions, or miss out?"
+ bulgaria_exists.1.f: ""Mama! Papa! We are free, free at last!" - A young bulgarian child in Plovdiv exclaims, perhaps not knowing the major international ramifications that this event may have..."
+ bulgaria_exists.1.a: "We shall participate"
+ bulgaria_exists.1.b: "We shall sit this one out"
+
 
 
 

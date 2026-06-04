@@ -1,4 +1,4 @@
-namespace = bulgaria_exists.1
+namespace = bulgaria_exists
 
 bulgaria_exists.1 = {
 	type = country_event
@@ -33,5 +33,69 @@ bulgaria_exists.1 = {
 
 	option = {
 		name = bulgaria_exists.1.b
+	}
+}
+
+bulgaria_exists.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = bulgaria_exists.2.t
+	desc = bulgaria_exists.2.d # probably want a triggered desc here
+	flavor = bulgaria_exists.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	immediate = {
+	}
+	option = {
+		name = bulgaria_exists.2.a
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = bulgaria_exists.2.b
+	}
+}
+
+bulgaria_exists.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = bulgaria_exists.3.t
+	desc = bulgaria_exists.3.d # probably want a triggered desc here
+	flavor = bulgaria_exists.3.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	immediate = {
+	}
+	option = {
+		name = bulgaria_exists.3.a
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = bulgaria_exists.3.b
 	}
 }
