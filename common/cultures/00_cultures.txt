@@ -337,7 +337,7 @@ dutch= {
 		liquor
 	}
 
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
 	male_common_first_names = {
 		Abraham Adolf Adriaan Alexander Andreas Andries Antonius Antoon
 		Barthout Balthazar
@@ -7117,6 +7117,11 @@ pashtun= {
 	heritage = heritage_iranian
 	language = language_pashto
 	traditions = { tradition_persianate }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abd_al-Quddus
 		Abd_al-Rahman
@@ -7680,6 +7685,7 @@ assamese= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -7732,6 +7738,11 @@ bihari= {
 	heritage = heritage_gangetic
 	language = language_magadhan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ashoka
 		Ashtravakra
@@ -7926,6 +7937,7 @@ sinhala= {
 	language = language_southern_indic
 
 	obsessions = {
+		spice_box
 	}
 
 	traditions = { }
@@ -7971,6 +7983,11 @@ avadhi= {
 	heritage = heritage_gangetic
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ishvari
 		Jugal
@@ -8018,6 +8035,7 @@ panjabi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8066,6 +8084,11 @@ kashmiri= {
 	heritage = heritage_kashmiri
 	language = language_dardic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Atta
@@ -8113,6 +8136,11 @@ sindi= {
 	heritage = heritage_indusine
 	language = language_northwestern_indic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Gholam
 		Hosayn
@@ -8170,6 +8198,7 @@ rajput= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8226,6 +8255,11 @@ kannada= {
 	heritage = heritage_deccani
 	language = language_tamil_tulu
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abbakka
 		Aliya
@@ -8281,6 +8315,7 @@ malayalam= {
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -8331,6 +8366,11 @@ telegu= {
 	language = language_south_central
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Alluri
 		Durgabai
@@ -8378,6 +8418,7 @@ vietnamese= {
 	name_format = last_first
 
 	obsessions = {
+		spice_box
 	}
 
 	traditions = { tradition_sinosphere }
@@ -8435,6 +8476,11 @@ khmer= {
 	language = language_khmeric
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ang
 		Norodom
@@ -8480,6 +8526,11 @@ batak= {
 	heritage = heritage_insulindian
 	language = language_batak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Kiras
 		Nerus
@@ -8532,6 +8583,11 @@ dayak= {
 	heritage = heritage_insulindian
 	language = language_dayak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Daud
 		Haimie
@@ -8886,6 +8942,11 @@ tagalog= {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -8974,6 +9035,11 @@ visayan= {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9057,6 +9123,11 @@ ilocano = {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9119,6 +9190,11 @@ lumad = {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9276,7 +9352,12 @@ javan= {
 	religion = sunni
 	heritage = heritage_insulindian
 	language = language_malay
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abul Abdurrahman Ahmad Amir Anom Arifin
 		Bambang
@@ -9334,6 +9415,11 @@ moluccan= {
 	heritage = heritage_insulindian
 	language = language_moluccan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Denny
 		Dominggus
@@ -9379,6 +9465,7 @@ thai= {
 	language = language_siamese
 
 	obsessions = {
+		spice_box
 	}
 
 	traditions = { }
@@ -9474,6 +9561,11 @@ khmu= {
 	heritage = heritage_khmu
 	language = language_khmuic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Anurutha
 		Chantha
@@ -9525,6 +9617,7 @@ lao= {
 
 	obsessions = {
 		liquor
+		spice_box
 	}
 
 	traditions = { }
@@ -9721,6 +9814,11 @@ karen= {
 	heritage = heritage_burmese
 	language = language_karenic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Hkun
 		La
@@ -10267,6 +10365,11 @@ hakka= {
 	heritage = heritage_han
 	language = language_hakka
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	name_format = last_first
 	male_common_first_names = {
 		Chen
@@ -10339,6 +10442,11 @@ miao= {
 	language = language_hmong
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bang
 		Blong
@@ -10407,6 +10515,12 @@ min= {
 	language = language_min
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	
+	}
+
 	male_common_first_names = {
 		Bing
 		Chen
@@ -10532,6 +10646,11 @@ yi= {
 	language = language_yi
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Chen
 		Cheng
@@ -10612,6 +10731,11 @@ yue= {
 	heritage = heritage_han
 	language = language_yue
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	name_format = last_first
 	male_common_first_names = {
 		Chen
@@ -10832,6 +10956,7 @@ melanesian= {
 
 	obsessions = {
 		meat
+		spice_box
 	}
 
 	traditions = { }
@@ -18681,6 +18806,11 @@ swahili= {
 	heritage = heritage_eastern_bantu
 	language = language_swahili
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ali Al_Bashir Abdullah Ahmed Abedi Athman Abdul Abdulrazak Abdulmuhsin Abu_Bakar Alwy Abdurrahman Awath Abdulwahid
 		Barghash Bakari Bakathir
@@ -20728,6 +20858,11 @@ bundeli = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Adithya
 		Chhatrasal
@@ -20816,6 +20951,11 @@ gondi = {
 	heritage = heritage_central
 	language = language_south_central
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ajanbahu
 		Bakht_Buland
@@ -20905,6 +21045,11 @@ chhattisgarhi = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bhupesh
 		Habib
@@ -20997,6 +21142,11 @@ deccani = {
 	heritage = heritage_deccani
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+	
 	male_common_first_names = {
 		Amjad Ahmed Abdullah Aziz Awaz
 		Farhatullah
@@ -21053,6 +21203,7 @@ gujarati={
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -21111,6 +21262,7 @@ tamil={
 
 	obsessions = {
 		sugar
+		spice_box
 	}
 
 	traditions = { }
@@ -21169,6 +21321,7 @@ bengali={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -21248,6 +21401,7 @@ marathi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -21346,6 +21500,7 @@ pathan = {
 
 	obsessions = {
 		tobacco
+		spice_box
 	}
 
 	traditions = { tradition_persianate }
@@ -21928,9 +22083,10 @@ malay={
 	language = language_malay
 
 	obsessions = {
+		spice_box
 	}
 
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
 	male_common_first_names = {
 		Abdullah
 		Al-Mukammal
@@ -21987,7 +22143,12 @@ bornean={
 	religion = sunni
 	heritage = heritage_insulindian
 	language = language_malay
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Al-Mukammal
@@ -22046,9 +22207,10 @@ sumatran={
 	language = language_malay
 
 	obsessions = {
+		spice_box
 	}
 
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
 	male_common_first_names = {
 		Abdullah
 		Al-Mukammal
@@ -22108,9 +22270,10 @@ balinese={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
-	traditions = { }
+	traditions = { tradition_dutch_colonial }
 	male_common_first_names = {
 		Wayan
 		Made
@@ -23130,6 +23293,10 @@ champa = {
 	language = language_cham
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
 
 	male_common_first_names = {
 		A_Nan At Angsaraja
