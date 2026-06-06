@@ -105,9 +105,16 @@ je_cyprus_berlin_button = {
 		c:TUR ?= THIS
 	}
 
+	cooldown = {
+		months = 6
+	}
+
 	possible = {
 		c:TUR = {
 			owns_entire_state_region = STATE_CYPRUS
+		}
+		NOT = {
+			has_global_variable = favour_berlin_cyprus_negotiation
 		}
 	}
 
@@ -117,6 +124,7 @@ je_cyprus_berlin_button = {
 
 	effect = {
 		set_global_variable = favour_berlin_cyprus_negotiation
+		c:GBR = { trigger_event = { id = bulgaria_negotiation.1 } }
 	}
 }
 
@@ -132,6 +140,13 @@ je_bosnia_berlin_button = {
 		c:TUR = {
 			owns_entire_state_region = STATE_BOSNIA
 		}
+		NOT = {
+			has_global_variable = favour_berlin_bosnia_negotiation
+		}
+	}
+
+	cooldown = {
+		months = 6
 	}
 
 	ai_chance = {
@@ -140,5 +155,6 @@ je_bosnia_berlin_button = {
 
 	effect = {
 		set_global_variable = favour_berlin_bosnia_negotiation
+		c:AUS = { trigger_event = { id = bulgaria_negotiation.2 } }
 	}
 }
