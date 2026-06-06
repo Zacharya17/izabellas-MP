@@ -2789,8 +2789,8 @@ pm_industrial_wine_minor = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fruit_add = 20
-			goods_input_sugar_add = 20
+			goods_input_fruit_add = 5
+			goods_input_sugar_add = 5
 			goods_output_wine_add = 20
 			goods_output_liquor_add = -5
 		}
@@ -2801,13 +2801,13 @@ pm_industrial_wine_major = {
 	texture = "gfx/interface/icons/production_method_icons/crystal_glass.dds"
 
 	unlocking_technologies = {
-		fractional_distillation
+		baking_powder
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fruit_add = 25
-			goods_input_sugar_add = 25
+			goods_input_fruit_add = 10
+			goods_input_sugar_add = 10
 			goods_output_wine_add = 50
 			goods_output_liquor_add = -15
 		}

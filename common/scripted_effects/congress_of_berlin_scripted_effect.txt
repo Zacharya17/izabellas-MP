@@ -62,23 +62,10 @@ enforce_congress_of_berlin = {
 			global_var:ottomans_favour_berlin_progress > global_var:russia_favour_berlin_progress
 			global_var:ottomans_favour_berlin_progress > global_var:compromise_berlin_progress
 		}
-		create_country = {
-			origin = root
-			tag = ERU
-			state = scope:plovdiv_scope
-			on_created = {
-			}
-		}
-		c:TUR ?= {
-				create_diplomatic_pact = {
-				country = c:ERU
-				type = puppet
-			}
-		}
 		c:TUR ?= {
 				create_diplomatic_pact = {
 				country = c:BUL
-				type = customs_union
+				type = protectorate
 			}
 		}
 	}
