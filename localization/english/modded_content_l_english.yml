@@ -20,6 +20,12 @@
  company_olearia_clemente: "Olearia Clemente & Co."
  company_ikea: "Inter IKEA Group"
  company_stevns_foderstofforening: "Stevns Foderstofforening"
+ 
+ company_basic_spices_dynamic_name_tag_singular: "Spices"
+ company_basic_spices_dynamic_name_tag_plural: "Spices"
+
+ company_basic_distilleries_dynamic_name_tag_singular: "Distillery"
+ company_basic_distilleries_dynamic_name_tag_plural: "Distilleries"
 
 ##Modded Laws
  

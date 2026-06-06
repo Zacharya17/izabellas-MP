@@ -399,12 +399,12 @@ company_olearia_clemente = {
 	possible = {
 		any_scope_state = {
 			is_incorporated = yes
-			is_homeland = cu:south_italian
 			any_scope_building = {
 				is_building_type = building_olive_groves
 				level >= 5
 			}
 		}
+		country_has_primary_culture = cu:south_italian
 	}
 
 	prosperity_modifier = {
