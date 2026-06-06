@@ -6696,8 +6696,7 @@
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
-					company={
-						type=company_krupp
+					country={
 						country="c:PRU"
 						levels=2
 					}
