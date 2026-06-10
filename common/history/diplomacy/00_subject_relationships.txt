@@ -40,7 +40,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:POL
-			type = dominion
+			type = personal_union
 		}
 		create_diplomatic_pact = {
 			country = c:UBD
