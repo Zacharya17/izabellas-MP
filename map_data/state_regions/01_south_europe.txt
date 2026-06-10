@@ -818,6 +818,7 @@ STATE_NORTHERN_THRACE = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 33
+        building_coal_mine = 20
         building_logging_camp = 17
         building_fishing_wharf = 6
     }
