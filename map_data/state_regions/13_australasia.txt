@@ -45,7 +45,8 @@ STATE_VICTORIA = {
     arable_resources = { "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
         building_sulfur_mine = 24
-        building_coal_mine = 46
+        building_coal_mine = 50
+        building_iron_mine = 16
         building_logging_camp = 11
         building_whaling_station = 3
         building_fishing_wharf = 8
@@ -57,7 +58,7 @@ STATE_VICTORIA = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 15
+        undiscovered_amount = 25
     }
     naval_exit_id = 3122
 }
@@ -106,7 +107,7 @@ STATE_QUEENSLAND = {
     capped_resources = {
         building_iron_mine = 45
         building_lead_mine = 45
-        building_coal_mine = 38
+        building_coal_mine = 90
         building_logging_camp = 5
         building_whaling_station = 3
         building_fishing_wharf = 12
