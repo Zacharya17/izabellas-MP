@@ -34,6 +34,15 @@ pmg_automation_building_food_industry = {
 	}
 }
 
+pmg_preservatives_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_preservatives_food_none
+		pm_preservatives_food_1
+		pm_preservatives_food_2
+	}
+}
+
 pmg_base_building_textile_mill = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

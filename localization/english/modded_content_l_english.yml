@@ -292,6 +292,11 @@
  pm_industrial_wine_minor: "Small Scale Fermentation"
  pm_industrial_wine_major: "Industrial Scale Fermentation"
 
+ pmg_preservatives_food_industry: "Preservation"
+ pm_preservatives_food_none: "No Preservatives"
+ pm_preservatives_food_1: "Preservatives"
+ pm_preservatives_food_2: "Refrigeration"
+
 #Buildings
  building_olive_groves: "Olive Groves"
  building_spice_plantation: "Spice Plantations"
@@ -456,6 +461,9 @@
  bulgaria_exists.1.f: ""Mama! Papa! We are free, free at last!" - A young bulgarian child in Plovdiv exclaims, perhaps not knowing the major international ramifications that this event may have..."
  bulgaria_exists.1.a: "We shall participate"
  bulgaria_exists.1.b: "We shall sit this one out"
+
+# modifiers
+ zeppelins_military_modifier_replace: "Airships of War"
 
 
 

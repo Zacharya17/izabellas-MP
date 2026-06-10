@@ -87,13 +87,10 @@ pm_cannery = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_meat_add = 20		# x30 =  600
-			goods_input_iron_add = 5		# x40 =  200
-			goods_input_olive_oil_add = 5	# x50 =  250
-			goods_input_spice_box_add = 5	# x50 =  250
-
+			goods_input_iron_add = 10		# x40 =  400
 
 			# output goods
-			goods_output_groceries_add = 35	# x30 = 1050
+			goods_output_groceries_add = 30	# x30 =  900
 		}
 
 		level_scaled = {
@@ -115,12 +112,10 @@ pm_cannery_fish = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_fish_add = 30		# x20 =  600
-			goods_input_iron_add = 5		# x40 =  200
-			goods_input_olive_oil_add = 5	# x50 =  250
-			goods_input_spice_box_add = 5	# x50 =  250
+			goods_input_iron_add = 10		# x40 =  400
 
 			# output goods
-			goods_output_groceries_add = 35	# x30 = 1050
+			goods_output_groceries_add = 30	# x30 =  900
 		}
 
 		level_scaled = {
@@ -2812,4 +2807,61 @@ pm_industrial_wine_major = {
 			goods_output_liquor_add = -15
 		}
 	}
+}
+
+pm_preservatives_food_none = {
+	texture = "gfx/interface/icons/production_method_icons/no_refrigeration.dds"
+}
+
+pm_preservatives_food_1 = {
+	texture = "gfx/interface/icons/production_method_icons/modded_pms/preservatives.dds"
+
+	unlocking_technologies = {
+		canneries
+	}
+
+	unlocking_production_methods = {
+		pm_cannery
+		pm_cannery_fish
+		pm_vacuum_canning
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_olive_oil_add = 10
+			goods_input_spice_box_add = 10
+			goods_output_groceries_add = 30
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 50
+		}
+	}
+
+}
+
+pm_preservatives_food_2 = {
+	texture = "gfx/interface/icons/production_method_icons/flash_refrigerated.dds"
+
+	unlocking_technologies = {
+		pasteurization
+	}
+
+	unlocking_production_methods = {
+		pm_cannery
+		pm_cannery_fish
+		pm_vacuum_canning
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 15
+			goods_output_groceries_add = 50
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 100
+		}
+	}
+
 }
