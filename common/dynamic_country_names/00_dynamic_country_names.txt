@@ -2165,15 +2165,86 @@ NEJ = { # Nejd
 }
 
 UNL = { # United Netherlands
+	#dynamic_country_name = {
+	#	name = dyn_c_burgundy
+	#	adjective = dyn_c_burgundy_adj
+	#
+	#	is_main_tag_only = yes
+	#	priority = 0
+	#
+	#	trigger = {
+	#		coa_def_absolute_monarchy_flag_trigger = yes
+	#	}
+	#}
 	dynamic_country_name = {
-		name = dyn_c_burgundy
-		adjective = dyn_c_burgundy_adj
+		name = dyn_c_unl_republic
+		adjective = dyn_c_unl_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
 
 		trigger = {
-			coa_def_absolute_monarchy_flag_trigger = yes
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_presidential_republic
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_unl_empire
+		adjective = UNL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law_or_variant = law_type:law_monarchy
+					country_is_great_power = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_unl_lux_republic
+		adjective = UNL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_presidential_republic
+				}
+				owns_entire_state_region = STATE_LUXEMBERG
+				owns_entire_state_region = STATE_WALLONIA
+				owns_entire_state_region = STATE_WEST_WALLONIA
+				owns_entire_state_region = STATE_FLANDERS
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_unl_kingdom
+		adjective = UNL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law_or_variant = law_type:law_monarchy
+				}
+			}
 		}
 	}
 }
@@ -4910,7 +4981,7 @@ ATL = {
 	}
 }
 
-# Sleeppe's mod additions
+##modded
 
 SPA = {
 	dynamic_country_name = {
@@ -6143,3 +6214,4 @@ WAL = { # Wallachian occupation
 		}
 	}
 }
+

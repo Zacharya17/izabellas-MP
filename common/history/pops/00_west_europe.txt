@@ -85,6 +85,7 @@
 			}
 		}
 	}
+
 	s:STATE_ZEALAND = {
 		region_state:DEN = {
 			create_pop = {
@@ -1135,6 +1136,7 @@
 			}
 		}
 	}
+
 	# Antwerp, Brabant, West Flanders, East Flanders, and Limburg
 	s:STATE_FLANDERS = {
 		region_state:BEL = {
@@ -1294,16 +1296,36 @@
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 1083496
+				size = 1158496
 			}
+		    create_pop = {
+		        culture = czech
+		        religion = protestant
+		        size = 5062
+		    }
 			create_pop = {
 				culture = ashkenazi
-				size = 15000
+		        religion = jewish
+				size = 21896
 			}
 			create_pop = {
 				culture = polish
-				size = 56004
+				size = 181679
 			}
+		    create_pop = {
+		        culture = polish
+		        religion = protestant
+		        size = 1777
+		    }
+		    create_pop = {
+		        culture = north_german
+		        religion = catholic
+		        size = 131778
+		    }
+		    create_pop = {
+		        culture = north_german
+		        size = 55800
+		    }
 		}
 	}
 	s:STATE_STYRIA = {
@@ -1348,7 +1370,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 870000
+				size = 1018800
 			}
 			create_pop = {
 				culture = north_german
@@ -1521,7 +1543,7 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 200000
+				size = 424000
 			}
 			create_pop = {
 				culture = french
@@ -1529,28 +1551,7 @@
 			}
 			create_pop = {
 				culture = north_german
-				size = 100000
-			}
-		}
-	}
-	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 1230379
-			}
-			create_pop = {
-				culture = north_german
-				size = 379847
-			}
-			create_pop = {
-				culture = wallonian
-				size = 4000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1502
+				size = 323992
 			}
 		}
 		region_state:BAV = {
@@ -1566,6 +1567,27 @@
 				culture = south_german
 				religion = protestant
 				size = 303996
+			}
+		}
+	}
+	s:STATE_NORTH_RHINE = {
+		region_state:PRU = {
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 830379
+			}
+			create_pop = {
+				culture = north_german
+				size = 179847
+			}
+			create_pop = {
+				culture = wallonian
+				size = 4000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1502
 			}
 		}
 	}
@@ -1642,11 +1664,11 @@
 		region_state:SCH = {
 			create_pop = {
 				culture = north_german
-				size = 180000
+				size = 200000
 			}
 			create_pop = {
 				culture = danish
-				size = 180000
+				size = 136404
 			}
 		}
 	}
@@ -1851,21 +1873,6 @@
 				size = 840
 			}
 		}
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 230000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 3000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 840
-			}
-		}
 		region_state:COB = {
 			create_pop = {
 				culture = north_german
@@ -1911,12 +1918,6 @@
 				culture = north_german
 				religion = catholic
 				size = 8000
-			}
-		}
-		region_state:HDT = {
-			create_pop = {
-				culture = south_german
-				size = 50000
 			}
 		}
 		region_state:HES = {
@@ -2000,4 +2001,5 @@
 			}
 		}
 	}
+
 }

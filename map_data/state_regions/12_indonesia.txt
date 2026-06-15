@@ -20,7 +20,7 @@
         type = "building_rubber_plantation"
         undiscovered_amount = 40
     }
-    naval_exit_id = 3052
+    naval_exit_id = 3051
 }
 
 STATE_NORTH_BORNEO = {
@@ -55,7 +55,7 @@ STATE_NORTH_BORNEO = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
-    naval_exit_id = 3055
+    naval_exit_id = 3056
 }
 
 STATE_WEST_BORNEO = {
@@ -87,7 +87,7 @@ STATE_WEST_BORNEO = {
         type = "building_rubber_plantation"
         undiscovered_amount = 12
     }
-    naval_exit_id = 3052
+    naval_exit_id = 3072
 }
 
 STATE_EAST_BORNEO = {
@@ -116,7 +116,7 @@ STATE_EAST_BORNEO = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
-    naval_exit_id = 3125
+    naval_exit_id = 3052
 }
 
 STATE_WEST_JAVA = {
@@ -129,7 +129,7 @@ STATE_WEST_JAVA = {
     farm = "x975BCA"
     mine = "x5CC6B6"
     wood = "xA0DFEF"
-    arable_land = 140
+    arable_land = 110
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_coal_mine = 20
@@ -223,7 +223,7 @@ STATE_NORTH_SUMATRA = {
         type = "building_rubber_plantation"
         undiscovered_amount = 28
     }
-    naval_exit_id = 3120
+    naval_exit_id = 3158
 }
 
 STATE_SOUTH_SUMATRA = {
@@ -251,7 +251,7 @@ STATE_SOUTH_SUMATRA = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
-    naval_exit_id = 3120
+    naval_exit_id = 3158
 }
 
 STATE_ACEH = {
@@ -339,7 +339,7 @@ STATE_CELEBES = {
     id = 913
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x08BE67" "x0C7820" "x0CA6B2" "x10547F" "x4DA1DC" "x507A4B" "x5585BD" "x58A658" "x5D959D" "x613129" "x63E362" "x79D69A" "x7A4D9B" "x7A4DF4" "x7AA69B" "x7BD240" "x7EF242" "x8080F0" "x886F1C" "x908010" "x9A5C23" "xA22F3F" "xB14D58" "xB3682E" "xB67D4D" "xBF46E7" "xC00170" "xC04B6D" "xD12748" "xE2401F" "xE82A26" "xEDDB5F" "xF0B767" "xFEA2EE" }
-    traits = { "state_trait_malaria" }
+    traits = { "state_trait_malaria" "state_trait_spice_islands" }
     city = "x63E362"
     port = "x0C7820"
     farm = "x63E362"
@@ -393,8 +393,8 @@ STATE_SUNDA_ISLANDS = {
     id = 551
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x100090" "x108090" "x28EC3F" "x3CCE91" "x4CFCE1" "x4EE71E" "x5ABA94" "x5F978F" "x699245" "x7D205E" "x7F4592" "x900090" "x908090" "x929145" "xCF8A98" "xE90740" }
-    traits = { "state_trait_spice_islands" }
     prime_land = { "x5ABA94" "x100090" }
+    traits = { "state_trait_spice_islands" }
     city = "xCF8A98"
     port = "x5ABA94"
     farm = "x100090"
@@ -425,7 +425,11 @@ STATE_MINDANAO = {
     farm = "xBC5002"
     mine = "x4C67A7"
     wood = "xCAFE73"
+<<<<<<< HEAD
     arable_land = 40
+=======
+    arable_land = 60
+>>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 36
@@ -436,14 +440,14 @@ STATE_MINDANAO = {
         type = "building_rubber_plantation"
         undiscovered_amount = 10
     }
-    naval_exit_id = 3055
+    naval_exit_id = 3125
 }
 
 STATE_LUZON = {
     id = 553
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x0D8236" "x1B9953" "x1C8BCF" "x2291B3" "x31F0E0" "x33B5F8" "x51BC8C" "x5C0D4C" "x5ED347" "x63FA56" "x6D44B5" "x707061" "x795BD8" "x946A22" "x95102A" "x97B9E0" "xB08546" "xB0F0B0" "xB0F0E0" "xCDE626" "xD2AEEB" "xE173C4" "xEB310E" "xECF5E9" "xF4CD9C" }
-    traits = { "state_trait_manila_bay" }
+    traits = { "state_trait_manila_bay" "state_trait_paracale_mines" "state_trait_cordillera_central" }
     city = "x0D8236"
     port = "xF4CD9C"
     farm = "x31F0E0"
@@ -452,6 +456,7 @@ STATE_LUZON = {
     arable_land = 80
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_gold_mine = 6
         building_iron_mine = 24
         building_logging_camp = 20
         building_fishing_wharf = 12
@@ -472,7 +477,11 @@ STATE_VISAYAS = {
     farm = "x90F80A"
     mine = "x46EA60"
     wood = "x05FD19"
+<<<<<<< HEAD
     arable_land = 60
+=======
+    arable_land = 65
+>>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 30
@@ -484,13 +493,13 @@ STATE_VISAYAS = {
         type = "building_rubber_plantation"
         undiscovered_amount = 4
     }
-    naval_exit_id = 3127
+    naval_exit_id = 3157
 }
 
 STATE_WEST_MICRONESIA = {
     id = 555
     subsistence_building = "building_subsistence_fishing_village"
-    provinces = { "x414170" "x6E4206" "x71414D" "xA7F7E3" }
+    provinces = { "x414170" "x6E4206" "x71414D" "xA7F7E3" "xEF50C0" }
     traits = { "state_trait_severe_malaria" }
     center_province = "x71414D"
     city = "x71414D"
@@ -505,7 +514,7 @@ STATE_WEST_MICRONESIA = {
         building_whaling_station = 3
         building_fishing_wharf = 3
     }
-    naval_exit_id = 3002
+    naval_exit_id = 3157
 }
 
 STATE_EAST_MICRONESIA = {
@@ -569,7 +578,7 @@ STATE_NAURU = {
         building_fishing_wharf = 3
         building_sulfur_mine = 12
     }
-    naval_exit_id = 3156
+    naval_exit_id = 3002
 }
 
 STATE_FIJI = {
@@ -590,7 +599,7 @@ STATE_FIJI = {
         building_whaling_station = 4
         building_fishing_wharf = 4
     }
-    naval_exit_id = 3124
+    naval_exit_id = 3156
 }
 
 STATE_VANUATU = {
@@ -609,7 +618,7 @@ STATE_VANUATU = {
         building_logging_camp = 2
         building_fishing_wharf = 3
     }
-    naval_exit_id = 3124
+    naval_exit_id = 3129
 }
 
 STATE_KANAK = {
@@ -630,7 +639,7 @@ STATE_KANAK = {
         building_logging_camp = 2
         building_fishing_wharf = 3
     }
-    naval_exit_id = 3124
+    naval_exit_id = 3129
 }
 
 STATE_BOUGAINVILLE = {

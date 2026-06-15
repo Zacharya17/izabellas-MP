@@ -29,6 +29,10 @@ je_potato_famine = {
         has_law = law_type:law_free_trade
 		has_law = law_type:law_poor_laws
 		OR = {
+			has_law = law_type:law_cultural_exclusion
+			has_law = law_type:law_multicultural
+		}
+		OR = {
 			has_law = law_type:law_census_voting
 			has_law = law_type:law_universal_suffrage
 		}
@@ -53,23 +57,6 @@ je_potato_famine = {
 			}
 			remove_modifier = modifier_potato_famine
 		}
-
-		ig:ig_landowners = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_industrialists = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_armed_forces = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_petty_bourgeoisie ?= {
-			add_ruling_interest_group = yes
-			remove_ideology = ideology_british_imperialist
-		}
 	}
 
 	on_yearly_pulse = {
@@ -88,48 +75,31 @@ je_potato_famine = {
 	}
     
     on_fail = {
-		ig:ig_landowners = {
-			remove_ideology = ideology_british_imperialist
-		}
+		activate_law = law_type:law_migration_controls
 
-		ig:ig_industrialists = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_armed_forces = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_petty_bourgeoisie ?= {
-			add_ruling_interest_group = yes
-			remove_ideology = ideology_british_imperialist
+		every_scope_state = {
+			limit = {
+			has_modifier = modifier_potato_famine
+			}
+			remove_modifier = modifier_potato_famine
 		}
 	}
            
     on_timeout = {
-		ig:ig_landowners = {
-			remove_ideology = ideology_british_imperialist
-		}
+		activate_law = law_type:law_migration_controls
 
-		ig:ig_industrialists = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_armed_forces = {
-			remove_ideology = ideology_british_imperialist
-		}
-
-		ig:ig_petty_bourgeoisie ?= {
-			add_ruling_interest_group = yes
-			remove_ideology = ideology_british_imperialist
+		every_scope_state = {
+			limit = {
+			has_modifier = modifier_potato_famine
+			}
+			remove_modifier = modifier_potato_famine
 		}
 	}
     
     invalid = {
-		always = yes
     }
 
-    should_be_pinned_by_default = yes
+    should_be_pinned_by_default_uninvolved_or_context = yes
 
     timeout = 2555
 

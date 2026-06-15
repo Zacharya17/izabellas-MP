@@ -10,17 +10,17 @@ company_vodka_monopoly = {
 	preferred_headquarters = { STATE_INGRIA STATE_MOSCOW }
 
 	building_types = {
-		building_food_industry
+		building_distillery
 		building_vineyard
-		building_rye_farm		
 	}
 
 	extension_building_types = {
 		building_wheat_farm
+		building_rye_farm
 	}
 
 	possible_prestige_goods = {
-		prestige_good_moskovskaya_osobaya
+		prestige_good_smirnoff_vodka
 	}
 
 	potential = {
@@ -32,7 +32,7 @@ company_vodka_monopoly = {
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_food_industry
+				is_building_type = building_distillery
 				level >= 5
 			}
 		}
@@ -44,6 +44,7 @@ company_vodka_monopoly = {
 		country_aristocrats_pol_str_mult = 0.15
 		building_group_bg_agriculture_tax_mult = 0.15
 		building_group_bg_ranching_tax_mult = 0.1
+		state_birth_rate_mult = 0.04
 	}
 
 	ai_will_do = {
@@ -57,7 +58,7 @@ company_vodka_monopoly = {
 	}
 
 	ai_construction_targets = {
-		building_food_industry = {
+		building_distillery = {
 			level = 5
 			state_trigger = {
 				OR = {
@@ -84,12 +85,13 @@ company_putilov_company = {
 
 	building_types = {
 		building_motor_industry
-		building_military_shipyard
 		building_artillery_foundry
+		building_shipyard
 	}
 
 	extension_building_types = {
 		building_munition_plant
+		building_explosives_factory
 	}
 
 	possible_prestige_goods = {
@@ -104,7 +106,7 @@ company_putilov_company = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_russia
+		has_interest_marker_in_region = sr:region_russia
 	}
 
 	attainable = {
@@ -123,8 +125,8 @@ company_putilov_company = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_motor_industry
-					is_building_type = building_military_shipyard
 					is_building_type = building_artillery_foundry
+					is_building_type = building_shipyard
 				}
 				level >= 5
 			}
@@ -145,7 +147,7 @@ company_putilov_company = {
 	}
 
 	ai_construction_targets = {
-		building_military_shipyard = {
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_INGRIA
@@ -192,7 +194,7 @@ company_branobel = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_caucasus
+		has_interest_marker_in_region = sr:region_greater_persia
 	}
 
 	attainable = {
@@ -273,7 +275,7 @@ company_izhevsk_arms_plant = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_west_siberia
+		has_interest_marker_in_region = sr:region_siberia
 	}
 
 	attainable = {
@@ -351,7 +353,7 @@ company_savva_morozov = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_russia
+		has_interest_marker_in_region = sr:region_russia
 	}
 
 	attainable = {
@@ -425,7 +427,7 @@ company_john_hughes = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_dnieper
+		has_interest_marker_in_region = sr:region_eastern_europe
 	}
 
 	attainable = {

@@ -71,21 +71,12 @@ popneed_basic_food = {
 	}
 
 	entry = {
-		goods = fruit
-
-		weight = 1
-		max_supply_share = 0.9
-		min_supply_share = 0.0
-	}
-
-	entry = {
 		goods = groceries
 
 		weight = 1.15
 		max_supply_share = 0.9
 		min_supply_share = 0.0
 	}
-
 	entry = {
 		goods = olive_oil
 
@@ -315,22 +306,6 @@ popneed_luxury_food = {
 	}
 
 	entry = {
-		goods = spice_box
-
-		weight = 0.75
-		max_supply_share = 0.75
-		min_supply_share = 0.1
-	}
-
-	entry = {
-		goods = olive_oil
-
-		weight = 0.75
-		max_supply_share = 0.75
-		min_supply_share = 0.1
-	}
-
-	entry = {
 		goods = groceries
 
 		weight = 1.5
@@ -344,6 +319,20 @@ popneed_luxury_food = {
 		weight = 0.5
 		max_supply_share = 0.5
 		min_supply_share = 0.0
+	}
+	entry = {
+		goods = olive_oil
+
+		weight = 0.75
+		max_supply_share = 0.75
+		min_supply_share = 0.1
+	}
+	entry = {
+		goods = spice_box
+
+		weight = 0.75
+		max_supply_share = 0.75
+		min_supply_share = 0.1
 	}
 }
 
@@ -506,6 +495,13 @@ popneed_stimulants = {
 		goods = tobacco
 
 		weight = 0.8
+		max_supply_share = 0.75
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = spice_box
+
+		weight = 1
 		max_supply_share = 0.75
 		min_supply_share = 0.0
 	}

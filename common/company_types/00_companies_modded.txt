@@ -96,10 +96,15 @@ company_porceleyne_fles = {
 
 	prosperity_modifier = {
 		state_trade_capacity_mult = 0.05
+<<<<<<< HEAD
 		building_arts_academy_throughput_add = 0.05
 		country_prestige_mult = 0.15
 		state_trade_quantity_mult = 0.1
 		state_trade_advantage_mult = 0.15
+=======
+		building_group_bg_arts_throughput_add = 0.05
+		country_prestige_mult = 0.1
+>>>>>>> Mod-Update-Branch
 	}
 
 	ai_will_do = {
@@ -109,7 +114,7 @@ company_porceleyne_fles = {
 		building_glassworks = {
 			level = 5
 			state_trigger = {
-				region = sr:region_rhine
+				region = sr:region_western_europe
 				is_incorporated = yes
 			}
 		}
@@ -172,7 +177,7 @@ company_van_houtum_en_palm = {
 		building_building_paper_mill = {
 			level = 5
 			state_trigger = {
-				region = sr:region_rhine
+				region = sr:region_western_europe
 				is_incorporated = yes
 			}
 		}
@@ -191,12 +196,14 @@ company_heineken = {
 	flavored_company = yes
 
 	building_types = {
-		building_food_industry
+		building_distillery
 		building_wheat_farm
+		building_rye_farm
 	}
 
 	extension_building_types = {
 		building_sugar_plantation
+		building_glassworks
 	}
 
 	possible_prestige_goods = {
@@ -217,7 +224,7 @@ company_heineken = {
 			state_region = s:STATE_HOLLAND
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_food_industry
+				is_building_type = building_distillery
 				level >= 5
 			}
 		}
@@ -226,14 +233,19 @@ company_heineken = {
 	prosperity_modifier = {
 		state_birth_rate_mult = 0.04
 		building_trade_center_throughput_add = 0.05
+<<<<<<< HEAD
 		building_food_industry_throughput_add = 0.1
+=======
+		building_food_industry_throughput_add = 0.05
+		building_distillery_throughput_add = 0.05
+>>>>>>> Mod-Update-Branch
 	}
 
 	ai_will_do = {
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_food_industry
+				is_building_type = building_distillery
 				level >= 3
 			}
 		}
@@ -264,10 +276,7 @@ company_marzotto = {
 	}
 
 	potential = {
-		OR = {
-			country_has_primary_culture = cu:north_italian
-			country_has_primary_culture = cu:south_italian
-		}
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	possible = {
@@ -278,6 +287,10 @@ company_marzotto = {
 				is_building_type = building_textile_mill
 				level >= 5
 			}
+		}
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
 		}
 	}
 
@@ -298,126 +311,6 @@ company_marzotto = {
 }
 
 # Vereenigde Oostindische Compagnie
-
- #Type 1:
-	company_vereenigde_oostindische_compagnie.1 = {
-		icon = "gfx/interface/icons/company_icons/modded_company_icons/VOC_COA_dds.dds"
-		background = "gfx/interface/icons/company_icons/modded_company_backgrounds/VOC_Holding_dds.dds"
-
-		flavored_company = yes
-
-			building_types = {
-				building_banana_plantation
-				building_coffee_plantation
-				building_tea_plantation
-	
-			}
-
-			extension_building_types = {
-				building_rubber_plantation
-				building_tobacco_plantation
-			}
-
-			possible_prestige_goods = {
-				prestige_good_javan_coffee
-			}
-
-			potential = {
-				country_has_primary_culture = cu:dutch
-				has_global_variable = voc.1
-			}
-
-			possible = {
-				any_scope_state = {
-					region = sr:region_indonesia
-					any_scope_building = {
-						OR = {
-							building_banana_plantation
-							building_coffee_plantation
-							building_tea_plantation
-						}
-						level >= 5
-					}
-				}
-			}
-
-			prosperity_modifier = {
-				state_trade_capacity_mult = 0.1
-				building_trade_center_throughput_add = 0.05
-				building_group_bg_plantations_throughput_add = 0.07
-			}
-
-			ai_will_do = {
-			}
-
-			ai_construction_targets = {
-			}
-
-			ai_weight = {
-				value = 3 # Higher base value for flavored companies
-			}
-}
-
- #Type 2:
-	company_vereenigde_oostindische_compagnie.2 = {
-		icon = "gfx/interface/icons/company_icons/modded_company_icons/VOC_COA_dds.dds"
-		background = "gfx/interface/icons/company_icons/modded_company_backgrounds/VOC_Holding_dds.dds"
-
-		flavored_company = yes
-
-			building_types = {
-				building_spice_plantation
-				building_cotton_plantation
-				building_dye_plantation
-				building_sugar_plantation
-	
-			}
-
-			extension_building_types = {
-				building_rubber_plantation
-				building_tobacco_plantation
-			}
-
-			possible_prestige_goods = {
-				prestige_good_banda_nutmeg
-			}
-
-			potential = {
-				country_has_primary_culture = cu:dutch
-				has_global_variable = voc.2
-			}
-
-			possible = {
-				any_scope_state = {
-					region = sr:region_indonesia
-					any_scope_building = {
-						OR = {
-							building_spice_plantation
-							building_cotton_plantation
-							building_dye_plantation
-							building_sugar_plantation
-						}
-						level >= 5
-					}
-				}
-			}
-
-			prosperity_modifier = {
-				state_trade_advantage_mult = 0.1
-				building_trade_center_throughput_add = 0.05
-				building_group_bg_plantations_throughput_add = 0.07
-			}
-
-			ai_will_do = {
-			}
-
-			ai_construction_targets = {
-			}
-
-			ai_weight = {
-				value = 3 # Higher base value for flavored companies
-			}
-}
 
 #Ikea
 company_ikea = {
@@ -442,7 +335,7 @@ company_ikea = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = region_northern_europe
 	}
 
 	attainable = {
@@ -511,7 +404,7 @@ company_olearia_clemente = {
 	}
 
 	potential = {
-		owns_entire_state_region = STATE_CAMPANIA
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 
 	possible = {
@@ -522,6 +415,7 @@ company_olearia_clemente = {
 				level >= 5
 			}
 		}
+		country_has_primary_culture = cu:south_italian
 	}
 
 	prosperity_modifier = {
@@ -572,6 +466,7 @@ company_saechische_maschinenfabrik = {
 	}
 
 	potential = {
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	possible = {
@@ -601,6 +496,69 @@ company_saechische_maschinenfabrik = {
 	}
 }
 
+#Stevns Foderstofforening, 1901, later Danish Agro
+company_stevns_foderstofforening = {
+		icon = "gfx/interface/icons/company_icons/company_basic_agriculture_1.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+
+	preferred_headquarters = { STATE_ZEALAND }
+
+	flavored_company = yes
+
+	building_types = {
+		building_livestock_ranch
+		building_rye_farm
+		building_fishing_wharf
+	}
+
+	extension_building_types = {
+		building_millet_farm
+		building_wheat_farm
+		building_maize_farm
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_grain
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_northern_europe
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_ZEALAND
+			any_scope_building = {
+				OR = {
+					is_building_type = building_livestock_ranch
+					is_building_type = building_fishing_wharf
+					is_building_type = building_rye_farm
+				}
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.02
+		building_food_industry_throughput_add = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		state_farmers_investment_pool_efficiency_mult = 0.25
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_wheat_farm
+					is_building_type = building_rye_farm
+				}
+				level >= 3
+			}
+		}
+	}
+}
 
 ## North American Companies
 company_american_Milling = { #"Plain Millers' Monopoly"
@@ -692,6 +650,7 @@ company_australian_agricultural = {
 	}
 
 	potential = {
+		has_interest_marker_in_region = sr:region_oceania
 	}
 
 	possible = {
@@ -744,6 +703,7 @@ company_imperial_companhia_seropédica_fluminense = {
 	}
 
 	potential = {
+		has_interest_marker_in_region = sr:region_brazil
 	}
 
 	possible = {
@@ -844,5 +804,111 @@ company_türkiye_milli_bankasi = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_basic_distilleries = {
+	icon = "gfx/interface/icons/company_icons/basic_food.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = no
+
+	uses_dynamic_naming = yes
+
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+	}
+
+	building_types = {
+		building_distillery
+		building_vineyard
+	}
+
+	extension_building_types = {
+		building_wheat_farm
+		building_rye_farm
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_distillery
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_agriculture_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_distillery
+				level >= 3
+			}
+		}
+	}
+}
+
+company_basic_spices = {
+	icon = "gfx/interface/icons/company_icons/basic_wine_and_fruit.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	category = aristocrat_owned
+
+	flavored_company = no
+
+	uses_dynamic_naming = yes
+
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_guild"
+		"dynamic_company_type_society"
+		"dynamic_company_type_fellowship"
+	}
+
+	building_types = {
+		building_spice_plantation
+		building_tea_plantation
+	}
+
+	extension_building_types = {
+		building_sugar_plantation
+	}
+
+	possible = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_spice_plantation
+				}
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_food_industry_throughput_add = 0.07
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_spice_plantation
+				}
+				level >= 5
+			}
+		}
 	}
 }

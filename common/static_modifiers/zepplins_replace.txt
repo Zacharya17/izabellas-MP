@@ -1,0 +1,6 @@
+## Replacing the Zepplins modifier
+
+zeppelins_military_modifier_replace = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_army_offense_add = 5
+}

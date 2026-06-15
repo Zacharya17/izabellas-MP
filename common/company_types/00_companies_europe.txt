@@ -98,7 +98,7 @@ company_franco_belge = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_rhine
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -171,6 +171,7 @@ company_john_cockerill = {
 		building_steel_mill
 		building_tooling_workshop
 		building_motor_industry
+		building_artillery_foundry
 	}
 
 	extension_building_types = {
@@ -183,7 +184,7 @@ company_john_cockerill = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_rhine
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -192,7 +193,6 @@ company_john_cockerill = {
 				OR = {
 					state_region = s:STATE_WALLONIA
 					state_region = s:STATE_FLANDERS
-					state_region = s:STATE_WEST_WALLONIA
 				}
 			}
 		}
@@ -214,8 +214,8 @@ company_john_cockerill = {
 
 	prosperity_modifier = {
 		building_railway_throughput_add = 0.1
-		building_steel_mill_throughput_add = 0.05
-		building_group_bg_manufacturing_throughput_add = 0.07
+		building_group_bg_manufacturing_mortality_add = 0.05
+		building_group_bg_manufacturing_throughput_add = 0.15
 	}
 
 	ai_will_do = {
@@ -229,7 +229,7 @@ company_john_cockerill = {
 	}
 
 	ai_construction_targets = {
-		building_steel_mills = {
+		building_steel_mill = {
 			level = 5
 			state_trigger = {
 				OR = {
@@ -268,7 +268,7 @@ company_nederlandse_petroleum = {
 	possible = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_indonesia
+			is_in_geographic_region = geographic_region_indonesia
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_oil_rig
@@ -284,7 +284,7 @@ company_nederlandse_petroleum = {
 	ai_will_do = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_indonesia
+			is_in_geographic_region = geographic_region_indonesia
 			is_incorporated = yes
 			has_potential_resource = building_oil_rig
 		}
@@ -294,7 +294,7 @@ company_nederlandse_petroleum = {
 		building_oil_rig = {
 			level = 5
 			state_trigger = {
-				region = sr:region_indonesia
+				is_in_geographic_region = geographic_region_indonesia
 				is_incorporated = yes
 			}
 		}
@@ -328,7 +328,7 @@ company_philips = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_rhine
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -406,11 +406,11 @@ company_basileiades = {
 	}
 
 	extension_building_types = {
-		building_military_shipyard
+		building_tooling_workshop
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {
@@ -437,7 +437,7 @@ company_basileiades = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.2
+		country_ship_group_supply_ships_construction_efficiency_add = 0.2
 		state_infrastructure_mult = 0.05
 	}
 
@@ -499,7 +499,7 @@ company_kouppas = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {
@@ -580,7 +580,7 @@ company_ericsson = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -654,7 +654,7 @@ company_lkab = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -721,16 +721,18 @@ company_gotaverken = {
 
 	building_types = {
 		building_shipyard
-		building_military_shipyard
 		building_motor_industry
+		building_tooling_workshop
 	}
 
 	extension_building_types = {
 		building_logging_camp
+		building_steel_mill
+		building_automotive_industry
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -749,7 +751,8 @@ company_gotaverken = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_shipyard
-					is_building_type = building_military_shipyard
+					is_building_type = building_motor_industry
+					is_building_type = building_tooling_workshop
 				}
 				level >= 5
 			}
@@ -757,8 +760,8 @@ company_gotaverken = {
 	}
 
 	prosperity_modifier = {
-		unit_navy_defense_mult = 0.05
-		unit_navy_offense_mult = 0.05
+		ship_armor_mult = 0.025
+		ship_hull_damage_mult = 0.025
 	}
 
 	ai_will_do = {
@@ -776,7 +779,13 @@ company_gotaverken = {
 				state_region = s:STATE_GOTALAND
 			}
 		}
-		building_military_shipyard = {
+		building_motor_industry = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_GOTALAND
+			}
+		}
+		building_tooling_workshop = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_GOTALAND
@@ -804,11 +813,11 @@ company_aker_mek = {
 	}
 
 	extension_building_types = {
-		building_military_shipyard
+		building_tooling_workshop
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -832,7 +841,7 @@ company_aker_mek = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.15
+		country_ship_group_supply_ships_construction_efficiency_add = 0.15
 		building_fishing_wharf_throughput_add = 0.05
 	}
 
@@ -889,7 +898,7 @@ company_nokia = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_finland
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -958,7 +967,7 @@ company_ursus = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_poland
+		has_interest_marker_in_region = sr:region_eastern_europe
 	}
 
 	attainable = {
@@ -1039,7 +1048,7 @@ company_lilpop = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_poland
+		has_interest_marker_in_region = sr:region_eastern_europe
 	}
 
 	attainable = {
@@ -1115,7 +1124,7 @@ company_mozambique_company = {
 	building_types = {
 		building_cotton_plantation
 		building_tea_plantation
-		building_rice_farm
+		building_wheat_farm
 	}
 
 	extension_building_types = {
@@ -1232,7 +1241,7 @@ company_altos_hornos_de_vizcaya = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_iberia
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 
 	attainable = {
@@ -1312,7 +1321,7 @@ company_duro_y_compania = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_iberia
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 
 	attainable = {
@@ -1392,7 +1401,7 @@ company_espana_industrial = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_iberia
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 
 	attainable = {
@@ -1472,7 +1481,7 @@ company_trubia = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_iberia
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 
 	attainable = {
@@ -1552,7 +1561,7 @@ company_zastava = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {
@@ -1632,7 +1641,7 @@ company_chr_hansens = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -1719,7 +1728,7 @@ company_ap_moller = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_baltic
+		has_interest_marker_in_region = sr:region_northern_europe
 	}
 
 	attainable = {
@@ -1742,7 +1751,7 @@ company_ap_moller = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.2
+		country_ship_group_supply_ships_construction_efficiency_add = 0.2
 		interest_group_ig_industrialists_pop_attraction_mult = 0.1
 	}
 
@@ -1853,7 +1862,7 @@ company_romanian_star = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_danubia
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {

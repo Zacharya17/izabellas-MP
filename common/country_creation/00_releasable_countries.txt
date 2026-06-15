@@ -546,7 +546,6 @@ MCH = {
 		STATE_OUTER_MANCHURIA
 		STATE_SHENGJING
 		STATE_AMUR
-		STATE_WESTERN_MANCHURIA
 	}
 
 	ai_will_do = { always = no }
@@ -952,8 +951,14 @@ SAF = {
 BUL = {
 	states = {
 		STATE_BULGARIA
+	}
+
+	ai_will_do = { always = no }
+}
+
+ERU = {
+	states = {
 		STATE_NORTHERN_THRACE
-		STATE_DOBRUDJA
 	}
 
 	ai_will_do = { always = no }

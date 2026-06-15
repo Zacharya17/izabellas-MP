@@ -1,0 +1,104 @@
+enforce_congress_of_berlin = {
+	if = {
+		limit = {
+			global_var:russia_favour_berlin_progress > global_var:ottomans_favour_berlin_progress
+			global_var:russia_favour_berlin_progress > global_var:compromise_berlin_progress
+		}
+		s:STATE_SKOPIA = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+		s:STATE_MACEDONIA = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+		s:STATE_WESTERN_THRACE = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+		s:STATE_NORTHERN_THRACE = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:ottomans_favour_berlin_progress > global_var:russia_favour_berlin_progress
+			global_var:ottomans_favour_berlin_progress > global_var:compromise_berlin_progress
+		}
+		c:TUR ?= {
+				create_diplomatic_pact = {
+				country = c:BUL
+				type = protectorate
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			global_var:compromise_berlin_progress > global_var:russia_favour_berlin_progress
+			global_var:compromise_berlin_progress > global_var:compromise_berlin_progress
+		}
+		s:STATE_NORTHERN_THRACE = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+		s:STATE_WESTERN_THRACE = {
+			random_scope_state = {
+				limit = {
+					exists = c:TUR
+					owner = {
+						OR = {
+							c:TUR = THIS
+						}
+					}
+				}
+				set_state_owner = c:BUL
+			}
+		}
+	}
+}

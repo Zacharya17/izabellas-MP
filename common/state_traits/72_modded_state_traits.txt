@@ -47,6 +47,7 @@ state_trait_maas_river_modded = {
 	modifier = {
 		state_infrastructure_add = 20
 		state_market_access_price_impact = 0.05
+		building_trade_center_throughput_add = 0.1
 	}
 }
 
@@ -144,7 +145,7 @@ state_trait_lorraine_mines = {
 state_trait_monopoly_location = {
 	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
-		building_food_industry_throughput_add = 0.1
+		building_distillery_throughput_add = 0.1
 	}
 }
 
@@ -194,8 +195,6 @@ state_trait_gulf_of_corinth = {
 		building_military_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
-		state_building_naval_base_max_level_add = 10
-		state_building_naval_base_max_level_add = 10
 		state_market_access_price_impact = 0.05
 	}
 }
@@ -250,5 +249,134 @@ state_trait_java_cash_crop_complex = {
 	modifier = {
 		building_group_bg_plantations_throughput_add = 0.05
 		building_spice_plantation_throughput_add = 0.05
+	}
+}
+
+state_trait_gava_mines = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.05
+	}
+}
+
+state_trait_ebro_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05
+	}
+}
+
+state_trait_torre_de_moncorvo = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.05
+		building_iron_mine_throughput_add = 0.05
+	}
+}
+
+state_trait_cienaga_de_zapata = {
+	icon = "gfx/interface/icons/state_trait_icons/swamp.dds"
+	modifier = {
+		state_market_access_price_impact = 0.05	
+		building_livestock_ranch_throughput_add = 0.05
+		building_fishing_wharf_throughput_add = 0.05
+	}
+}
+
+state_trait_rio_cauto_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05	
+		building_group_bg_plantations_throughput_add = 0.05
+	}
+}
+
+state_trait_montes_universales = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_construction_mult = -0.02
+		building_group_bg_logging_throughput_add = 0.1
+	}
+}
+
+state_trait_guadiana_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05	
+	}
+}
+
+state_trait_meseta_central = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_construction_mult = 0.05
+		building_group_bg_mining_throughput_add = 0.05
+	}
+}
+
+state_trait_moraine_soils = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.25
+		building_group_bg_ranching_throughput_add = 0.15
+	}
+}
+
+state_trait_land_of_red_rocks = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	modifier = {
+		building_iron_mine_throughput_add = 0.15
+		building_steel_mill_throughput_add = 0.05
+		building_group_bg_manufacturing_throughput_add = 0.05
+	}
+}
+
+state_trait_cardiff_docklands = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+
+	modifier = {
+		building_shipyard_throughput_add = 0.15
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.25
+		state_market_access_price_impact = 0.05
+	}
+}
+
+state_trait_great_dividing_range_modded = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.05
+		state_infrastructure_mult = -0.05
+	}
+}
+
+state_trait_australian_desert_modded = {
+    icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+
+	modifier = {
+        building_group_bg_ranching_throughput_add = -0.05
+		building_group_bg_agriculture_throughput_add = -0.1
+		building_group_bg_plantations_throughput_add = -0.1
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.05
+    }
+}
+
+state_trait_cordillera_central = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_construction_mult = -0.05
+		building_group_bg_mining_throughput_add = 0.05
+	}
+}
+
+state_trait_paracale_mines = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+	modifier = {
+		building_gold_mine_throughput_add = 0.1
 	}
 }

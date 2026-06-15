@@ -119,7 +119,6 @@ je_group_tutorial = {
 	context = country
 }
 
-##Modded
 je_group_low_country_happenings = {
 	context = country
 }

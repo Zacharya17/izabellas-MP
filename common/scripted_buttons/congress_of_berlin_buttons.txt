@@ -1,0 +1,160 @@
+je_favour_russia_berlin_button = {
+	name = "je_favour_russia_berlin_button"
+	desc = "je_favour_russia_berlin_button_desc"
+
+	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_russia_berlin_country
+		change_global_variable = {
+			name = russia_favour_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_favour_ottomans_berlin_button = {
+	name = "je_favour_ottomans_berlin_button"
+	desc = "je_favour_ottomans_berlin_button_desc"
+
+	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_ottomans_berlin_country
+		change_global_variable = {
+			name = ottomans_favour_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_compromise_berlin_button = {
+	name = "je_compromise_berlin_button"
+	desc = "je_compromise_berlin_button_desc"
+
+	visible = {
+		NOT = {
+			c:TUR ?= this
+		}
+	}
+
+	possible = {
+		NOR = {
+			has_variable = favour_russia_berlin_country
+			has_variable = favour_ottomans_berlin_country
+			has_variable = favour_compromise_berlin_country
+			has_global_variable = favour_berlin_bosnia_negotiation
+			has_global_variable = favour_berlin_cyprus_negotiation
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_variable = favour_compromise_berlin_country
+		change_global_variable = {
+			name = compromise_berlin_progress
+			add = ROOT.prestige
+		}
+	}
+}
+
+je_cyprus_berlin_button = {
+	name = "je_cyprus_berlin_button"
+	desc = "je_cyprus_berlin_buttondesc"
+
+	visible = {
+		c:TUR ?= THIS
+	}
+
+	cooldown = {
+		months = 6
+	}
+
+	possible = {
+		c:TUR = {
+			owns_entire_state_region = STATE_CYPRUS
+		}
+		NOT = {
+			has_global_variable = favour_berlin_cyprus_negotiation
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_global_variable = favour_berlin_cyprus_negotiation
+		c:GBR = { trigger_event = { id = bulgaria_negotiation.1 } }
+	}
+}
+
+je_bosnia_berlin_button = {
+	name = "je_bosnia_berlin_button"
+	desc = "je_bosnia_berlin_button_desc"
+
+	visible = {
+		c:TUR ?= THIS
+	}
+
+	possible = {
+		c:TUR = {
+			owns_entire_state_region = STATE_BOSNIA
+		}
+		NOT = {
+			has_global_variable = favour_berlin_bosnia_negotiation
+		}
+	}
+
+	cooldown = {
+		months = 6
+	}
+
+	ai_chance = {
+		value = 100
+	}
+
+	effect = {
+		set_global_variable = favour_berlin_bosnia_negotiation
+		c:AUS = { trigger_event = { id = bulgaria_negotiation.2 } }
+	}
+}

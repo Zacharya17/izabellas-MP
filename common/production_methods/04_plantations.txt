@@ -574,12 +574,12 @@ default_building_banana_plantation = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fruit_add = 20
+			goods_output_fruit_add = 40
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 10000
-			building_employment_farmers_add = 2000
+			building_employment_laborers_add = 5000
+			building_employment_farmers_add = 1000
 		}
 	}
 }
@@ -601,14 +601,14 @@ automatic_irrigation_building_banana_plantation = {
 		workforce_scaled = {
 			# output goods
 			goods_input_engines_add = 5
-			goods_output_fruit_add = 35
+			goods_output_fruit_add = 50
 		}
 
 		level_scaled = {
 			# profit
-			building_employment_laborers_add = 6000
-			building_employment_farmers_add = 3000
-			building_employment_machinists_add = 1000
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1500
+			building_employment_machinists_add = 500
 		}
 	}
 }
@@ -709,6 +709,7 @@ worker_exploitation_sugar = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -772,6 +773,7 @@ worker_exploitation_coffee = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -834,6 +836,7 @@ worker_exploitation_cotton = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -896,6 +899,7 @@ worker_exploitation_dye = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -958,6 +962,7 @@ worker_exploitation_banana = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1019,6 +1024,7 @@ worker_exploitation_tea = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1080,6 +1086,7 @@ worker_exploitation_rubber = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1119,6 +1126,7 @@ worker_exploitation_tobacco = {
 		law_worker_protections
 		law_collectivized_agriculture
 		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1191,10 +1199,7 @@ radio_stations_tobacco = {
 		}
 	}
 }
-
-
-
-##Modded
+#Modded
 
 default_building_spice_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
@@ -1292,7 +1297,7 @@ slave_exploitation_spice = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_spice_box_add = 10
+			goods_output_spice_box_add = 15
 		}
 
 		unscaled = {

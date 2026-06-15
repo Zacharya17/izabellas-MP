@@ -13,7 +13,7 @@
         building_logging_camp = 9
         building_fishing_wharf = 8
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3082
 }
 
 STATE_TARTU = {
@@ -57,6 +57,7 @@ STATE_COURLAND = {
     id = 801
     subsistence_building = "building_subsistence_farm"
     provinces = { "x01E021" "x4A8E5D" "x4D08D8" "x74042F" "x806121" "x898083" "x8D4F76" "xABA718" "xF4B54B" "xF8BBB0" "xFA8436" "xFCC2E1" "xFD1424" }
+    traits = { "state_trait_moraine_soils" }
     city = "xF4B54B"
     port = "x4A8E5D"
     farm = "xFD1424"
@@ -75,6 +76,7 @@ STATE_KAUNAS = {
     id = 153
     subsistence_building = "building_subsistence_farm"
     provinces = { "x00E0A0" "x0980C8" "x0B6577" "x21F318" "x232B98" "x406DC9" "x4177AF" "x4678E5" "x577C69" "x6175AD" "x629C46" "x7A5D64" "x8060A0" "x80D858" "x95171C" "xA8FF51" "xA916E3" "xAF73F2" "xBFE867" "xC0A0A0" "xCC4C28" "xCD7291" "xE0B943" }
+    traits = { "state_trait_moraine_soils" }
     city = "xCD7291"
     port = "xBFE867"
     farm = "xE0B943"
@@ -119,7 +121,6 @@ STATE_KUOPIO = {
         building_logging_camp = 42
         building_iron_mine = 11
     }
-    naval_exit_id = 3000
 }
 
 STATE_UUSIMAA = {
@@ -160,7 +161,7 @@ STATE_WEST_KARELIA = {
         building_logging_camp = 28
         building_fishing_wharf = 2
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3082
 }
 
 STATE_ALAND = {
@@ -280,7 +281,7 @@ STATE_INGRIA = {
         building_logging_camp = 25
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3082
 }
 
 STATE_MOSCOW = {
@@ -331,8 +332,6 @@ STATE_VOLHYNIA = {
     capped_resources = {
         building_coal_mine = 42
         building_logging_camp = 18
-        building_lead_mine = 27
-        building_sulfur_mine = 12
     }
 }
 
@@ -345,13 +344,12 @@ STATE_KIEV = {
     farm = "x2472F3"
     mine = "xCD2CE5"
     wood = "x54B5C4"
-    arable_land = 215
+    arable_land = 175
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
         building_coal_mine = 36
         building_iron_mine = 14
         building_logging_camp = 32
-        building_lead_mine = 16
     }
 }
 
@@ -606,7 +604,7 @@ STATE_ROSTOV = {
         building_coal_mine = 108
         building_logging_camp = 7
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_PERM = {
@@ -876,7 +874,7 @@ STATE_TAURIDA = {
         building_logging_camp = 8
         building_fishing_wharf = 12
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_TAMBOV = {
@@ -1155,7 +1153,7 @@ STATE_AMUR = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 18
     }
-    naval_exit_id = 3059
+    naval_exit_id = 3118
 }
 
 STATE_CHELYABINSK = {

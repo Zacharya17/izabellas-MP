@@ -28,16 +28,22 @@
 				}
 			}
 		}
-		custom_tooltip = {
-			text = gay_diplo.1
-			set_global_variable = gay_diplo
-			c:BEL ?= {
-				take_on_scaled_debt = {
-					who = c:NET
-					value = c:NET.scaled_debt
-				}
+		c:BEL ?= {
+			take_on_scaled_debt = {
+				who = c:NET
+				value = c:NET.scaled_debt
 			}
 		}
+		custom_tooltip = {
+            text = gay_diplo.1
+            set_global_variable = gay_diplo
+            c:BEL ?= {
+                take_on_scaled_debt = {
+                    who = c:NET
+                    value = c:NET.scaled_debt
+                }
+            }
+        }
 	}
 	else_if = {
 		limit = {
@@ -133,11 +139,34 @@
 		limit = {
 			has_global_variable = luxembourg_compromise_global_var
 		}
-		c:AUS ?= {
-			create_diplomatic_pact = {
-			country = c:BEL
-			type = puppet
+		if = {
+			limit = {
+				exists = c:LUX
+			}
+			s:STATE_WALLONIA = {
+				set_owner_of_provinces = {
+					country = c:LUX
+					provinces = {
+						x5180a0 x3a5fb9
+					}
+				}
+			}
+			c:AUS ?= {
+				create_diplomatic_pact = {
+				country = c:BEL
+				type = puppet
+				}
 		}
+		}
+		else = {
+			s:STATE_WALLONIA = {
+				set_owner_of_provinces = {
+					country = c:NET
+					provinces = {
+						x5180a0 x3a5fb9
+					}
+				}
+			}
 		}
 	}
 }

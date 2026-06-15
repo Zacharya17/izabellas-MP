@@ -178,8 +178,6 @@ building_vineyard = {
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
-
-	
 }
 
 building_olive_groves = {

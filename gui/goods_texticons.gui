@@ -1221,11 +1221,20 @@ texticon = {
 		fontsize = 18
 	}
 }
-
 texticon = {
 	icon = olive_oil
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/modded_goods/olive_oil_dds.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = spice_box
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/modded_goods/spice_good_dds.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18

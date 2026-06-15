@@ -91,7 +91,7 @@ POM = {
 }
 
 AUS = {
-	color = { 173  182  199 }
+	color = { 211  220  240 }
 
 	country_type = recognized
 
@@ -106,7 +106,7 @@ AUS = {
 }
 
 USA = {
-	color = { 48 71 150 }
+	color = { 66  94  193 }
 
 	country_type = recognized
 
@@ -198,17 +198,19 @@ GRI = {
 }
 
 JAP = {
-	color = { 161 0 0 }
+	color = { 194 53 60 }
 	country_type = unrecognized
+
+	social_hierarchy = edo_system
 
 	tier = empire
 
 	cultures = { japanese }
-	capital = STATE_KANSAI
+	capital = STATE_KYOTO
 }
 
 ITA = {
-	color = { 58 87 33 }
+	color = { 125  171  84 }
 
 	country_type = recognized
 
@@ -263,7 +265,7 @@ NOR = {
 }
 
 SWE = {
-	color = { 38 75 135 }
+	color = { 87  130  199 }
 
 	country_type = recognized
 
@@ -286,7 +288,7 @@ SCN = {
 }
 
 BEL = {
-	color = { 194 164 103 }
+	color = { 235 200 127 }
 
 	country_type = recognized
 
@@ -332,7 +334,7 @@ IRE = {
 }
 
 NET = {
-	color = hsv360{ 20  81  54 }
+	color = hsv360{ 20  80  80 }
 
 	country_type = recognized
 
@@ -343,7 +345,7 @@ NET = {
 }
 
 POR = {
-	color = { 26 61 30 }
+	color = { 28 82 148 }
 
 	country_type = recognized
 
@@ -424,7 +426,7 @@ NAV = {
 }
 
 SPA = {
-	color = hsv360{ 38  95  66 }
+	color = hsv360{ 38  97  83 }
 
 	primary_unit_color = "blue"
 	secondary_unit_color  = "white"
@@ -475,7 +477,7 @@ BAD = {
 }
 
 BAV = {
-	color = { 95 125 158 }
+	color = { 121  175  235 }
 
 	country_type = recognized
 
@@ -543,7 +545,7 @@ HAM = {
 }
 
 HAN = {
-	color = { 101 133 78 }
+	color = { 164  217  127 }
 
 	country_type = recognized
 
@@ -562,18 +564,6 @@ HES = {
 	tier = grand_principality
 
 	cultures = { north_german }
-	capital = STATE_HESSE
-	is_named_from_capital = yes
-}
-
-HDT = {
-	color = { 146  108  146 }
-
-	country_type = recognized
-
-	tier = principality
-
-	cultures = { south_german }
 	capital = STATE_HESSE
 	is_named_from_capital = yes
 }
@@ -706,7 +696,7 @@ MOD = {
 }
 
 PAP = {
-	color = { 142 148 120 }
+	color = { 211  220  178 }
 
 	country_type = recognized
 
@@ -752,7 +742,7 @@ SAR = {
 }
 
 SIC = {
-	color = { 55 105 57 }
+	color = { 73  152  76 }
 
 	country_type = recognized
 
@@ -983,7 +973,7 @@ BOS = {
 }
 
 BUL = {
-	color = { 116  107  140 }
+	color = { 15 102 28 }
 
 	country_type = recognized
 
@@ -1030,7 +1020,7 @@ CYP = {
 }
 
 GRE = {
-	color = { 84  131  156 }
+	color = { 122  180  210 }
 
 	country_type = recognized
 
@@ -1053,7 +1043,7 @@ ION = {
 }
 
 MOL = {
-	color = { 90  102  22 }
+	color = { 136  157  23 }
 
 	country_type = recognized
 
@@ -1090,7 +1080,7 @@ ROM = {
 }
 
 SER = {
-	color = { 89  22  12 }
+	color = { 166  72  57 }
 
 	country_type = recognized
 
@@ -1124,7 +1114,7 @@ TUR = {
 }
 
 WAL = {
-	color = { 99  64  66 }
+	color = { 161  126  128 }
 
 	country_type = recognized
 
@@ -1323,7 +1313,7 @@ OMA = {
 }
 
 PER = {
-	color = { 51 69 48 }
+	color = { 60 150 230 }
 
 	country_type = unrecognized
 
@@ -1582,7 +1572,7 @@ JOD = {
 }
 
 KAL = {
-	color = { 46 46 89 }
+	color = { 97  98  195 }
 
 	country_type = unrecognized
 
@@ -1699,7 +1689,7 @@ ORI = {
 }
 
 PAN = {
-	color = { 92 68 52 }
+	color = { 255 119 34 }
 
 	country_type = unrecognized
 
@@ -1792,7 +1782,7 @@ LAN = {
 }
 
 BRU = {
-	color = { 23 51 99 }
+	color = { 41  89  174 }
 
 	country_type = unrecognized
 
@@ -1803,7 +1793,7 @@ BRU = {
 }
 
 BUR = {
-	color = { 64 102 76 }
+	color = { 109  168  127 }
 
 	country_type = unrecognized
 
@@ -1836,7 +1826,7 @@ CHI = {
 }
 
 DAI = {
-	color = { 94 94 9 }
+	color = { 136  117  90 }
 
 	country_type = unrecognized
 
@@ -1861,7 +1851,7 @@ JAV = {
 }
 
 KOR = {
-	color = { 54 74 89 }
+	color = { 157  144  97 }
 
 	country_type = unrecognized
 
@@ -1884,7 +1874,7 @@ LAO = {
 }
 
 LUA = {
-	color = { 51 82 48 }
+	color = { 93  147  88 }
 
 	country_type = unrecognized
 
@@ -1929,7 +1919,7 @@ JOH = {
 }
 
 SIA = {
-	color = { 48 73 92 }
+	color = { 88  137  172 }
 
 	country_type = unrecognized
 
@@ -2156,7 +2146,7 @@ ATL = {
 }
 
 MEX = {
-	color = { 41 105 39 }
+	color = { 56 143 53 }
 
 	country_type = recognized
 
@@ -2255,7 +2245,7 @@ QUE = {
 HBC = {
 	color = { 99 91 69 }
 
-	country_type = colonial
+	country_type = company
 
 	tier = principality
 
@@ -2343,7 +2333,7 @@ BOL = {
 }
 
 BRZ = {
-	color = hsv360{ 143  75  34 }
+	color = hsv360{ 143  75  61 }
 
 	country_type = recognized
 
@@ -2410,7 +2400,7 @@ PRG = {
 }
 
 URU = {
-	color = { 84 57 43 }
+	color = { 131  101  85 }
 
 	country_type = recognized
 
@@ -2445,7 +2435,7 @@ ISR = {
 }
 
 BYZ = {
-	color = { 74 41 87 }
+	color = { 147  82  173 }
 
 	valid_as_home_country_for_separatists = { always = no } # root = country to separate from
 
@@ -2538,7 +2528,7 @@ JAN = {
 BIC = {
 	color = { 188  113  61 }
 
-	country_type = colonial
+	country_type = company
 
 	tier = principality
 	social_hierarchy = british_indian_caste_system
@@ -3040,7 +3030,7 @@ EZO = { # Ezo
 
 	tier = principality
 
-	cultures = { japanese ainu }
+	cultures = { ainu japanese }
 
 	capital = STATE_HOKKAIDO
 }
@@ -3904,7 +3894,7 @@ SCH = {
 }
 
 KZH = {
-	color = { 56 74 74 }
+	color = { 90 120 120 }
 
 	country_type = unrecognized
 
@@ -3926,7 +3916,7 @@ UZH = {
 }
 
 OZH = {
-	color = { 45 45 56 }
+	color = { 80 80 100 }
 
 	country_type = unrecognized
 
@@ -4397,7 +4387,7 @@ TIS = {
 }
 
 KAB = {
-	color = { 56 56 66 }
+	color = { 95 95 109 }
 
 	country_type = unrecognized
 
@@ -4408,7 +4398,7 @@ KAB = {
 }
 
 KAN = {
-	color = { 31 49 84 }
+	color = { 71 113 193 }
 
 	country_type = unrecognized
 
@@ -4441,7 +4431,7 @@ CHT = {
 }
 
 MAI = {
-	color = { 111 115 0 }
+	color = { 204 210 3 }
 
 	country_type = unrecognized
 
@@ -4985,7 +4975,7 @@ COC = { # Cochin
 
 ALK = { # Alaska - Russian-American Company at start
 	color = { 249 251 255 }
-	country_type = colonial
+	country_type = company
 
 	tier = principality
 
@@ -5225,51 +5215,49 @@ SC4 = { # River Plate
 	capital = STATE_BUENOS_AIRES
 }
 
-# modded
+RYU = { # Ryukyu
+	color = { 90 138 133 }
 
-PZN = {
-	color = { 146  108  146 }
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { ryukyuan }
+	religion = confucian
+	capital = STATE_RYUKYU_ISLANDS
+}
+
+SKH = { # Sakhalin
+	color = { 54 102 190 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { siberian }
+	capital = STATE_SAKHALIN
+}
+
+ULT = { # Ulta
+	color = { 122 229 256 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { siberian }
+	capital = STATE_SAKHALIN
+}
+
+#modded
+
+ERU = {
+	color = { 1 1 1 }
 
 	country_type = recognized
 
 	tier = principality
 
-	cultures = { north_german }
-	capital = STATE_POSEN
-	is_named_from_capital = yes
-}
-
-##Modded
-
-IDC = { # Indochina
-	color = { 130 112 7 }
-
-	country_type = recognized
-
-	tier = empire
-
-	cultures = { vietnamese lao khmer thai }
-	capital = STATE_TONKIN
-}
-
-RBU = { #Bulgaro-Romanian Union
-	color = { 11 22 115 }
-
-	country_type = recognized
-
-	tier = empire
-
-	cultures = { romanian bulgarian }
-	capital = STATE_WALLACHIA
-}
-
-BGD = { #Regna de Burgondie
-	color = { 128 0 32 }
-
-	country_type = recognized
-
-	tier = empire
-
-	cultures = { dutch wallonian flemish alemannic }
-	capital = STATE_WALLONIA 
+	cultures = { bulgarian turkish }
+	capital = STATE_NORTHERN_THRACE
 }

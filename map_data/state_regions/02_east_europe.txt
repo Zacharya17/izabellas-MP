@@ -2,7 +2,7 @@
     id = 154
     subsistence_building = "building_subsistence_farm"
     provinces = { "x0087C9" "x009F60" "x117AE1" "x1AA8FB" "x46B451" "x4969E4" "x4F022C" "x802161" "x809F60" "xC06121" "xC17590" "xDC58D0" "xDE551D" "xE165F5" "xF8C8F6" }
-    traits = { "state_trait_vistula_river" }
+    traits = { "state_trait_vistula_river" "state_trait_moraine_soils" }
     city = "xE165F5"
     farm = "xC17590"
     mine = "xDC58D0"
@@ -18,8 +18,8 @@
 STATE_LOWER_SILESIA = {
     id = 155
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x1B72C9" "x272E48" "x6E617F" "x732DC0" "x94D624" "xC00121" "xC108EA" "xCE74AB" "x88194B" "x90B12B" "xAF9F20" }
-    traits = { "state_trait_oder_river" "state_trait_upper_silesia_coalfield" }
+    provinces = { "x1B72C9" "x272E48" "x6E617F" "x732DC0" "x94D624" "xC00121" "xC108EA" "xCE74AB" "x90B12B" "xAF9F20" "x88194B" }
+    traits = { "state_trait_oder_river" }
     city = "x6E617F"
     farm = "xC108EA"
     mine = "x272E48"
@@ -34,17 +34,34 @@ STATE_LOWER_SILESIA = {
         building_logging_camp = 10
     }
 }
+STATE_ERMLAND_MASUREN = { 
+    id = 999
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "xC04521" "xAEA6D6" "x7D6DC3" "x47C900" "xEEF586" "xABC4AE" "x5428E6" "x6E8875" "x7A6061" "x9FD037" "xBF9F20" "xC04521" }
+    traits = { "state_trait_moraine_soils" }
+    city = ""
+    port = ""
+    farm = ""
+    mine = ""
+    wood = ""
+    arable_land = 35
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 17
+        building_fishing_wharf = 4
+    }
+    naval_exit_id = 4799
+}
 
 STATE_UPPER_SILESIA = {
     id = 924
     subsistence_building = "building_subsistence_farm"
     provinces = { "x5E9091" "x7B2F62" "x821F52" }
     traits = { "state_trait_oder_river" "state_trait_upper_silesia_coalfield" }
-    prime_land = { "xF0E080" }
     city = "x90B12B"
-    farm = "xF0E080"
+    farm = "xAF9F20"
     mine = "x821F52"
-    wood = "x9061E0"
+    wood = "x5E9091"
     arable_land = 45
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
@@ -111,43 +128,25 @@ STATE_WEST_PRUSSIA = {
         building_logging_camp = 8
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3074
 }
 
 STATE_EAST_PRUSSIA = {
     id = 159
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x1E73B9" "x2399A2" "x40A0A0" "x4121A0" "x72FDF3" "x975566" "x981EBE" "xC020A0" }
+    provinces = { "x1E73B9" "x2399A2" "x40A0A0" "x4121A0" "x72FDF3" "x975566" "x981EBE" "xC020A0" } # x1E73B9 x2399A2 x40A0A0 x4121A0 x72FDF3 x975566 x981EBE xC020A0
     city = "x1E73B9"
     port = "x72FDF3"
     farm = "x2399A2"
     mine = "xC020A0"
     wood = "xEEF586"
-    arable_land = 44
+    arable_land = 40
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 5
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3000
-}
-
-STATE_ERMLAND_MASUREN = { 
-    id = 999
-    subsistence_building = "building_subsistence_farm"
-    provinces = { "xAEA6D6" "x7D6DC3" "x47C900" "xEEF586" "xBF9F20" "x9FD037" "x7A6061" "x6E8875" "x5428E6" "xABC4AE" "xC04521" }
-    city = ""
-    port = ""
-    farm = ""
-    mine = ""
-    wood = ""
-    arable_land = 19
-    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
-    capped_resources = {
-        building_logging_camp = 17
-        building_fishing_wharf = 4
-    }
-    naval_exit_id = 4799
+    naval_exit_id = 3074
 }
 
 STATE_POSEN = {
@@ -169,7 +168,7 @@ STATE_POSEN = {
 STATE_WEST_GALICIA = {
     id = 161
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x1161E0" "x11E061" "x56599F" "x5F3456" "x66DCEE" "x906060" "x90E060" "xA550A9" "xA63CE6" "xC7B7B8" "xC8690C" "xFCC35F" "x9061E0" }
+    provinces = { "x1161E0" "x11E061" "x56599F" "x5F3456" "x66DCEE" "x906060" "x9061E0" "x90E060" "xA550A9" "xA63CE6" "xC7B7B8" "xC8690C" "xFCC35F" }
     prime_land = { "x5F3456" "xFCC35F" }
     traits = { "state_trait_vistula_river" }
     city = "x906060"
@@ -257,7 +256,8 @@ STATE_TRANSDANUBIA = {
     arable_land = 125
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
-        building_coal_mine = 84
+        building_coal_mine = 65
+        building_iron_mine = 20
         building_logging_camp = 7
     }
 }

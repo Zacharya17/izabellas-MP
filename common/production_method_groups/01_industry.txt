@@ -21,7 +21,6 @@ pmg_canning = {
 pmg_distillery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_disabled_distillery
 		pm_pot_stills
 		pm_patent_stills
 	}
@@ -32,6 +31,15 @@ pmg_automation_building_food_industry = {
 	production_methods = {
 		pm_manual_dough_processing
 		pm_automated_bakery
+	}
+}
+
+pmg_preservatives_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_preservatives_food_none
+		pm_preservatives_food_1
+		pm_preservatives_food_2
 	}
 }
 
@@ -353,6 +361,7 @@ pmg_automation_building_munition_plant = {
 	}
 }
 
+#modded
 pmg_automation_management = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
@@ -364,3 +373,19 @@ pmg_automation_management = {
 	}
 }
 
+pmg_automation_building_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_distilling
+		pm_industrial_distilling
+	}
+}
+
+pmg_industrial_wine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_industrial_wine
+		pm_industrial_wine_minor
+		pm_industrial_wine_major
+	}
+}

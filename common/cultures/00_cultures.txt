@@ -6,6 +6,7 @@
 
 	obsessions = {
 		meat
+		liquor
 	}
 
 	traditions = { }
@@ -73,8 +74,6 @@
 		von_Zieten von_Zwierlein
 
 		von_Jons
-
-		Hitler
 	}
 	common_last_names = {
 		Abegg Anger Arendt Ackermann Arntz
@@ -99,7 +98,6 @@
 		Venedy Vogt Volhard Varrentrapp Vorwerck
 		Weydemeyer Wittfeld Woehlert Wiesner Wislicenus Wachendorf Waldschmidt Weckbecker Welcker WerlE_ Wesendonck Weilhelmi Winneritz Wirtz Wolfermann Wigard Wuttke Wippermann Wentorp Wendhausen
 		Zerrahn ZO_ller Zell Zimmermann ZachariA_ Zulauf Zais
-		Hitler
 	}
 
 	male_regal_first_names = {
@@ -136,6 +134,8 @@ south_german= {
 
 	obsessions = {
 		meat
+		liquor
+		fine_art
 	}
 
 	traditions = { }
@@ -202,10 +202,6 @@ south_german= {
 		von_Weigert von_Wittelsbach von_Wurttemberg von_Wrede von_WA_chter von_Waechter-Spittler von_WO_llwarth von_Waldburg-Zeil von_Wirthmann von_WalderstO_tten von_Wallbrunn von_Welsch von_Winneberger
 		von_Xylander
 		von_Zahringen von_Zandt von_Zwanziger
-
-		Grießinger
-
-		Hitler
 	}
 	common_last_names = {
 		Auerbach Aldinger
@@ -232,8 +228,6 @@ south_german= {
 		Voelcker Veiel
 		Wagner Wittmann Willich Wolf Wiedmann Walchner Welcker Weller Welte Werner Winter Weiss-Jonak
 		Zeller Zenger Zink Zentner Zittel Zerreiss
-
-		Hitler
 	}
 	male_regal_first_names = {
 		Albert
@@ -275,30 +269,17 @@ ashkenazi= {
 	traditions = { tradition_israelite }
 	# could have German-speaking, but would make them not discriminated which would be very ahistorical
 	male_common_first_names = {
-		Abraham
-		Albert
+		Abraham Albert
 		Benjamin
-		Daniel
-		David
+		Daniel David
 		Franz
-		Gerson
-		Gustav
-		Heinrich
-		Hermann
-		Ignatz
-		Isaak
-		Jakob
-		Jeremias
-		Josef
-		Julius
+		Gerson Gustav
+		Heinrich Hermann
+		Ignatz Isaak
+		Jakob Jeremias Josef Julius
 		Leonhard
-		Michael
-		Mose
-		Salomon
-		Saul
-		Shmuel
-		Sigmund
-		Simon
+		Michael Mose
+		Salomon Saul Shmuel Sigmund Simon
 		Theodor
 	}
 	female_common_first_names = {
@@ -322,34 +303,22 @@ ashkenazi= {
 		Zuckerkandl
 	}
 	common_last_names = {
-		Abramovitch
-		Ashkenazi
-		Bernstein
-		Birnbaum
-		Bloch
-		Cantor
-		Cohen
-		Frank
-		Friedlander
-		Ginsberg
-		Goldstein
+		Abramovitch Ashkenazi
+		Bernstein Birnbaum Bloch
+		Cantor Cohen
+		Frank Friedlander
+		Ginsberg Goldstein
 		Horowitz
 		Israel
 		Jacobsohn
-		Kagan
-		Kaplan
-		Klein
-		Levin
-		Luria
+		Kagan Kaplan Klein
+		Levin Luria
 		Morgenstern
 		Nathan
 		Oren
 		Rosenthal
-		Sachs
-		Schapiro
-		Schwartz
-		Weinstein
-		Weiss
+		Sachs Schapiro Schwartz
+		Weinstein Weiss
 	}
 	ethnicities = {
 		1 = caucasian
@@ -365,6 +334,7 @@ dutch= {
 
 	obsessions = {
 		coffee
+		liquor
 	}
 
 	traditions = { tradition_dutch_colonial }
@@ -499,81 +469,33 @@ flemish= {
 
 	obsessions = {
 		coffee
+		liquor
 	}
 
 	traditions = { }
 	male_common_first_names = {
-		Adolf
-		Adolphe
-		Adriaan
-		Albert
-		Alexander
-		Alexandre
-		Alfons
-		Alphonse
-		Andries
-		Antoine
-		Auguste
-		Bonifaas
-		Boudewijn
-		Camille
-		Charles
-		Constant
-		David
-		Diederik
-		Desire
-		Edmond
-		Emmanuel
-		Etienne
-		Eugene
-		Ferdinand
-		Filip
-		Frans
-		Francois
-		Frederik
-		Felix
-		Guillaume
-		Gustave
-		Hendrik
-		Henri
-		Herman
-		Ignaas
-		Ignace
-		Jan
-		Jean
-		Jean-Baptiste
-		Jean_Francois
-		Jean-Jacques
-		Jean-Louis
-		Jochem
-		Joseph
-		Josse
-		Jozef
-		Jules
+		Adolf Adolphe Adriaan Albert Alexander Alexandre Alfons Alphonse Andries Antoine Auguste
+		Bonifaas Boudewijn
+		Camille Charles Constant
+		David Diederik Desire
+		Edmond Emmanuel Etienne Eugene
+		Ferdinand Filip Frans Francois Frederik Felix
+		Guillaume Gustave
+		Hendrik Henri Herman
+		Ignaas Ignace
+		Jan Jean Jean-Baptiste Jean_Francois Jean-Jacques Jean-Louis Jochem Joseph Josse Jozef Jules
 		Karel
-		Laurens
-		Leopold
-		Louis
-		Lucien
-		Leon
-		LE_onard
+		Laurens Leopold Louis Lucien Leon LE_onard
 		Manfred
 		Mathias
-		Nicolas
-		Nikolaas
+		Nicolas Nikolaas
 		Olivier
-		Paul
-		Philippe
-		Philippe-Joseph
-		Pierre
-		Pieter
+		Paul Philippe Philippe-Joseph Pierre Pieter
 		Robert
 		Sylvain
 		Theodoor
-		Victor
-		Vincent
-		Werner
-		Willem
+		Victor Vincent
+		Werner Willem
 	}
 	female_common_first_names = {
 		Clementine Charlotte Christine
@@ -612,85 +534,24 @@ flemish= {
 	}
 	common_last_names = {
 		Andries
-		Barbanson
-		Barthelemy
-		Beaucarne
-		Beernaert
-		Berthels
-		Bethune
-		Beyts
-		Bischoff
-		Blomme
-		Bosmans
-		Buylaert
-		Buyse
-		Claes
-		Claus
-		Cogels
-		Cols
-		Coppens
-		Coppieters
-		Corten
-		Cruts
-		Dayeneux
-		Delberke
-		Delehaye
-		Delwarde
-		Destouvelles
-		Deswert
-		Devaux
-		Dhanis
-		Domis
+		Barbanson Barthelemy Beaucarne Beernaert Berthels Bethune Beyts Bischoff Blomme Bosmans Buylaert Buyse
+		Claes Claus Cogels Cols Coppens Coppieters Corten Cruts
+		Dayeneux Delberke Delehaye Delwarde Destouvelles Deswert Devaux Dhanis Domis
 		Fransman
-		Gelders
-		Geudens
-		Goethals
-		Hennequin
-		Huysman_d_Annecroix
-		Jacobs
-		Janssens
-		Joos
-		Jottrand
+		Gelders Geudens Goethals
+		Hennequin Huysman_d_Annecroix
+		Jacobs Janssens Joos Jottrand
 		Kockaert
-		Ledeganck
-		Lefebvre
-		Liedts
-		Marcq
-		Meeus
-		Morel
-		Moyersoen
-		Mulle
-		Nypels
-		Ooms
-		Osy
-		Peemans
-		Peeters
-		Petens
-		Rodenbach
-		Roels
-		Rosseuw
-		Rouppe
-		Rutten
-		Schollaert
-		Serruys
-		Simons
-		Speelman
-		Struye
-		Terlinden
-		Teuwens
-		Thienpont
-		Tilkens
-		Vandive
-		Verbeke
-		Vercruysse
-		Verduyn
-		Vergauwen
-		Verseyden_de_Varick
-		Verwilghen
-		Wallaert
-		Wannaar
-		Werbrouck
-		Wyvekens
+		Ledeganck Lefebvre Liedts
+		Marcq Meeus Morel Moyersoen
+		Mulle Nypels
+		Ooms Osy
+		Peemans Peeters Petens
+		Rodenbach Roels Rosseuw Rouppe Rutten
+		Schollaert Serruys Simons Speelman Struye
+		Terlinden Teuwens Thienpont Tilkens
+		Vandive Verbeke Vercruysse Verduyn Vergauwen Verseyden_de_Varick Verwilghen
+		Wallaert Wannaar Werbrouck Wyvekens
 		d_Ansembourg
 		d_Arschot_Schoonhoven
 		d_Hanens
@@ -1291,6 +1152,7 @@ swedish= {
 
 	obsessions = {
 		coffee
+		liquor
 	}
 
 	traditions = { }
@@ -1415,6 +1277,7 @@ danish= {
 
 	obsessions = {
 		tea
+		liquor
 	}
 
 	traditions = { }
@@ -1566,6 +1429,12 @@ norwegian= {
 	religion = protestant
 	heritage = heritage_nordic
 	language = language_scandinavian
+
+	obsessions = {
+		fish
+		liquor
+	}
+
 	traditions = { }
 	male_common_first_names = {
 		Adrian Alfred Amund Anders Andreas Arne Arve August
@@ -1758,6 +1627,7 @@ finnish= {
 
 	obsessions = {
 		coffee
+		liquor
 	}
 
 	traditions = { }
@@ -1968,6 +1838,7 @@ british= { # "English" in localization
 
 	obsessions = {
 		tea
+		liquor
 	}
 
 	male_common_first_names = {
@@ -2287,276 +2158,6 @@ irish= {
 	}
 }
 
-irish_2= { #This is the culture that represents British settlers in Ireland, known as the 'Pale Irish' - A link to the pale settlements in Ireland by the British
-	color= hsv{ 0.35 0.58 0.54 }
-	religion = protestant
-	heritage = heritage_british
-	language = language_anglophone
-	traditions = { }
-
-	obsessions = {
-		tea liquor
-	}
-	male_common_first_names = {
-		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen Adrian Alan Arnold Auberon Allen
-		Bruce Benedict Beauchamp Benjamin Byron Bartholomew Barnaby Basil Bertram Bertrand
-		Charles Christopher Cecil Chichester Collingwood Cornelius Caleb Clarence Claude
-		David Daniel Donald Dudley
-		Ebenezer Edward Edmund Edgar Evelyn Egerton Edwin Eustace Eric
-		Francis Frederick Frederic Fairfax
-		George Gregory Garnet Guildford Gathorne Gerard Gipps Granville Geoffrey Gonville Godfrey
-		Harold Henry Hugh Horatio Hedworth Humphrey Harold Harcourt Hedley Herbert
-		Isambard Isaac
-		John James Jacob Jeremy Joseph Julian Josslyn Joshua
-		Kenelm
-		Laurence Leonard Lyon Lionel Lewis
-		Mark Michael Matthew Massey Montague Myles Murrough Maurice Martin Maxwell
-		Nigel Nicholas Nathaniel Neville
-		Oliver Octavius Oscar Oswald
-		Peter Paul Patrick Poulett Philip Percy
-		Richard Robert Roger Rudyard Redvers Rowland Reginald Roundell Rupert Rufus Ross
-		Stephen Simon Spencer Stanley Samuel Stafford Sewallis Sackville Sutherland
-		Theodore Tristan Theobald Thomas Terence Teignmouth Timothy
-		Victor Valentine_2
-		Winston Walter William Wilfred Watkin Wellwood Weston Wentworth Wilbraham Wyndham Weetman
-		Zachary
-		
-		Alexander
-		Arthur
-		Brian
-		Cathal
-		Christopher
-		Con
-		Daniel
-		Denis
-		Desmond
-		Edward
-		Ernes
-		Fionan
-		Frank
-		George
-		Harry
-		Jack
-		James
-		John
-		Joseph
-		Kevin
-		Liam
-		Michael
-		Murrough
-		Patrick
-		Peter
-		Richard
-		Robert
-		Sean
-		Thomas
-		William
-		Eamon
-	}
-	female_common_first_names = {
-		Alice Anne Ada Arabella Amelia Adelaide Agnes Alethea Augusta Adela Annot Amabel
-		Barbarina Bertha Beatrice Barbara
-		Catherine Charlotte Constance Clara Caroline Clementina Cecilia Christabel Camilla Christina
-		Dorothea Diana
-		Edith Emma Elizabeth Eleanor Eliza Emmeline Esther Euphemia Ella
-		Frances Flora Florence Favell Felicia
-		Georgia Gertrude Georgiana Geraldine Grace Grisell
-		Hannah Harriette Harriet Henrietta
-		Isabella Ivy
-		Jane Josephine Joanna Julia Jeanette Janet
-		Lucy Lydia Louisa Laura Laetitia Lillian
-		Mary Marianne Mathilde Margaret May Marian Madeleine Menella Mariana
-		Nona Nora
-		Olivia
-		Phoebe Pauline
-		Rachel Rhoda Rosina Rosaline Regina Ruth
-		Sarah Sophia Selina Sibella Susan
-		Theodora
-		Victoria Violet Virginia
-		Wilhelmine
-
-		Adela
-		Anne
-		Bithia
-		Bridget
-		Catherine
-		Charlotte
-		Clotilde
-		Edith
-		Ethel
-		Ellen
-		Ellice
-		Emily
-		Gertrude
-		Honora
-		Ida
-		Ismania
-		Isobel
-		Jane
-		Josephine
-		Laura
-		Letitia
-		Louisa
-		Margaret
-		Mary
-		Melesina
-		Mildred
-		Nora
-		Olivia
-		Rachel
-		Rose
-		Sarah
-		Sophie
-	}
-	noble_last_names = {
-		Beresford
-		Browne
-		Castlereagh
-		Conyngham
-		FitzGerald
-		FitzMaurice
-		Glenavy
-		Hamilton
-		Hill
-		Lambart
-		Loftus
-		Mornington
-		O_Brien
-		Plunket
-		Prendergast
-		Talbot
-		Taylor
-		Templemore
-		Tyrrell
-		Vane-Tempest
-
-		Agar-Ellis Althorp
-		Baden-Powell Brudenell-Bruce Bolingbroke Bridport Butler-Henderson Bowes-Lyon Bulwer-Lytton Bertie
-		Churchill Cromwell Cavendish Crichton-Stuart Cowell-Stepney Cowper-Temple Crum-Ewing Campbell-Bannerman Cobham Courtenay Caversham
-		Dawson-Damer Dalrymple-Hay
-		Enfield
-		FitzGerald FitzMaurice Ferguson-Davie Falmouth Fane Foley
-		Grey Gordon-Lennox Greville-Nugent Graham-Montgomery Goldsmid Green-Price Gathorne-Hardy Glencorse
-		Hamilton Haviland-Burke Hill-Trevor Hanbury-Tracy Henley Hampden Hume-Campbell
-		Jones-Parry Jervis-White-Jervis
-		Keppel
-		Loyd-Lindsay Leveson-Gower Launceston Lane
-		Maynard Manningham-Buller Meynell-Ingram Montgomery-Cuninghame Mure-Campbell
-		Newport Newark
-		Orr-Ewing Ormsby-Gore
-		Pleydell-Bouverie Pelham-Clinton Prothero
-		Rosebery Ruggles-Brise Ramsay-Gibson-Maitland Rawdon-Hastings
-		Salisbury Salusbury-Trelawny Smith-Barry Selwin-Ibeetson Sclater-Booth Somerset Stopford-Sackville Shaw-Lefevre Spencer-Churchill
-		Thoroton-Hildyard Torrington Trevor Tadcaster Trematon Townsend
-		Walpole Williams-Wynn Wingfield-Baker Wilson-Patten Welby-Gregory Windsor-Clive Wentworth-FitzWilliam Waldegrave Withers-Lancashire
-	}
-	common_last_names = {
-		Allenby Anstruther Abercromby Annesley Assheton Arkwright Acland Armistead Archdale Anderson Akroyd Adair Aytoun Amcotts Allen Amherst Ashton Aytoun
-		Brown Buller Barrie Bright Benyon Brinckman Bathurst Bagwell Brewer Bruce Backhouse Bass Bateson Bowring Bourne Barrington Blennerhassett Bourke Beach Beaumont Brassey Bailey Biddulph Brand Baring Baines Brocklehurst Bentall Bazley Birley Bingham Bolckow Baxter Bagge Barttelot Beevor Barbauld Balfour Baillie Barnard Bayly Beerbohm Bellairs Bewick Bloomfield Blagden Borthwick Booth Bousfield Brightwell Broderip Broughton Budden Burdon Borradaile Buxton Beauclerk Bosanquet Bromhead Brightwen Brander
-		Cory Chard Courtney Coward Cowell Craufurd Cave Collins Cadogan Chambers Conolly Callan Coleridge Cole Carnegie Cholmeley Clive Croft Cowper Cameron Castlerosse Clay Cogan Colthurst Colebrooke Cross Chaplin Cowen Cartwright Cardwell Corrance Cochrane Conroy Cotton Calthorpe
-		Duff Dalrymple Dixon Dalway Dilke Downing Dickson Davison Dalglish Dimsdale Dyott Dowse Dawson Dease Denison Dillwyn Dow Dunnell Despard Day Darter Selkirk
-		Edge Ennis Edwards Eaton Elliot Elcho Eastwick Eddowes
-		Fortescue Finnie Fordyce Feilden Forster Fowler Fagan Fletcher Fellowes Fothergill Fetherstonhaugh Fanshawe Flowerdew Fullteron Fleming Follows
-		Gresley Gooch Grenfell Glass Gilpin Gilbert Grosvenor Goldney Graham Grieve Goschen Gimbert Gardener Grimstead Greenwell
-		Howard Hornby Hick Hughes Hardcastle Hope Hibbert Hoare Hodgson Henderson Hanmer Hughes Hutt Holford Holms Hurst Holmesdale Holt Harris Heygate Hodgkinson Headlam Hutton Haig
-		Illingworth Ivatt Irby Inchbald Ingelow Inglis
-		Jones Johnston Jessel Jardine Jackson Jolliffe
-		Kennard Kavanagh Kekewich Keown Knox Kingscote Knightley Kinnaird Kinglake Kempthorne
-		Lovelace Laird Lambert Lawson Legh Lennox Lowther Lopes Lefroy Lusk Leatham Lowe Leslie Lane Letby Larwood
-		Moore Macfarlane Mellor McClure Muntz Murphy Maguire Matthews Miller Merry Moncreiff Monk Marling Mackintosh McArthur Manners Macfie McLagan Moore McEvoy Mitford McMahon Matheson Moynihan Majendie Mansfield Marindin Markham Maxse McBean McCorrie McDermond McMurdo McWheeney Mouat
-		Northcote North Nicol Norwood Nightall Notcott Newdegate Napier
-		Otway Ogilvy Onslow Ord Owens
-		Primrose Plunket Potter Plimsoll Pakington Pim Pease Playfair Price Pell Pelham Palmer Ponsonby Peppercorn Pennefather Plumptre Pitblado Pardoe Palliser Pardon
-		Rawlinson Robertson Ripley Richards Raikes Rebow Round Reed Ramsden Pennington Ross Rumbold Raines Ramage Ridley Rowlands Russell Reddish Ridding
-		Stephenson Stanhope Seymour Stronge Sullivan Shaftoe Samuelson Shaw Stapleton Sartoris Saunderson Staveley Strutt Sheridan Stacpoole Scargill Salomons Stansfeld Smith Starkie Synan Seely Shirley Sidebottom Scratchley Sargent Shields Shute Sandbach Sellon Squire Snodgrass Stanger Sibthorp Sparks
-		Tite Traill Torrens Tollemache Trehawke Taylor Talbot Tomline Tolman Trevelyan Temple Thornycroft Troubridge Templeton Teesdale Tottenhame Tremayne Titmus Tyldesley
-		Upton Underdown
-		Veitch Vance Verner Vandeleur Vivian Vicars
-		Woollcombe Wedderburn Whitbread Whitmore Willyams Whitworth Waterlow Williamson Wethered Wyllie Wheelhouse Whatman Waterhouse Walsh Winterbotham Weguelin Wedgwood Whitelaw Wheatley Wingate Willan Waugh Wisden
-		Young Younghusband
-
-		Aiken
-		Ashe
-		Boyle
-		Brady
-		Breen
-		Brennan
-		Brown
-		Brugha
-		Burke
-		Byrne
-		Campbell
-		Carroll
-		Clarke
-		Collins
-		Connolly
-		Connor
-		Cosgrave
-		Craig
-		Cust
-		Cowhig
-		Daly
-		Doherty
-		Donnelly
-		Doyle
-		Dryhurst
-		Duffy
-		Dunne
-		Farrell
-		Fitzgerald
-		Fitzpatrick
-		Flynn
-		Gallagher
-		Griffith
-		Hayes
-		Healy
-		Hughes
-		Hungerford
-		Johnston
-		Kelly
-		Kennedy
-		Larkin
-		Lynch
-		Maguire
-		Mallin
-		Martin
-		McCartan
-		McCarthy
-		McCullough
-		McGarry
-		McGuinness
-		Moore
-		Moran
-		Mulcahy
-		Murphy
-		Murray
-		Nolan
-		O_Connor
-		O_Doherty
-		O_Higgins
-		O_Leary
-		O_Mara
-		Pearse
-		Plunket
-		Power
-		Quinn
-		Reilly
-		Ryan
-		Smith
-		Smyth
-		Sullivan
-		Thompson
-		Walsh
-		White
-		Wilson
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 australian= {
 	color= hsv{ 0.61 0.50 0.68 }
 	religion = protestant
@@ -2696,7 +2297,8 @@ north_italian= {
 	traditions = { }
 
 	obsessions = {
-		wine olive_oil
+		wine
+		olive_oil
 	}
 
 	male_common_first_names = {
@@ -2778,7 +2380,8 @@ south_italian= {
 	traditions = { }
 
 	obsessions = {
-		wine olive_oil
+		wine
+		olive_oil
 	}
 
 	male_common_first_names = {
@@ -3262,6 +2865,7 @@ catalan= {
 
 	obsessions = {
 		wine
+		olive_oil
 	}
 
 	traditions = { }
@@ -3747,7 +3351,8 @@ occitan= {
 
 	# the best wine is from Occitania, of course.
 	obsessions = {
-		wine olive_oil
+		wine
+		olive_oil
 	}
 
 	male_common_first_names = {
@@ -3912,6 +3517,7 @@ croat= {
 
 	obsessions = {
 		tobacco
+		liquor
 	}
 
 	traditions = { }
@@ -4000,6 +3606,7 @@ serb= {
 
 	obsessions = {
 		meat
+		liquor
 	}
 
 	traditions = { }
@@ -4106,6 +3713,7 @@ bulgarian= {
 
 	obsessions = {
 		tobacco
+		liquor
 	}
 
 	traditions = { }
@@ -4720,6 +4328,7 @@ hungarian= {
 
 	obsessions = {
 		meat
+		liquor
 	}
 
 	traditions = { }
@@ -5658,6 +5267,11 @@ latvian= {
 	heritage = heritage_baltic
 	language = language_baltic
 	traditions = { }
+
+	obsessions = {
+		liquor
+	}
+
 	male_common_first_names = {
 		Aaron
 		Abrams
@@ -5808,6 +5422,11 @@ estonian= {
 	heritage = heritage_baltic
 	language = language_finnic
 	traditions = { }
+
+	obsessions = {
+		liquor
+	}
+
 	male_common_first_names = {
 		Aadu
 		Alar
@@ -5958,12 +5577,13 @@ greek= {
 	religion = orthodox
 	heritage = heritage_greek
 	language = language_greek
-	traditions = { }
 
 	obsessions = {
-		wine olive_oil
+		wine
+		olive_oil
 	}
 
+	traditions = { }
 	male_common_first_names = {
 		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis
 		Beniamin
@@ -6389,10 +6009,12 @@ turkish= {
 	religion = sunni
 	heritage = heritage_anatolian
 	language = language_oghuz
-	traditions = { tradition_rumelian }
+
 	obsessions = {
 		coffee
 	}
+
+	traditions = { tradition_rumelian }
 	male_common_first_names = {
 		Abdulhamid
 		Abdulkerim
@@ -6800,11 +6422,13 @@ maghrebi= {
 misri= {
 	color= rgb{ 226 218 112 }
 	religion = sunni
+	heritage = heritage_arab
+	language = language_arabic
+
 	obsessions = {
 		coffee
 	}
-	heritage = heritage_arab
-	language = language_arabic
+
 	traditions = { }
 	male_common_first_names = {
 		Abdulhamid
@@ -6909,10 +6533,12 @@ mashriqi= {
 	religion = shiite
 	heritage = heritage_arab
 	language = language_arabic
-	traditions = { }
+
 	obsessions = {
 		coffee
 	}
+
+	traditions = { }
 	male_common_first_names = {
 		Abd_Allah
 		Abd_al-Karim
@@ -7011,11 +6637,13 @@ mashriqi= {
 bedouin= {
 	color= rgb{ 154 164 89 }
 	religion = sunni
+	heritage = heritage_arab
+	language = language_arabic
+
 	obsessions = {
 		coffee
 	}
-	heritage = heritage_arab
-	language = language_arabic
+
 	traditions = { }
 	male_common_first_names = {
 		Abd_Allah Abd_al-Karim Abd_al-Malik Abd_al-Qadir Abd_al-Rahman Abu_Bakr Ahmad Ali Abdulaziz Azzan
@@ -7494,6 +7122,11 @@ pashtun= {
 	heritage = heritage_iranian
 	language = language_pashto
 	traditions = { tradition_persianate }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abd_al-Quddus
 		Abd_al-Rahman
@@ -8001,13 +7634,13 @@ yakut= {
 tibetan= {
 	color= rgb{ 132 121 86 }
 	religion = gelugpa
+	heritage = heritage_tibetan
+	language = language_tibetan
 
 	obsessions = {
 		tea
 	}
 
-	heritage = heritage_tibetan
-	language = language_tibetan
 	traditions = { tradition_himalayan }
 	male_common_first_names = {
 		Andruk
@@ -8057,6 +7690,7 @@ assamese= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8109,6 +7743,11 @@ bihari= {
 	heritage = heritage_gangetic
 	language = language_magadhan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ashoka
 		Ashtravakra
@@ -8199,12 +7838,12 @@ nepali= {
 	religion = hindu
 	heritage = heritage_himalayan
 	language = language_pahari
-	traditions = { tradition_himalayan }
 
 	obsessions = {
 		tea
 	}
 
+	traditions = { tradition_himalayan }
 	male_common_first_names = {
 		Amar
 		Bhakti
@@ -8303,7 +7942,7 @@ sinhala= {
 	language = language_southern_indic
 
 	obsessions = {
-		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8349,6 +7988,11 @@ avadhi= {
 	heritage = heritage_gangetic
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ishvari
 		Jugal
@@ -8396,6 +8040,7 @@ panjabi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8444,6 +8089,11 @@ kashmiri= {
 	heritage = heritage_kashmiri
 	language = language_dardic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Atta
@@ -8491,6 +8141,11 @@ sindi= {
 	heritage = heritage_indusine
 	language = language_northwestern_indic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Gholam
 		Hosayn
@@ -8548,6 +8203,7 @@ rajput= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -8604,6 +8260,11 @@ kannada= {
 	heritage = heritage_deccani
 	language = language_tamil_tulu
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abbakka
 		Aliya
@@ -8659,6 +8320,7 @@ malayalam= {
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -8709,6 +8371,11 @@ telegu= {
 	language = language_south_central
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Alluri
 		Durgabai
@@ -8756,7 +8423,7 @@ vietnamese= {
 	name_format = last_first
 
 	obsessions = {
-		coffee
+		spice_box
 	}
 
 	traditions = { tradition_sinosphere }
@@ -8814,6 +8481,11 @@ khmer= {
 	language = language_khmeric
 	name_format = last_first
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ang
 		Norodom
@@ -8859,6 +8531,11 @@ batak= {
 	heritage = heritage_insulindian
 	language = language_batak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Kiras
 		Nerus
@@ -8911,6 +8588,11 @@ dayak= {
 	heritage = heritage_insulindian
 	language = language_dayak
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Daud
 		Haimie
@@ -9265,6 +8947,11 @@ tagalog= {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9353,6 +9040,11 @@ visayan= {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9436,6 +9128,11 @@ ilocano = {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9498,6 +9195,11 @@ lumad = {
 	heritage = heritage_insulindian
 	language = language_philippinic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Andres
 		Benigno Benito
@@ -9656,6 +9358,11 @@ javan= {
 	heritage = heritage_insulindian
 	language = language_malay
 	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abul Abdurrahman Ahmad Amir Anom Arifin
 		Bambang
@@ -9713,6 +9420,11 @@ moluccan= {
 	heritage = heritage_insulindian
 	language = language_moluccan
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Denny
 		Dominggus
@@ -9758,7 +9470,7 @@ thai= {
 	language = language_siamese
 
 	obsessions = {
-		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -9854,6 +9566,11 @@ khmu= {
 	heritage = heritage_khmu
 	language = language_khmuic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Anurutha
 		Chantha
@@ -9905,6 +9622,7 @@ lao= {
 
 	obsessions = {
 		liquor
+		spice_box
 	}
 
 	traditions = { }
@@ -10101,6 +9819,11 @@ karen= {
 	heritage = heritage_burmese
 	language = language_karenic
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Hkun
 		La
@@ -10150,6 +9873,15 @@ japanese= {
 	language = language_japanese
 	traditions = { }
 	name_format = last_first
+
+	obsessions = {
+		tea
+	}
+
+	taboos = {
+		meat 
+	}
+
 	male_common_first_names = {
 		Aritomo
 		Gentaro
@@ -10177,7 +9909,7 @@ japanese= {
 		Maresuke
 		Masatake
 		Masujiro
-		Michisura
+		Michitsura
 		Mineo
 		Mitsue
 		Mitsuomi
@@ -10226,7 +9958,7 @@ japanese= {
 		Ginko
 		Gyokuran
 		Kaho
-		Kei
+		Keiko
 		Kin
 		Kumehachi
 		Masako
@@ -10330,7 +10062,6 @@ manchu= {
 	name_format = last_first
 
 	obsessions = {
-		tea
 	}
 
 	traditions = { tradition_sinosphere }
@@ -10411,11 +10142,13 @@ han= {
 	religion = confucian
 	heritage = heritage_han
 	language = language_mandarin
-	traditions = { tradition_sinosphere }
 	name_format = last_first
+
 	obsessions = {
 		opium
 	}
+
+	traditions = { tradition_sinosphere }
 	male_common_first_names = {
 		Chen
 		Cheng
@@ -10502,8 +10235,6 @@ korean= {
 	}
 
 	traditions = { tradition_sinosphere }
-
-
 	male_common_first_names = {
 		Bak Bong-haek
 		Chwa-chin
@@ -10639,6 +10370,11 @@ hakka= {
 	heritage = heritage_han
 	language = language_hakka
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	name_format = last_first
 	male_common_first_names = {
 		Chen
@@ -10711,6 +10447,11 @@ miao= {
 	language = language_hmong
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bang
 		Blong
@@ -10779,6 +10520,12 @@ min= {
 	language = language_min
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	
+	}
+
 	male_common_first_names = {
 		Bing
 		Chen
@@ -10904,6 +10651,11 @@ yi= {
 	language = language_yi
 	name_format = last_first
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Chen
 		Cheng
@@ -10984,6 +10736,11 @@ yue= {
 	heritage = heritage_han
 	language = language_yue
 	traditions = { tradition_sinosphere }
+
+	obsessions = {
+		spice_box
+	}
+
 	name_format = last_first
 	male_common_first_names = {
 		Chen
@@ -11204,6 +10961,7 @@ melanesian= {
 
 	obsessions = {
 		meat
+		spice_box
 	}
 
 	traditions = { }
@@ -13813,6 +13571,7 @@ yankee= {
 	obsessions = {
 		coffee
 		small_arms
+		liquor
 	}
 
 	traditions = { }
@@ -13946,6 +13705,7 @@ dixie= {
 	obsessions = {
 		tobacco
 		small_arms
+		liquor
 	}
 
 	traditions = { }
@@ -15478,45 +15238,20 @@ brazilian= {
 
 	traditions = { }
 	male_common_first_names = {
-		Afonso
-		Antonio_3
-		Artur
-		Augusto
-		Aurelio_2
+		Afonso Antonio_3 Artur Augusto Aurelio_2
 		Benjamin
-		Carlos
-		Celso
-		Custodio
-		Candido
-		Delfim
-		Deodoro
-		Eduardo
-		Emilio_2
-		Epitacio
-		Ernesto
-		Federico
-		Fernando
-		Filipe
-		Floriano
-		Francisco_Xavier
-		Francisco_de_Paula
-		Fabio_2
-		Gaspar
-		Gastao
-		Getulio
+		Carlos Celso Custodio Candido
+		Delfim Deodoro
+		Eduardo Emilio_2 Epitacio Ernesto
+		Federico Fernando Filipe Floriano Francisco_Xavier Francisco_de_Paula Fabio_2
+		Gaspar Gastao Getulio
 		Henrique Hermes Humberto
 		Isaias
 		JesuI_no Joaquim JosE_ JoA_o Juscelino Julio_2
 		Luis_2
-		Manuel
-		Marco_Antonio_2
-		Miguel
-		Mario_2
-		Nereu
-		Nilo
-		Paulo
-		Pedro
-		Prudente
+		Manuel Marco_Antonio_2 Miguel Mario_2
+		Nereu Nilo
+		Paulo Pedro Prudente
 		Silviano
 		Tancredo
 		Urbano
@@ -15524,19 +15259,16 @@ brazilian= {
 		Vital
 	}
 	female_common_first_names = {
-		Adelia
-		Amalia_2
+		Adelia Amalia_2
 		Beatriz
-		Carmen
-		Cristina
+		Carmen Cristina
 		Domitila
 		Emilia
 		Francisca
 		Isabel
 		Josefina
 		Julia
-		Maria
-		Mariana
+		Maria Mariana
 		Narcisa
 		Teresa
 		Veridiana
@@ -15565,37 +15297,18 @@ brazilian= {
 		da_Silva_Prado
 	}
 	common_last_names = {
-		Barreto
-		Bernardes
-		Bittencourt
-		Brandao
-		Bras
-		Cabral_da_Silva
-		Caldwell
-		Constant
-		Costa
+		Barreto Bernardes Bittencourt Brandao Bras
+		Cabral_da_Silva Caldwell Constant Costa
 		Dutra
-		Fragoso
-		Frontin
+		Fragoso Frontin
 		Galvao
 		Jordao_2
-		Labatut
-		Lopes
-		Maciel
-		Mallet
-		Marques
-		Marques_de_Sousa
-		Maurity
-		Moreira
+		Labatut Lopes
+		Maciel Mallet Marques Marques_de_Sousa Maurity Moreira
 		Osorio_2
-		Peixoto
-		Pena
-		Pessoa
-		Pinto
+		Peixoto Pena Pessoa Pinto
 		Rondon
-		Saldanha_da_Gama
-		Santos
-		Soares
+		Saldanha_da_Gama Santos Soares
 		Tavares
 		Vargas
 		Wandenkolk
@@ -15611,6 +15324,11 @@ sulista = {
 	religion = catholic
 	heritage = heritage_latin_american_settler
 	language = language_lusophone
+
+	obsessions = {
+		meat
+	}
+
 	traditions = { }
 
 	male_common_first_names = {
@@ -15862,10 +15580,6 @@ afro_american= {
 	religion = protestant
 	heritage = heritage_african_diaspora
 	language = language_anglophone
-
-	obsessions = {
-		liquor
-	}
 
 	traditions = { }
 	male_common_first_names = {
@@ -19097,6 +18811,11 @@ swahili= {
 	heritage = heritage_eastern_bantu
 	language = language_swahili
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ali Al_Bashir Abdullah Ahmed Abedi Athman Abdul Abdulrazak Abdulmuhsin Abu_Bakar Alwy Abdurrahman Awath Abdulwahid
 		Barghash Bakari Bakathir
@@ -20857,10 +20576,13 @@ yemenite= {
 	religion = shiite
 	heritage = heritage_arab
 	language = language_arabic
-	traditions = { }
+
 	obsessions = {
 		coffee
 	}
+
+	traditions = { }
+
 	male_common_first_names = {
 		Abd_Allah
 		Abd_al-Karim
@@ -21141,6 +20863,11 @@ bundeli = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Adithya
 		Chhatrasal
@@ -21229,6 +20956,11 @@ gondi = {
 	heritage = heritage_central
 	language = language_south_central
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Ajanbahu
 		Bakht_Buland
@@ -21318,6 +21050,11 @@ chhattisgarhi = {
 	heritage = heritage_central
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Bhupesh
 		Habib
@@ -21410,6 +21147,11 @@ deccani = {
 	heritage = heritage_deccani
 	language = language_hindustani
 	traditions = { }
+
+	obsessions = {
+		spice_box
+	}
+	
 	male_common_first_names = {
 		Amjad Ahmed Abdullah Aziz Awaz
 		Farhatullah
@@ -21466,6 +21208,7 @@ gujarati={
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -21524,6 +21267,7 @@ tamil={
 
 	obsessions = {
 		sugar
+		spice_box
 	}
 
 	traditions = { }
@@ -21582,6 +21326,7 @@ bengali={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { }
@@ -21661,6 +21406,7 @@ marathi= {
 
 	obsessions = {
 		tea
+		spice_box
 	}
 
 	traditions = { }
@@ -21759,6 +21505,7 @@ pathan = {
 
 	obsessions = {
 		tobacco
+		spice_box
 	}
 
 	traditions = { tradition_persianate }
@@ -21818,6 +21565,10 @@ welsh={
 	heritage = heritage_british
 	language = language_brythonic
 	traditions = { }
+
+	obsessions = {
+		liquor
+	}
 
 	male_common_first_names={
 		Abraham Abel Arthur
@@ -22337,7 +22088,7 @@ malay={
 	language = language_malay
 
 	obsessions = {
-		coffee
+		spice_box
 	}
 
 	traditions = { tradition_dutch_colonial }
@@ -22398,6 +22149,11 @@ bornean={
 	heritage = heritage_insulindian
 	language = language_malay
 	traditions = { tradition_dutch_colonial }
+
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		Abdullah
 		Al-Mukammal
@@ -22456,7 +22212,7 @@ sumatran={
 	language = language_malay
 
 	obsessions = {
-		coffee
+		spice_box
 	}
 
 	traditions = { tradition_dutch_colonial }
@@ -22519,6 +22275,7 @@ balinese={
 
 	obsessions = {
 		fruit
+		spice_box
 	}
 
 	traditions = { tradition_dutch_colonial }
@@ -23542,6 +23299,10 @@ champa = {
 	name_format = last_first
 	traditions = { }
 
+	obsessions = {
+		spice_box
+	}
+
 	male_common_first_names = {
 		A_Nan At Angsaraja
 		Chi
@@ -24066,4 +23827,55 @@ iberian = {
 	ethnicities = {
 		1 = caucasian
 	}
+}
+
+ryukyuan = {
+	color = { 254 192 22 }
+	religion = mahayana
+	heritage = heritage_japanese
+	language = language_ryukyuan
+	traditions = { }
+	name_format = last_first
+	male_common_first_names = {
+		ChO_ei ChO_gi ChO_ki
+		Ien Igen Iki Izen
+		Junsoku
+		Kamii KO_ki
+		On
+		ShO_ken
+		Taku TarU_ Ton
+		Ushii
+	}
+	female_common_first_names = {
+		Magami Magushii MajirU_ MakamadU_ MakadU_ Manabetarugane MO_shii 
+		Umitama Umitu
+
+	}
+	common_last_names = {
+		Bai
+		Kin
+		Miyagushiku Miyagusuku
+		Nachijin
+		Rin RyO_
+		Sai
+		Tei
+		Ufugushiku
+	}
+	male_regal_first_names = {
+		HO_
+		I
+		KO_
+		On
+		Sei ShO_ Shoku
+		Tai Ten
+	}
+	female_regal_first_names = {
+	}
+	regal_last_names = {
+		ShO_
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
 }
