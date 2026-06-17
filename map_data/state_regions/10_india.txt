@@ -507,11 +507,7 @@ STATE_HYDERABAD = {
     mine = "x507020"
     wood = "xA1516D"
     arable_land = 250
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_opium_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_silk_plantation" }
-=======
-    arable_resources = { "building_spice_plantation""building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_opium_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_silk_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 16
         building_coal_mine = 6

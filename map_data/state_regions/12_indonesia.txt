@@ -425,11 +425,7 @@ STATE_MINDANAO = {
     farm = "xBC5002"
     mine = "x4C67A7"
     wood = "xCAFE73"
-<<<<<<< HEAD
-    arable_land = 40
-=======
     arable_land = 60
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 36
@@ -477,11 +473,7 @@ STATE_VISAYAS = {
     farm = "x90F80A"
     mine = "x46EA60"
     wood = "x05FD19"
-<<<<<<< HEAD
-    arable_land = 60
-=======
     arable_land = 65
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 30

@@ -379,11 +379,7 @@ STATE_CHONGQING = {
     mine = "xF9B015"
     wood = "x192C0F"
     arable_land = 500
-<<<<<<< HEAD
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
-=======
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_opium_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_coal_mine = 36
         building_logging_camp = 9
@@ -423,11 +419,7 @@ STATE_FUJIAN = {
     mine = "xA9286D"
     wood = "x13C257"
     arable_land = 400
-<<<<<<< HEAD
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 16
         building_fishing_wharf = 10
@@ -463,11 +455,7 @@ STATE_JIANGSU = {
     mine = "xEF14F8"
     wood = "xD39CAD"
     arable_land = 280
-<<<<<<< HEAD
-    arable_resources = { "building_spice_plantation" "building_olive_groves" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_resources = { "building_olive_groves" "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 8
         building_fishing_wharf = 8
@@ -485,11 +473,7 @@ STATE_NANJING = {
     mine = "x0A91BF"
     wood = "xADEC31"
     arable_land = 360
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_olive_groves" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
-    arable_resources = { "building_olive_groves" "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 5
     }
@@ -563,11 +547,7 @@ STATE_SOUTHERN_ANHUI = {
     mine = "x6ECE83"
     wood = "x329B9F"
     arable_land = 550
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_olive_groves" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
-    arable_resources = { "building_olive_groves" "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_coal_mine = 40
         building_logging_camp = 14
@@ -799,18 +779,10 @@ STATE_TONKIN = {
     farm = "xF0B0A0"
     mine = "x70B09F"
     wood = "x799EA4"
-<<<<<<< HEAD
-    arable_land = 80
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
-    capped_resources = {
-        building_coal_mine = 42
-        building_gold_mine = 3
-=======
     arable_land = 60
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_coal_mine = 38
->>>>>>> Mod-Update-Branch
         building_logging_camp = 15
         building_fishing_wharf = 7
     }
@@ -999,11 +971,7 @@ STATE_TOHOKU = {
     mine = "xF01040"
     wood = "x3190C0"
     arable_land = 80
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
-=======
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_vineyard" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_iron_mine = 53
         building_coal_mine = 6
@@ -1033,13 +1001,8 @@ STATE_KANTO = {
     farm = "x709040"
     mine = "xD350FB"
     wood = "x478599"
-<<<<<<< HEAD
-    arable_land = 130
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_land = 117
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_dye_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_iron_mine = 1
         building_lead_mine = 49
@@ -1057,19 +1020,11 @@ STATE_TOKAI = {
     provinces = { "x205FEB" "x3050C0" "x31D0C0" "x4942D2" "x5E87A1" "x910F25" "x9B2E00" "xADE732" "xC02285" "xCCB03E" }
     city = "x9B2E00"
     port = "x31D0C0"
-<<<<<<< HEAD
-    farm = "xE76E8F"
-    mine = "x779089"
-    wood = "xB0D040"
-    arable_land = 150
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
-=======
     farm = "x31D0C0"
     mine = "xC02285"
     wood = "xCCB03E"
     arable_land = 107
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_lead_mine = 38
         building_sulfur_mine = 12
@@ -1121,10 +1076,6 @@ STATE_KANSAI = {
     farm = "x305040"
     mine = "x70D040"
     wood = "x614287"
-<<<<<<< HEAD
-    arable_land = 190
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_land = 95
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_silk_plantation" "building_tea_plantation" "building_vineyard" "building_tobacco_plantation" "building_dye_plantation" }
     capped_resources = {
@@ -1150,7 +1101,6 @@ STATE_KYOTO = {
     wood = "x8EC4C9"
     arable_land = 44
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_iron_mine = 2
         building_logging_camp = 9
@@ -1171,13 +1121,8 @@ STATE_KYUSHU = {
     farm = "xCEA020"
     mine = "x705080"
     wood = "x73414A"
-<<<<<<< HEAD
-    arable_land = 100
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_land = 101
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_iron_mine = 6
         building_coal_mine = 52
@@ -1201,11 +1146,7 @@ STATE_RYUKYU_ISLANDS = {
     mine = "xF0F061"
     wood = "xF0F061"
     arable_land = 15
-<<<<<<< HEAD
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" }
-=======
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_fishing_wharf = 5
         building_coal_mine = 4
@@ -1224,11 +1165,7 @@ STATE_CHUGOKU = {
     farm = "x1151C0"
     mine = "xF05001"
     wood = "x77D64C"
-<<<<<<< HEAD
     arable_land = 75
-=======
-    arable_land = 101
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_iron_mine = 16
@@ -1249,15 +1186,9 @@ STATE_SHIKOKU = {
     city = "x7C9BEB"
     port = "xEFD040"
     farm = "xEFD040"
-<<<<<<< HEAD
-    mine = "xF05040"
-    wood = "x5D5512"
-    arable_land = 40
-=======
     mine = "x5D5512"
     wood = "xF05040"
     arable_land = 56
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_iron_mine = 4
@@ -1326,11 +1257,7 @@ STATE_YANGHO = {
     mine = "xB0D000"
     wood = "x34B782"
     arable_land = 110
-<<<<<<< HEAD
-    arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
-=======
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_silk_plantation" "building_tobacco_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_coal_mine = 5
         building_sulfur_mine = 6

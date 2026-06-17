@@ -273,12 +273,10 @@
  slave_exploitation_spice: "Violent Treatment"
  worker_exploitation_spice: "Exploitative Practices"
 
- pm_basic_canal: "Basic Canal"
  pm_advanced_canal: "Advanced canal"
  pm_no_passengers: "Cargo boats only"
  pm_passenger_boats: "Passenger boats"
 
- pm_rail_transport_mine: "Rail Transportation (Picks)"
  pm_rail_transport_mine_2: "Rail Transportation (Atmospheric Engine)"
  pm_rail_transport_mine_3: "Rail Transportation (Condensing Engine)"
  pm_rail_transport_mine_4: "Rail Transportation (Diesel Engine)"
