@@ -98,3 +98,12 @@ goods_input_raw_pharmaceuticals_add = {
 		ai_value=0
 	}
 }
+
+state_building_hospital_max_level_add = {
+	decimals = 0
+	color = good
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
