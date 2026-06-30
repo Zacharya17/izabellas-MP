@@ -1241,7 +1241,15 @@ texticon = {
 	}
 }
 
-
+texticon = {
+	icon = refined_medicine
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/unused/pharmaceuticals.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 
 
 
