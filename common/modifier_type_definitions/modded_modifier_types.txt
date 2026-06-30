@@ -66,3 +66,35 @@ building_distillery_throughput_add = {
 		ai_value=0
 	}
 }
+
+goods_output_refined_medicine_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_refined_medicine_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_raw_pharmaceuticals_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_raw_pharmaceuticals_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

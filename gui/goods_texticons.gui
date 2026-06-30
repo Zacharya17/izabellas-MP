@@ -1251,6 +1251,16 @@ texticon = {
 	}
 }
 
+texticon = {
+	icon = raw_pharmaceuticals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/modded_goods/raw_pharma_dds.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
 
 
 

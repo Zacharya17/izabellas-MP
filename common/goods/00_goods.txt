@@ -639,3 +639,17 @@ refined_medicine = {
 
 	consumption_tax_cost = 300
 }
+
+raw_pharmaceuticals = {
+	texture = "gfx/interface/icons/goods_icons/modded_goods/raw_pharma_dds.dds"
+	cost = 30
+	category = staple
+
+	obsession_chance = 15.0
+	prestige_factor = 10
+
+	traded_quantity = 10 # 300
+	convoy_cost_multiplier = 1.25
+
+	consumption_tax_cost = 100
+}
