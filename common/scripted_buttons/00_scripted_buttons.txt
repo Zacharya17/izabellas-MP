@@ -1253,6 +1253,8 @@ je_polish_constitution_button2 = {
 
 	visible = { always = yes }
 
+	cooldown = { days = 9999999 }
+
 	ai_chance = {
 		value = 100
 	}
@@ -1262,7 +1264,7 @@ je_polish_constitution_button2 = {
 	}
 
 	effect = {
-		activate_law = law_type:law_sejmik_poland
+		activate_law = law_type:law_elected_bureaucrats
 	}
 }
 
@@ -1272,6 +1274,8 @@ je_polish_constitution_button3 = {
 
 	visible = { always = yes }
 
+	cooldown = { days = 9999999 }
+
 	ai_chance = {
 		value = 100
 	}
@@ -1281,7 +1285,7 @@ je_polish_constitution_button3 = {
 	}
 
 	effect = {
-		activate_law = law_type:law_state_serfs
+		activate_law = law_type:law_peasant_proprietorship
 	}
 }
 
