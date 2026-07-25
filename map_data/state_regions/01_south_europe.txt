@@ -513,11 +513,7 @@ STATE_LOWER_ANDALUSIA = {
     farm = "x3C4E5B"
     mine = "xD06000"
     wood = "x801020"
-<<<<<<< HEAD
-    arable_land = 97
-=======
     arable_land = 67
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_olive_groves" "building_wheat_farm" "building_silk_plantation" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 4
@@ -538,11 +534,7 @@ STATE_UPPER_ANDALUSIA = {
     farm = "x27E575"
     mine = "x20B040"
     wood = "x0362A1"
-<<<<<<< HEAD
-    arable_land = 89
-=======
     arable_land = 53
->>>>>>> Mod-Update-Branch
     arable_resources = { "building_spice_plantation" "building_olive_groves" "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
         building_lead_mine = 46

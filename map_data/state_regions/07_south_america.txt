@@ -721,11 +721,7 @@ STATE_SANTIAGO = {
     mine = "x001886"
     wood = "xAFBE09"
     arable_land = 50
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_opium_plantation" "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
-=======
-    arable_resources = { "building_spice_plantation" "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_gold_mine = 5
         building_iron_mine = 33
@@ -1033,11 +1029,7 @@ STATE_SAO_PAULO = {
     mine = "xD2EC89"
     wood = "xD7EC24"
     arable_land = 130
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_silk_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
-=======
-    arable_resources = { "building_spice_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 22
         building_fishing_wharf = 5
@@ -1062,11 +1054,7 @@ STATE_MINAS_GERAIS = {
     mine = "x80F01D"
     wood = "x755D3F"
     arable_land = 150
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_silk_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
-=======
-    arable_resources = { "building_spice_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_gold_mine = 2
         building_iron_mine = 45
@@ -1099,11 +1087,7 @@ STATE_RIO_DE_JANEIRO = {
     mine = "xF21572"
     wood = "x96728E"
     arable_land = 80
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_olive_groves" "building_silk_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
-=======
-    arable_resources = { "building_olive_groves" "building_spice_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 9
         building_fishing_wharf = 9

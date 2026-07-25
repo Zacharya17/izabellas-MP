@@ -248,11 +248,7 @@ STATE_PASHTUNISTAN = {
     mine = "xAFD189"
     wood = "xEC3398"
     arable_land = 150
-<<<<<<< HEAD
     arable_resources = { "building_spice_plantation" "building_wheat_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_vineyard" }
-=======
-    arable_resources = { "building_spice_plantation""building_wheat_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_vineyard" }
->>>>>>> Mod-Update-Branch
     capped_resources = {
         building_logging_camp = 6
         building_lead_mine = 4

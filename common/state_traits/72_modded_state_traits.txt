@@ -380,3 +380,22 @@ state_trait_paracale_mines = {
 		building_gold_mine_throughput_add = 0.1
 	}
 }
+
+state_trait_cagayan_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05	
+		building_group_bg_agriculture_throughput_add = 0.05
+		building_group_bg_plantations_throughput_add = 0.05
+		building_group_bg_fishing_throughput_add = 0.05
+	}
+}
+
+state_trait_mures_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.05	
+	}
+}
