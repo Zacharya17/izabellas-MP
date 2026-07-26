@@ -12,6 +12,7 @@
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_iron_mine = 60
+        building_coal_mine = 7
         building_lead_mine = 18
         building_logging_camp = 45
         building_fishing_wharf = 11
@@ -33,6 +34,7 @@ STATE_GOTALAND = {
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_iron_mine = 15
+        building_coal_mine = 4
         building_logging_camp = 25
         building_fishing_wharf = 15
     }
@@ -151,6 +153,7 @@ STATE_WESTERN_NORWAY = {
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_sulfur_mine = 20
+        building_coal_mine = 3
         building_logging_camp = 22
         building_fishing_wharf = 15
     }
@@ -194,6 +197,7 @@ STATE_EASTERN_NORWAY = {
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_iron_mine = 18
+        building_coal_mine = 16
         building_logging_camp = 22
         building_fishing_wharf = 5
     }
@@ -920,7 +924,7 @@ STATE_WALLONIA = {
     capped_resources = {
         building_coal_mine = 60
         building_iron_mine = 55
-        building_lead_mine = 25
+        building_lead_mine = 15
         building_sulfur_mine = 25
         building_logging_camp = 11
     }
@@ -938,11 +942,11 @@ STATE_WEST_WALLONIA = {
     arable_land = 55
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_coal_mine = 50
+        building_coal_mine = 40
         building_iron_mine = 30
         building_lead_mine = 10
         building_sulfur_mine = 14
-        building_logging_camp = 11
+        building_logging_camp = 7
     }
 }
 
@@ -955,14 +959,14 @@ STATE_LUXEMBERG = {
     farm = ""
     mine = ""
     wood = ""
-    arable_land = 55
+    arable_land = 65
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_coal_mine = 40
-        building_iron_mine = 40
-        building_lead_mine = 30
-        building_sulfur_mine = 11
-        building_logging_camp = 11
+        building_coal_mine = 12
+        building_iron_mine = 52
+        building_lead_mine = 20
+        building_sulfur_mine = 8
+        building_logging_camp = 13
     }
 }
 
