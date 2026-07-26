@@ -2,7 +2,6 @@ state_trait_sillon_industriel = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
 	modifier = {
 		state_construction_mult = 0.1
-		state_market_access_price_impact = 0.05
 		building_group_bg_manufacturing_throughput_add = 0.05
 	}
 }
@@ -55,7 +54,6 @@ state_trait_zuiderzee = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	modifier = {
 		goods_output_electricity_mult = 0.1
-		state_market_access_price_impact = 0.05
 		building_fishing_wharf_throughput_add = 0.05
 		state_infrastructure_add = 10
 	}
@@ -64,7 +62,7 @@ state_trait_zuiderzee = {
 state_trait_aegean_sea = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	modifier = {
-		state_market_access_price_impact = 0.05
+		state_market_access_price_impact = 0.02
 		state_infrastructure_add = 20
 	}
 }
@@ -167,7 +165,7 @@ state_trait_greek_olives = {
 state_trait_calabria_olives = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_exotic.dds"
 	modifier = {
-		building_olive_groves_throughput_add = 0.1
+		building_olive_groves_throughput_add = 0.15
 	}
 }
 
@@ -328,8 +326,8 @@ state_trait_moraine_soils = {
 state_trait_land_of_red_rocks = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	modifier = {
-		building_iron_mine_throughput_add = 0.15
-		building_steel_mill_throughput_add = 0.05
+		building_iron_mine_throughput_add = 0.05
+		building_steel_mill_throughput_add = 0.02
 		building_group_bg_manufacturing_throughput_add = 0.05
 	}
 }
