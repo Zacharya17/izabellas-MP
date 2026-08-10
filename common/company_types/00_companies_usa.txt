@@ -38,6 +38,10 @@ company_standard_oil = {
 		}
 	}
 
+	possible_prestige_goods = {
+		prestige_good_standard_oil_oil_can
+	}
+
 	prosperity_modifier = {
 		building_railway_throughput_add = 0.2
 	}
