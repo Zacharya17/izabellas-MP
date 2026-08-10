@@ -397,3 +397,18 @@ state_trait_mures_river = {
 		state_market_access_price_impact = 0.05	
 	}
 }
+
+state_trait_osarizawa_mine = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	modifier = {
+		building_iron_mine_throughput_add = 0.05
+		building_sulfur_mine_throughput_add = 0.02
+	}
+}
+
+state_trait_shishiori_mine = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+	modifier = {
+		building_gold_mine_throughput_add = 0.05
+	}
+}

@@ -965,6 +965,7 @@ STATE_TOHOKU = {
     id = 529
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x15EED4" "x19C715" "x1BAF33" "x3190C0" "x322F47" "x3CA2FC" "x4C5533" "x637FEB" "x701040" "x81A720" "xA26E5F" "xAC762F" "xB011C0" "xB090C0" "xBC2AFE" "xBED026" "xE0D080" "xE22202" "xF01040" "xF29D08" }
+    traits = { "state_trait_shishiori_mine" "state_trait_osarizawa_mine" }
     city = "xB090C0"
     port = "xE0D080"
     farm = "x1BAF33"
@@ -974,13 +975,18 @@ STATE_TOHOKU = {
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 53
-        building_coal_mine = 6
-        building_gold_mine = 2
+        building_coal_mine = 10
+        building_gold_mine = 7
         building_sulfur_mine = 51
         building_lead_mine = 33
         building_logging_camp = 15
         building_whaling_station = 5
         building_fishing_wharf = 15
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
     resource = {
         # Akita Oil Fields. Oil struck in 1935, and would later become a big supplier, but production was more limited before 1936

@@ -18,7 +18,7 @@
     }
     resource = {
         type = "building_rubber_plantation"
-        undiscovered_amount = 40
+        undiscovered_amount = 70
     }
     naval_exit_id = 3051
 }
