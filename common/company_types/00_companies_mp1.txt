@@ -355,6 +355,7 @@ company_russian_american_company = {
 		building_logging_camp
 		building_whaling_station
 		building_port
+		building_livestock_ranch
 	}
 
 	extension_building_types = {
@@ -416,7 +417,9 @@ company_russian_american_company = {
 	prosperity_modifier = {
 		state_colony_growth_speed_mult = 0.1
 		state_conversion_mult = 0.05
-		building_textile_mill_throughput_add = 0.05
+		state_trade_advantage_mult = 0.15
+		state_trade_quantity_mult = 0.1
+		building_group_bg_logging_throughput_add = 0.05
 	}
 
 	ai_will_do = {
