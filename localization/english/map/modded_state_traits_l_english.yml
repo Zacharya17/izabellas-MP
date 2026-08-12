@@ -57,4 +57,7 @@
  state_trait_shishiori_mine: "Shishiori Kozan"
  state_trait_osarizawa_mine: "Osarizawa Kozan"
  
- 
+ state_trait_han_river: "Han River"
+ state_trait_taedong_river: "Taedong River"
+ state_trait_nakdong_river: "Nakdong River"
+ state_trait_pongsan_coalfield: "Pongsan Coalfield"
