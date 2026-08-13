@@ -61,3 +61,7 @@
  state_trait_taedong_river: "Taedong River"
  state_trait_nakdong_river: "Nakdong River"
  state_trait_pongsan_coalfield: "Pongsan Coalfield"
+ state_trait_pingxiang_coal_mine: "Pingxiang Coal Mine"
+ state_trait_vojtech_mine: "Vojtěch Mine"
+ state_trait_melnik_region: "Fertile Mělník Region"
+ state_trait_silesian_resource_deposits: "Schlesische Mineralvorkommen"

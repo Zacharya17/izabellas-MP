@@ -66,9 +66,10 @@ STATE_YUNNAN = {
     arable_land = 150
     arable_resources = { "building_sugar_plantation" "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
-        building_coal_mine = 40
-        building_iron_mine = 60
-        building_logging_camp = 17
+        building_lead_mine = 37
+        building_coal_mine = 79
+        building_iron_mine = 87
+        building_logging_camp = 31
     }
 }
 
@@ -85,6 +86,7 @@ STATE_GUIZHOU = {
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_coal_mine = 32
+        building_iron_mine = 17
         building_logging_camp = 26
     }
 }
@@ -528,7 +530,7 @@ STATE_JIANGXI = {
     id = 504
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x079CCD" "x0C0AE5" "x101080" "x1186AE" "x172021" "x176746" "x2D7544" "x37F6F7" "x3DE539" "x451612" "x50D000" "x50D080" "x50EE81" "x5279EB" "x535CB8" "x607060" "x6070E0" "x60F0E0" "x64A1E9" "x66C698" "x672D89" "x7830B6" "x8143A9" "x8A2708" "x9170CB" "xB56A25" "xB7BDDC" "xBD9510" "xCA0553" "xCB4590" "xD0D000" "xD9A554" "xDC867F" "xDE8D7F" "xE2F9D6" "xE9FADC" "xEA426A" }
-    traits = { "state_trait_yangtze_river" }
+    traits = { "state_trait_yangtze_river" "state_trait_pingxiang_coal_mine" }
     city = "x1186AE"
     farm = "x9170CB"
     mine = "xCB4590"
@@ -536,7 +538,8 @@ STATE_JIANGXI = {
     arable_land = 600
     arable_resources = { "building_spice_plantation" "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 52
+        building_coal_mine = 68
+        building_lead_mine = 43
         building_logging_camp = 15
     }
 }
